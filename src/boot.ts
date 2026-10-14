@@ -6,6 +6,7 @@ import { attachInput } from './systems/input';
 import { flush, load } from './systems/persist';
 import type { Db } from './types';
 import { uiSyncSystem } from './ui/bridge';
+import { installAudit } from './audit';
 
 async function fetchWithProgress(url: string, onBytes: (n: number) => void) {
   const res = await fetch(url);
@@ -42,6 +43,7 @@ export async function boot(canvas: HTMLCanvasElement, progress: (f: number) => v
   const save = () => flush(arena);
   document.addEventListener('visibilitychange', () => document.visibilityState === 'hidden' && save());
   window.addEventListener('pagehide', save);
+  if (new URLSearchParams(location.search).has('audit')) installAudit(arena);
   start(arena, uiSyncSystem);
   return arena;
 }

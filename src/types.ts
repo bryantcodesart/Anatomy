@@ -5,6 +5,7 @@ export type Side = 'L' | 'R' | 'M';
 export interface CardInstance {
   side: Side;
   parts: number[]; // indices into Db.parts
+  view?: [number, number]; // precomputed camera [yaw, pitch] (scripts/build-views.mjs)
 }
 
 export interface Card {

@@ -33,19 +33,19 @@ export function sessionSystem(a: Arena) {
     const inst = a.db.cards[next].inst;
     s.inst = inst.length > 1 ? (rand(a) < 0.5 ? 0 : 1) : 0;
     setTarget(a, inst[s.inst].parts);
-    frameTarget(a, inst[s.inst].side);
+    frameTarget(a, inst[s.inst].side, inst[s.inst].view);
     s.phase = Phase.Asking;
     s.shownAt = now;
   }
   a.ui.version++;
 }
 
-function clearTarget(a: Arena) {
+export function clearTarget(a: Arena) {
   a.parts.isTarget.fill(0);
   a.focus.active = false;
 }
 
-function setTarget(a: Arena, parts: number[]) {
+export function setTarget(a: Arena, parts: number[]) {
   const f = a.focus, P = a.parts;
   f.min.fill(Infinity);
   f.max.fill(-Infinity);
@@ -100,9 +100,18 @@ const PITCHES = [-0.35, 0, 0.35, 0.75];
  * direction against every part's AABB; bones count more than muscles since
  * even ghosted they clutter the view. Biased to the side the copy is on.
  */
-function frameTarget(a: Arena, side: 'L' | 'R' | 'M') {
+export function frameTarget(a: Arena, side: 'L' | 'R' | 'M', view?: [number, number]) {
   const f = a.focus, P = a.parts, n = a.nParts, c = a.cam;
   const dist = Math.max(0.12, fitDistance(a, f.radius));
+  if (view) {
+    // precomputed at build time by ray casting the real triangles
+    c.homePivot.set(f.center);
+    c.homeYaw = view[0];
+    c.homePitch = view[1];
+    c.homeDist = dist;
+    goHome(a);
+    return;
+  }
   let best = Infinity, bestYaw = 0, bestPitch = 0;
   const off = f.radius * 0.45;
   for (let yi = 0; yi < YAWS; yi++) {

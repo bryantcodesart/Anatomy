@@ -32,7 +32,7 @@ export function focusSystem(a: Arena) {
       continue;
     }
     P.hiGoal[p] = 0;
-    let ghost = boxGap(P.min, P.max, p, f.min, f.max) < near;
+    let ghost = f.isolate || boxGap(P.min, P.max, p, f.min, f.max) < near;
     for (let k = 0; !ghost && k < 5; k++) {
       const tx = f.center[0] + (k === 1 ? r : k === 2 ? -r : 0);
       const ty = f.center[1] + (k === 3 ? r : k === 4 ? -r : 0);
@@ -75,7 +75,7 @@ export function cameraSystem(a: Arena) {
 /** Animate current per-part state toward goals; pack into the state texture. */
 export function fadeSystem(a: Arena) {
   const P = a.parts, n = a.nParts, data = a.gfx.stateData;
-  const k = 1 - Math.exp(-a.time.dt * 7);
+  const k = a.focus.isolate ? 1 : 1 - Math.exp(-a.time.dt * 7); // audit mode snaps
   let changed = false;
   for (let p = 0; p < n; p++) {
     let al = P.alpha[p], hi = P.hi[p];
@@ -110,7 +110,7 @@ export function resizeSystem(a: Arena) {
 export function renderSystem(a: Arena) {
   const g = a.gfx;
   // the highlight pulses, so keep drawing while something is highlighted
-  if (a.focus.active) { g.uniforms.uTime.value = a.time.now / 1000 % 1000; g.dirty = true; }
+  if (a.focus.active && !a.focus.isolate) { g.uniforms.uTime.value = a.time.now / 1000 % 1000; g.dirty = true; }
   if (!g.dirty || a.session.paused) return;
   g.renderer.render(g.scene, g.camera);
   g.dirty = false;

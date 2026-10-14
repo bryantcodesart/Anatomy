@@ -121,6 +121,8 @@ export interface Arena {
     max: Float32Array;
     center: Float32Array;
     radius: number;
+    /** debug/audit: ghost everything except the target */
+    isolate: boolean;
   };
 
   cmd: { type: Uint8Array; arg: Float64Array; count: number };
@@ -309,6 +311,7 @@ export function createArena(db: Db, gfx: Arena['gfx']): Arena {
       max: new Float32Array(3),
       center: new Float32Array(3),
       radius: 1,
+      isolate: false,
     },
     cmd: { type: new Uint8Array(CMD_CAP), arg: new Float64Array(CMD_CAP), count: 0 },
     input: {

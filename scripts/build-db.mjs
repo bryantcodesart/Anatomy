@@ -6,11 +6,22 @@ const model = JSON.parse(fs.readFileSync('data/model-parts.json', 'utf8'));
 const files = fs.readdirSync('data/cards').filter((f) => f.endsWith('.json')).sort();
 const cards = files.flatMap((f) => JSON.parse(fs.readFileSync(`data/cards/${f}`, 'utf8')).map((c) => ({ ...c, _file: f })));
 
+// A few meshes have no .l/.r suffix but only exist on one side
+// (e.g. Z-Anatomy ships iliocostalis colli for the left only): infer from position.
+for (const p of model.parts) {
+  if (p.side !== 'M') continue;
+  if (p.min[0] > 0.005) p.side = 'L'; // anatomical left is +x
+  else if (p.max[0] < -0.005) p.side = 'R';
+}
+
 const byBase = new Map();
 model.parts.forEach((p, idx) => {
   if (!byBase.has(p.base)) byBase.set(p.base, []);
   byBase.get(p.base).push(idx);
 });
+
+// Precomputed camera directions (scripts/build-views.mjs); optional.
+const views = fs.existsSync('data/views.json') ? JSON.parse(fs.readFileSync('data/views.json', 'utf8')) : {};
 
 const errors = [];
 const ids = new Set();
@@ -33,6 +44,7 @@ for (const c of cards) {
     if (L.length) inst.push({ side: 'L', parts: [...L, ...M] });
     if (R.length) inst.push({ side: 'R', parts: [...R, ...M] });
   } else if (M.length) inst.push({ side: 'M', parts: M });
+  for (const it of inst) { const v = views[`${c.id}:${it.side}`]; if (v) it.view = v; }
   const { _file, parts, ...rest } = c;
   out.push({ ...rest, inst });
 }
