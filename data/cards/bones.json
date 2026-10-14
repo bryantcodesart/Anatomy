@@ -1,0 +1,3318 @@
+[
+  {
+    "id": "frontal-bone",
+    "kind": "bone",
+    "name": "Frontal bone",
+    "region": "Skull",
+    "tier": 1,
+    "parts": [
+      "Frontal bone"
+    ],
+    "etymology": "From Latin frons, frontis ‘forehead, front’. So it means ‘the forehead bone’ — it forms the forehead and the roofs of the orbits.",
+    "articulations": [
+      "Parietal bones (coronal suture)",
+      "Sphenoid",
+      "Ethmoid",
+      "Nasal bones",
+      "Maxillae",
+      "Lacrimal bones",
+      "Zygomatic bones"
+    ],
+    "landmarks": [
+      "Glabella",
+      "Superciliary arches",
+      "Supraorbital margin",
+      "Supraorbital notch/foramen",
+      "Frontal sinus",
+      "Zygomatic process",
+      "Orbital plates"
+    ],
+    "tip": "Two halves fuse in early childhood; a persistent midline metopic suture is a normal variant."
+  },
+  {
+    "id": "parietal-bone",
+    "kind": "bone",
+    "name": "Parietal bone",
+    "region": "Skull",
+    "tier": 1,
+    "parts": [
+      "Parietal bone"
+    ],
+    "etymology": "From Latin paries, parietis ‘wall’ (of a house). So it means ‘the wall bone’ — the paired bones form the side walls and roof of the cranium.",
+    "articulations": [
+      "Opposite parietal (sagittal suture)",
+      "Frontal (coronal suture)",
+      "Occipital (lambdoid suture)",
+      "Temporal (squamous suture)",
+      "Sphenoid (greater wing)"
+    ],
+    "landmarks": [
+      "Parietal eminence (tuber)",
+      "Superior and inferior temporal lines",
+      "Parietal foramen",
+      "Grooves for middle meningeal vessels",
+      "Bregma and lambda (suture junctions)"
+    ],
+    "tip": "Temporalis takes origin from the temporal fossa below the temporal lines on this bone."
+  },
+  {
+    "id": "occipital-bone",
+    "kind": "bone",
+    "name": "Occipital bone",
+    "region": "Skull",
+    "tier": 1,
+    "parts": [
+      "Occipital bone"
+    ],
+    "etymology": "From Latin occiput ‘back of the head’, from ob ‘against, behind’ + caput ‘head’. So it means ‘the bone at the back of the head’.",
+    "articulations": [
+      "Parietal bones (lambdoid suture)",
+      "Temporal bones",
+      "Sphenoid (basilar part, forming the clivus)",
+      "Atlas (atlanto-occipital joints)"
+    ],
+    "landmarks": [
+      "Foramen magnum",
+      "Occipital condyles",
+      "External occipital protuberance (inion)",
+      "Superior and inferior nuchal lines",
+      "Hypoglossal canal",
+      "Basilar part (clivus)"
+    ],
+    "tip": "Upper trapezius, semispinalis capitis and the suboccipitals attach around the nuchal lines — the ‘yes’ nod happens at its condyles on C1."
+  },
+  {
+    "id": "temporal-bone",
+    "kind": "bone",
+    "name": "Temporal bone",
+    "region": "Skull",
+    "tier": 2,
+    "parts": [
+      "Temporal bone"
+    ],
+    "etymology": "From Latin tempus, temporis ‘time’, via tempora ‘the temples’. Probably because the temples are where grey hair first shows the passage of time (the exact origin is uncertain). So it means ‘the bone of the temple’.",
+    "articulations": [
+      "Mandible (temporomandibular joint)",
+      "Parietal (squamous suture)",
+      "Occipital",
+      "Sphenoid",
+      "Zygomatic (zygomatic arch)"
+    ],
+    "landmarks": [
+      "Squamous part",
+      "Zygomatic process",
+      "Mastoid process",
+      "Styloid process",
+      "External acoustic meatus",
+      "Mandibular fossa",
+      "Articular tubercle",
+      "Petrous part (houses middle and inner ear)"
+    ],
+    "tip": "The mastoid process is the insertion of sternocleidomastoid — palpate it just behind the earlobe."
+  },
+  {
+    "id": "sphenoid-bone",
+    "kind": "bone",
+    "name": "Sphenoid bone",
+    "region": "Skull",
+    "tier": 3,
+    "parts": [
+      "Sphenoid bone"
+    ],
+    "etymology": "From Greek sphēn ‘wedge’ + -oeidēs ‘like’. So it means ‘wedge-shaped bone’ — it is wedged into the middle of the skull base between the other cranial bones.",
+    "articulations": [
+      "Frontal",
+      "Parietal bones",
+      "Temporal bones",
+      "Occipital",
+      "Ethmoid",
+      "Vomer",
+      "Palatine bones",
+      "Zygomatic bones"
+    ],
+    "landmarks": [
+      "Body with sella turcica (pituitary fossa)",
+      "Greater and lesser wings",
+      "Medial and lateral pterygoid plates",
+      "Optic canal",
+      "Superior orbital fissure",
+      "Foramen rotundum, ovale and spinosum",
+      "Sphenoid sinus"
+    ],
+    "tip": "Butterfly-shaped keystone of the skull base; the lateral pterygoid plate anchors the pterygoid chewing muscles."
+  },
+  {
+    "id": "ethmoid-bone",
+    "kind": "bone",
+    "name": "Ethmoid bone",
+    "region": "Skull",
+    "tier": 4,
+    "parts": [
+      "Ethmoid bone"
+    ],
+    "etymology": "From Greek ēthmos ‘sieve’ + -oeidēs ‘like’. So it means ‘sieve-like bone’ — its cribriform plate is perforated like a sieve for the olfactory nerve fibres.",
+    "articulations": [
+      "Frontal",
+      "Sphenoid",
+      "Nasal bones",
+      "Maxillae",
+      "Lacrimal bones",
+      "Palatine bones",
+      "Inferior nasal conchae",
+      "Vomer"
+    ],
+    "landmarks": [
+      "Cribriform plate",
+      "Crista galli",
+      "Perpendicular plate (upper nasal septum)",
+      "Ethmoidal labyrinth (air cells)",
+      "Superior and middle nasal conchae",
+      "Orbital plate"
+    ],
+    "tip": "A fracture of the cribriform plate can cause loss of smell and CSF leaking from the nose."
+  },
+  {
+    "id": "maxilla",
+    "kind": "bone",
+    "name": "Maxilla",
+    "region": "Skull",
+    "tier": 2,
+    "parts": [
+      "Maxilla"
+    ],
+    "etymology": "Latin maxilla ‘jaw, jawbone’, a diminutive related to mala ‘cheek, jaw’. So it means ‘the (upper) jaw bone’.",
+    "articulations": [
+      "Opposite maxilla",
+      "Frontal",
+      "Ethmoid",
+      "Nasal",
+      "Lacrimal",
+      "Zygomatic",
+      "Palatine",
+      "Vomer",
+      "Inferior nasal concha",
+      "Upper teeth (gomphoses)"
+    ],
+    "landmarks": [
+      "Alveolar process",
+      "Palatine process (front of hard palate)",
+      "Frontal process",
+      "Zygomatic process",
+      "Infraorbital foramen",
+      "Maxillary sinus",
+      "Anterior nasal spine"
+    ],
+    "tip": "Holds the upper teeth and the largest paranasal sinus; it is fixed — all chewing motion comes from the mandible."
+  },
+  {
+    "id": "nasal-bone",
+    "kind": "bone",
+    "name": "Nasal bone",
+    "region": "Skull",
+    "tier": 3,
+    "parts": [
+      "Nasal bone"
+    ],
+    "etymology": "From Latin nasus ‘nose’. So it means ‘the nose bone’ — the paired bones form the bony bridge of the nose.",
+    "articulations": [
+      "Opposite nasal bone",
+      "Frontal",
+      "Ethmoid (perpendicular plate)",
+      "Maxilla (frontal process)"
+    ],
+    "landmarks": [
+      "Internasal suture",
+      "Bridge of the nose",
+      "Lower border attaching the lateral nasal cartilages"
+    ],
+    "tip": "The most commonly fractured facial bone — a ‘broken nose’ is usually these."
+  },
+  {
+    "id": "lacrimal-bone",
+    "kind": "bone",
+    "name": "Lacrimal bone",
+    "region": "Skull",
+    "tier": 5,
+    "parts": [
+      "Lacrimal bone"
+    ],
+    "etymology": "From Latin lacrima ‘tear’. So it means ‘the tear bone’ — it holds the lacrimal (tear) sac in the inner wall of the orbit.",
+    "articulations": [
+      "Frontal",
+      "Ethmoid",
+      "Maxilla",
+      "Inferior nasal concha"
+    ],
+    "landmarks": [
+      "Lacrimal groove/fossa (for the lacrimal sac)",
+      "Posterior lacrimal crest",
+      "Lacrimal hamulus"
+    ],
+    "tip": "The smallest and most fragile facial bone, in the medial wall of the orbit."
+  },
+  {
+    "id": "zygomatic-bone",
+    "kind": "bone",
+    "name": "Zygomatic bone",
+    "aka": [
+      "Cheekbone",
+      "Malar bone"
+    ],
+    "region": "Skull",
+    "tier": 2,
+    "parts": [
+      "Zygomatic bone"
+    ],
+    "etymology": "From Greek zygōma ‘bar, bolt’, from zygon ‘yoke’. So it means ‘the yoke bone’ — it yokes the face to the side of the skull via the zygomatic arch.",
+    "articulations": [
+      "Frontal",
+      "Temporal (zygomatic arch)",
+      "Maxilla",
+      "Sphenoid"
+    ],
+    "landmarks": [
+      "Frontal process",
+      "Temporal process",
+      "Zygomatic arch (with temporal bone)",
+      "Zygomaticofacial foramen",
+      "Lateral orbital rim"
+    ],
+    "tip": "The cheekbone; masseter arises from the zygomatic arch."
+  },
+  {
+    "id": "palatine-bone",
+    "kind": "bone",
+    "name": "Palatine bone",
+    "region": "Skull",
+    "tier": 5,
+    "parts": [
+      "Palatine bone"
+    ],
+    "etymology": "From Latin palatum ‘palate, roof of the mouth’. So it means ‘the palate bone’ — its horizontal plate forms the back of the hard palate.",
+    "articulations": [
+      "Opposite palatine",
+      "Maxilla",
+      "Sphenoid",
+      "Ethmoid",
+      "Inferior nasal concha",
+      "Vomer"
+    ],
+    "landmarks": [
+      "L-shape: horizontal and perpendicular plates",
+      "Posterior nasal spine",
+      "Pyramidal process",
+      "Orbital process",
+      "Greater and lesser palatine foramina"
+    ],
+    "tip": "Forms the posterior third of the hard palate; the soft palate hangs from its back edge."
+  },
+  {
+    "id": "vomer",
+    "kind": "bone",
+    "name": "Vomer",
+    "region": "Skull",
+    "tier": 5,
+    "parts": [
+      "Vomer"
+    ],
+    "etymology": "Latin vomer ‘ploughshare’. So it means ‘the ploughshare bone’ — a thin blade shaped like a plough blade.",
+    "articulations": [
+      "Sphenoid",
+      "Ethmoid (perpendicular plate)",
+      "Maxillae",
+      "Palatine bones",
+      "Septal cartilage"
+    ],
+    "landmarks": [
+      "Alae (wings)",
+      "Posteroinferior part of the nasal septum"
+    ],
+    "tip": "With the ethmoid’s perpendicular plate it forms the bony nasal septum — a deviated septum often involves it."
+  },
+  {
+    "id": "inferior-nasal-concha",
+    "kind": "bone",
+    "name": "Inferior nasal concha",
+    "aka": [
+      "Inferior turbinate"
+    ],
+    "region": "Skull",
+    "tier": 5,
+    "parts": [
+      "Inferior nasal concha bone"
+    ],
+    "etymology": "From Latin concha ‘shell’ (Greek konchē ‘mussel, shell’). So it means ‘the lower shell of the nose’ — a curled, shell-like scroll of bone on the lateral nasal wall.",
+    "articulations": [
+      "Maxilla",
+      "Lacrimal",
+      "Ethmoid",
+      "Palatine"
+    ],
+    "landmarks": [
+      "Maxillary, lacrimal and ethmoidal processes",
+      "Overhangs the inferior meatus (opening of the nasolacrimal duct)"
+    ],
+    "tip": "Unlike the superior and middle conchae (parts of the ethmoid) it is a separate bone."
+  },
+  {
+    "id": "mandible",
+    "kind": "bone",
+    "name": "Mandible",
+    "aka": [
+      "Lower jaw"
+    ],
+    "region": "Skull",
+    "tier": 2,
+    "parts": [
+      "Mandible"
+    ],
+    "etymology": "From Latin mandibula ‘jaw’, from mandere ‘to chew’. So it means ‘the chewing bone’ — the movable lower jaw.",
+    "articulations": [
+      "Temporal bones (temporomandibular joints)",
+      "Lower teeth (gomphoses)"
+    ],
+    "landmarks": [
+      "Body",
+      "Ramus",
+      "Angle",
+      "Condylar process (head)",
+      "Coronoid process",
+      "Mandibular notch",
+      "Mental protuberance",
+      "Mental foramen",
+      "Mandibular foramen"
+    ],
+    "tip": "The only freely movable skull bone (besides the ossicles); temporalis inserts on the coronoid process, masseter on the ramus and angle."
+  },
+  {
+    "id": "hyoid-bone",
+    "kind": "bone",
+    "name": "Hyoid bone",
+    "region": "Neck",
+    "tier": 3,
+    "parts": [
+      "Hyoid bone"
+    ],
+    "etymology": "From Greek hyoeidēs ‘shaped like the letter upsilon (υ)’. So it means ‘U-shaped bone’ — exactly its shape in the front of the neck.",
+    "articulations": [
+      "No bony articulation — suspended by muscles and the stylohyoid ligaments"
+    ],
+    "landmarks": [
+      "Body",
+      "Greater horns (cornua)",
+      "Lesser horns (cornua)"
+    ],
+    "tip": "Sits at about C3; anchor for the suprahyoid and infrahyoid muscles that move it during swallowing."
+  },
+  {
+    "id": "malleus",
+    "kind": "bone",
+    "name": "Malleus",
+    "aka": [
+      "Hammer"
+    ],
+    "region": "Ear",
+    "tier": 5,
+    "parts": [
+      "Malleus"
+    ],
+    "etymology": "Latin malleus ‘hammer, mallet’. So it means ‘the hammer’ — its handle and head look like a small hammer.",
+    "articulations": [
+      "Incus (incudomallear joint)",
+      "Tympanic membrane (handle embedded)"
+    ],
+    "landmarks": [
+      "Head",
+      "Neck",
+      "Handle (manubrium)",
+      "Lateral process",
+      "Anterior process"
+    ],
+    "tip": "Tensor tympani inserts on its handle to damp loud sounds."
+  },
+  {
+    "id": "incus",
+    "kind": "bone",
+    "name": "Incus",
+    "aka": [
+      "Anvil"
+    ],
+    "region": "Ear",
+    "tier": 5,
+    "parts": [
+      "Incus"
+    ],
+    "etymology": "Latin incus ‘anvil’. So it means ‘the anvil’ — the hammer (malleus) appears to strike it.",
+    "articulations": [
+      "Malleus (incudomallear joint)",
+      "Stapes (incudostapedial joint)"
+    ],
+    "landmarks": [
+      "Body",
+      "Short limb",
+      "Long limb",
+      "Lenticular process"
+    ],
+    "tip": "The middle of the three ossicles, passing vibration from malleus to stapes."
+  },
+  {
+    "id": "stapes",
+    "kind": "bone",
+    "name": "Stapes",
+    "aka": [
+      "Stirrup"
+    ],
+    "region": "Ear",
+    "tier": 5,
+    "parts": [
+      "Stapes"
+    ],
+    "etymology": "Medieval Latin stapes ‘stirrup’. So it means ‘the stirrup’ — two crura and a footplate look exactly like a stirrup.",
+    "articulations": [
+      "Incus (incudostapedial joint)",
+      "Oval window (footplate held by annular ligament)"
+    ],
+    "landmarks": [
+      "Head",
+      "Neck",
+      "Anterior and posterior crura",
+      "Footplate (base)"
+    ],
+    "tip": "The smallest bone in the body; stapedius (the smallest muscle) attaches to its neck."
+  },
+  {
+    "id": "atlas-c1",
+    "kind": "bone",
+    "name": "Atlas (C1)",
+    "aka": [
+      "C1",
+      "First cervical vertebra"
+    ],
+    "region": "Spine",
+    "tier": 3,
+    "parts": [
+      "Atlas (C1)"
+    ],
+    "etymology": "Named after Atlas, the Greek Titan who held up the heavens on his shoulders. So it means ‘the bone that holds up the globe of the head’.",
+    "articulations": [
+      "Occipital condyles (atlanto-occipital joints — nodding ‘yes’)",
+      "Axis (median atlanto-axial joint with the dens, and lateral atlanto-axial joints — rotation ‘no’)"
+    ],
+    "landmarks": [
+      "No vertebral body",
+      "No spinous process (posterior tubercle instead)",
+      "Anterior and posterior arches",
+      "Lateral masses",
+      "Kidney-shaped superior articular facets",
+      "Facet for the dens",
+      "Groove for the vertebral artery",
+      "Transverse foramina (large transverse processes)"
+    ],
+    "tip": "A ring of bone with no body; its large transverse process can be felt between the mastoid process and the angle of the mandible."
+  },
+  {
+    "id": "axis-c2",
+    "kind": "bone",
+    "name": "Axis (C2)",
+    "aka": [
+      "C2",
+      "Second cervical vertebra"
+    ],
+    "region": "Spine",
+    "tier": 3,
+    "parts": [
+      "Axis (C2)"
+    ],
+    "etymology": "From Latin axis ‘axle, pivot’. So it means ‘the pivot’ — the atlas and head rotate around its dens like a wheel on an axle.",
+    "articulations": [
+      "Atlas (median and lateral atlanto-axial joints)",
+      "C3 (C2–C3 disc and facet joints)"
+    ],
+    "landmarks": [
+      "Dens (odontoid process — Greek odous ‘tooth’)",
+      "Large bifid spinous process",
+      "Body",
+      "Superior articular facets",
+      "Transverse foramina"
+    ],
+    "tip": "About half of all neck rotation happens at C1–C2; its large spinous process is the first bony bump felt below the occiput."
+  },
+  {
+    "id": "vertebra-c3",
+    "kind": "bone",
+    "name": "C3 vertebra",
+    "aka": [
+      "C3"
+    ],
+    "region": "Spine",
+    "tier": 4,
+    "parts": [
+      "Vertebra C3"
+    ],
+    "etymology": "From Latin vertebra ‘joint (of the spine)’, from vertere ‘to turn’ — the bones on which the back turns. ‘Cervical’ is from Latin cervix ‘neck’, so this is the third neck vertebra.",
+    "articulations": [
+      "C2 (disc and facet joints)",
+      "C4 (disc and facet joints)",
+      "Uncovertebral joints with C2 and C4"
+    ],
+    "landmarks": [
+      "Typical cervical: small oval body, triangular vertebral foramen",
+      "Transverse foramina (vertebral artery)",
+      "Bifid spinous process",
+      "Uncinate processes",
+      "Anterior and posterior tubercles of the transverse process",
+      "Level of the hyoid bone"
+    ],
+    "tip": "C3 sits behind the hyoid bone — the first typical cervical vertebra below the specialised C1–C2 pair."
+  },
+  {
+    "id": "vertebra-c4",
+    "kind": "bone",
+    "name": "C4 vertebra",
+    "aka": [
+      "C4"
+    ],
+    "region": "Spine",
+    "tier": 4,
+    "parts": [
+      "Vertebra C4"
+    ],
+    "etymology": "From Latin vertebra ‘joint (of the spine)’, from vertere ‘to turn’ — the bones on which the back turns. ‘Cervical’ is from Latin cervix ‘neck’, so this is the fourth neck vertebra.",
+    "articulations": [
+      "C3 (disc and facet joints)",
+      "C5 (disc and facet joints)",
+      "Uncovertebral joints with C3 and C5"
+    ],
+    "landmarks": [
+      "Typical cervical: small oval body, triangular vertebral foramen",
+      "Transverse foramina (vertebral artery)",
+      "Bifid spinous process",
+      "Uncinate processes",
+      "Anterior and posterior tubercles of the transverse process",
+      "Level of the upper thyroid cartilage / carotid bifurcation"
+    ],
+    "tip": "C4 lies roughly at the upper border of the thyroid cartilage, where the common carotid artery usually bifurcates; the C4 root helps form the phrenic nerve (C3–C5)."
+  },
+  {
+    "id": "vertebra-c5",
+    "kind": "bone",
+    "name": "C5 vertebra",
+    "aka": [
+      "C5"
+    ],
+    "region": "Spine",
+    "tier": 4,
+    "parts": [
+      "Vertebra C5"
+    ],
+    "etymology": "From Latin vertebra ‘joint (of the spine)’, from vertere ‘to turn’ — the bones on which the back turns. ‘Cervical’ is from Latin cervix ‘neck’, so this is the fifth neck vertebra.",
+    "articulations": [
+      "C4 (disc and facet joints)",
+      "C6 (disc and facet joints)",
+      "Uncovertebral joints with C4 and C6"
+    ],
+    "landmarks": [
+      "Typical cervical: small oval body, triangular vertebral foramen",
+      "Transverse foramina (vertebral artery)",
+      "Bifid spinous process",
+      "Uncinate processes",
+      "Anterior and posterior tubercles of the transverse process",
+      "Common site of cervical spondylosis (C5–C6)"
+    ],
+    "tip": "C5–C6 is the most common level for cervical disc degeneration; the C5 root (deltoid, biceps) exits above C5."
+  },
+  {
+    "id": "vertebra-c6",
+    "kind": "bone",
+    "name": "C6 vertebra",
+    "aka": [
+      "C6"
+    ],
+    "region": "Spine",
+    "tier": 4,
+    "parts": [
+      "Vertebra C6"
+    ],
+    "etymology": "From Latin vertebra ‘joint (of the spine)’, from vertere ‘to turn’ — the bones on which the back turns. ‘Cervical’ is from Latin cervix ‘neck’, so this is the sixth neck vertebra.",
+    "articulations": [
+      "C5 (disc and facet joints)",
+      "C7 (disc and facet joints)",
+      "Uncovertebral joints with C5 and C7"
+    ],
+    "landmarks": [
+      "Typical cervical: small oval body, triangular vertebral foramen",
+      "Transverse foramina (vertebral artery)",
+      "Bifid spinous process",
+      "Uncinate processes",
+      "Anterior and posterior tubercles of the transverse process",
+      "Carotid tubercle (enlarged anterior tubercle of transverse process)"
+    ],
+    "tip": "C6 has the prominent carotid (Chassaignac’s) tubercle — the common carotid can be compressed against it; level of the cricoid cartilage, where larynx becomes trachea and pharynx becomes oesophagus."
+  },
+  {
+    "id": "vertebra-c7",
+    "kind": "bone",
+    "name": "C7 vertebra (vertebra prominens)",
+    "aka": [
+      "C7",
+      "Vertebra prominens"
+    ],
+    "region": "Spine",
+    "tier": 3,
+    "parts": [
+      "Vertebra C7"
+    ],
+    "etymology": "From Latin vertebra ‘joint (of the spine)’, from vertere ‘to turn’ — the bones on which the back turns. ‘Cervical’ from Latin cervix ‘neck’; prominens is Latin ‘projecting’ — named for its long, easily felt spinous process.",
+    "articulations": [
+      "C6 (disc and facet joints)",
+      "T1 (disc and facet joints)"
+    ],
+    "landmarks": [
+      "Long, non-bifid spinous process (ends in a tubercle)",
+      "Small transverse foramina (vertebral artery usually enters at C6, not C7)",
+      "Large transverse processes",
+      "Attachment of ligamentum nuchae"
+    ],
+    "tip": "The most prominent spinous process at the base of the neck — the usual starting point for counting vertebrae (T1 can be equally prominent; C7 slides forward under your finger on neck flexion-extension)."
+  },
+  {
+    "id": "vertebra-t1",
+    "kind": "bone",
+    "name": "T1 vertebra",
+    "aka": [
+      "T1",
+      "First thoracic vertebra"
+    ],
+    "region": "Spine",
+    "tier": 4,
+    "parts": [
+      "Vertebra T1"
+    ],
+    "etymology": "From Latin vertebra ‘joint (of the spine)’, from vertere ‘to turn’ — the bones on which the back turns. ‘Thoracic’ is from Greek thōrax ‘breastplate, chest’, so this is the first chest vertebra — the one that carries rib 1.",
+    "articulations": [
+      "C7 (disc and facet joints)",
+      "T2 (disc and facet joints)",
+      "Rib 1 head (full facet) and rib 2 head (demifacet)",
+      "Tubercle of rib 1 (costotransverse joint)"
+    ],
+    "landmarks": [
+      "Full (whole) superior costal facet for the head of rib 1",
+      "Inferior demifacet for rib 2",
+      "Transverse costal facet for rib 1",
+      "Long, nearly horizontal spinous process",
+      "Cervical-like body with small uncinate lips"
+    ],
+    "tip": "T1’s spinous process is often as prominent as C7’s; its full facet for rib 1 makes it unique among the upper thoracic vertebrae."
+  },
+  {
+    "id": "vertebra-t2",
+    "kind": "bone",
+    "name": "T2 vertebra",
+    "aka": [
+      "T2",
+      "Second thoracic vertebra"
+    ],
+    "region": "Spine",
+    "tier": 4,
+    "parts": [
+      "Vertebra T2"
+    ],
+    "etymology": "From Latin vertebra ‘joint (of the spine)’, from vertere ‘to turn’ — the bones on which the back turns. ‘Thoracic’ is from Greek thōrax ‘breastplate, chest’, so this is the second chest vertebra — the one that carries rib 2.",
+    "articulations": [
+      "T1 (disc and facet joints)",
+      "T3 (disc and facet joints)",
+      "Heads of ribs 2 and 3 (costovertebral joints)",
+      "Tubercle of rib 2 (costotransverse joint)"
+    ],
+    "landmarks": [
+      "Superior demifacet for rib 2",
+      "Inferior demifacet for rib 3",
+      "Transverse costal facet for rib 2"
+    ],
+    "tip": "The jugular (suprasternal) notch lies at about the T2–T3 level."
+  },
+  {
+    "id": "vertebra-t3",
+    "kind": "bone",
+    "name": "T3 vertebra",
+    "aka": [
+      "T3",
+      "Third thoracic vertebra"
+    ],
+    "region": "Spine",
+    "tier": 4,
+    "parts": [
+      "Vertebra T3"
+    ],
+    "etymology": "From Latin vertebra ‘joint (of the spine)’, from vertere ‘to turn’ — the bones on which the back turns. ‘Thoracic’ is from Greek thōrax ‘breastplate, chest’, so this is the third chest vertebra — the one that carries rib 3.",
+    "articulations": [
+      "T2 (disc and facet joints)",
+      "T4 (disc and facet joints)",
+      "Heads of ribs 3 and 4 (costovertebral joints)",
+      "Tubercle of rib 3 (costotransverse joint)"
+    ],
+    "landmarks": [
+      "Superior demifacet for rib 3",
+      "Inferior demifacet for rib 4",
+      "Transverse costal facet for rib 3"
+    ],
+    "tip": "The T3 spinous process is level with the root of the spine of the scapula (arms by the sides)."
+  },
+  {
+    "id": "vertebra-t4",
+    "kind": "bone",
+    "name": "T4 vertebra",
+    "aka": [
+      "T4",
+      "Fourth thoracic vertebra"
+    ],
+    "region": "Spine",
+    "tier": 4,
+    "parts": [
+      "Vertebra T4"
+    ],
+    "etymology": "From Latin vertebra ‘joint (of the spine)’, from vertere ‘to turn’ — the bones on which the back turns. ‘Thoracic’ is from Greek thōrax ‘breastplate, chest’, so this is the fourth chest vertebra — the one that carries rib 4.",
+    "articulations": [
+      "T3 (disc and facet joints)",
+      "T5 (disc and facet joints)",
+      "Heads of ribs 4 and 5 (costovertebral joints)",
+      "Tubercle of rib 4 (costotransverse joint)"
+    ],
+    "landmarks": [
+      "Superior demifacet for rib 4",
+      "Inferior demifacet for rib 5",
+      "Transverse costal facet for rib 4"
+    ],
+    "tip": "The sternal angle lines up with the T4–T5 disc — the plane of the tracheal bifurcation and the start and end of the aortic arch."
+  },
+  {
+    "id": "vertebra-t5",
+    "kind": "bone",
+    "name": "T5 vertebra",
+    "aka": [
+      "T5",
+      "Fifth thoracic vertebra"
+    ],
+    "region": "Spine",
+    "tier": 4,
+    "parts": [
+      "Vertebra T5"
+    ],
+    "etymology": "From Latin vertebra ‘joint (of the spine)’, from vertere ‘to turn’ — the bones on which the back turns. ‘Thoracic’ is from Greek thōrax ‘breastplate, chest’, so this is the fifth chest vertebra — the one that carries rib 5.",
+    "articulations": [
+      "T4 (disc and facet joints)",
+      "T6 (disc and facet joints)",
+      "Heads of ribs 5 and 6 (costovertebral joints)",
+      "Tubercle of rib 5 (costotransverse joint)"
+    ],
+    "landmarks": [
+      "Superior demifacet for rib 5",
+      "Inferior demifacet for rib 6",
+      "Transverse costal facet for rib 5",
+      "Body may be flattened on the left by the descending aorta"
+    ],
+    "tip": "Typical mid-thoracic vertebra: steep, overlapping spinous processes limit extension in this region."
+  },
+  {
+    "id": "vertebra-t6",
+    "kind": "bone",
+    "name": "T6 vertebra",
+    "aka": [
+      "T6",
+      "Sixth thoracic vertebra"
+    ],
+    "region": "Spine",
+    "tier": 4,
+    "parts": [
+      "Vertebra T6"
+    ],
+    "etymology": "From Latin vertebra ‘joint (of the spine)’, from vertere ‘to turn’ — the bones on which the back turns. ‘Thoracic’ is from Greek thōrax ‘breastplate, chest’, so this is the sixth chest vertebra — the one that carries rib 6.",
+    "articulations": [
+      "T5 (disc and facet joints)",
+      "T7 (disc and facet joints)",
+      "Heads of ribs 6 and 7 (costovertebral joints)",
+      "Tubercle of rib 6 (costotransverse joint)"
+    ],
+    "landmarks": [
+      "Superior demifacet for rib 6",
+      "Inferior demifacet for rib 7",
+      "Transverse costal facet for rib 6",
+      "Heart-shaped body, long downward-sloping spinous process"
+    ],
+    "tip": "The textbook ‘typical’ thoracic vertebra — its spinous tip lies over the body of the vertebra below."
+  },
+  {
+    "id": "vertebra-t7",
+    "kind": "bone",
+    "name": "T7 vertebra",
+    "aka": [
+      "T7",
+      "Seventh thoracic vertebra"
+    ],
+    "region": "Spine",
+    "tier": 4,
+    "parts": [
+      "Vertebra T7"
+    ],
+    "etymology": "From Latin vertebra ‘joint (of the spine)’, from vertere ‘to turn’ — the bones on which the back turns. ‘Thoracic’ is from Greek thōrax ‘breastplate, chest’, so this is the seventh chest vertebra — the one that carries rib 7.",
+    "articulations": [
+      "T6 (disc and facet joints)",
+      "T8 (disc and facet joints)",
+      "Heads of ribs 7 and 8 (costovertebral joints)",
+      "Tubercle of rib 7 (costotransverse joint)"
+    ],
+    "landmarks": [
+      "Superior demifacet for rib 7",
+      "Inferior demifacet for rib 8",
+      "Transverse costal facet for rib 7",
+      "Very steep, overlapping spinous process"
+    ],
+    "tip": "The inferior angle of the scapula sits level with the T7 spinous process (arms by the sides) — a handy counting landmark."
+  },
+  {
+    "id": "vertebra-t8",
+    "kind": "bone",
+    "name": "T8 vertebra",
+    "aka": [
+      "T8",
+      "Eighth thoracic vertebra"
+    ],
+    "region": "Spine",
+    "tier": 4,
+    "parts": [
+      "Vertebra T8"
+    ],
+    "etymology": "From Latin vertebra ‘joint (of the spine)’, from vertere ‘to turn’ — the bones on which the back turns. ‘Thoracic’ is from Greek thōrax ‘breastplate, chest’, so this is the eighth chest vertebra — the one that carries rib 8.",
+    "articulations": [
+      "T7 (disc and facet joints)",
+      "T9 (disc and facet joints)",
+      "Heads of ribs 8 and 9 (costovertebral joints)",
+      "Tubercle of rib 8 (costotransverse joint)"
+    ],
+    "landmarks": [
+      "Superior demifacet for rib 8",
+      "Inferior demifacet for rib 9",
+      "Transverse costal facet for rib 8"
+    ],
+    "tip": "The inferior vena cava passes through the diaphragm at about the T8 level."
+  },
+  {
+    "id": "vertebra-t9",
+    "kind": "bone",
+    "name": "T9 vertebra",
+    "aka": [
+      "T9",
+      "Ninth thoracic vertebra"
+    ],
+    "region": "Spine",
+    "tier": 4,
+    "parts": [
+      "Vertebra T9"
+    ],
+    "etymology": "From Latin vertebra ‘joint (of the spine)’, from vertere ‘to turn’ — the bones on which the back turns. ‘Thoracic’ is from Greek thōrax ‘breastplate, chest’, so this is the ninth chest vertebra — the one that carries rib 9.",
+    "articulations": [
+      "T8 (disc and facet joints)",
+      "T10 (disc and facet joints)",
+      "Heads of ribs 9 and 10 (costovertebral joints)",
+      "Tubercle of rib 9 (costotransverse joint)"
+    ],
+    "landmarks": [
+      "Superior demifacet for rib 9",
+      "Inferior demifacet for rib 10 often small or absent",
+      "Transverse costal facet for rib 9"
+    ],
+    "tip": "The xiphisternal joint lies at about the T9 level."
+  },
+  {
+    "id": "vertebra-t10",
+    "kind": "bone",
+    "name": "T10 vertebra",
+    "aka": [
+      "T10",
+      "Tenth thoracic vertebra"
+    ],
+    "region": "Spine",
+    "tier": 4,
+    "parts": [
+      "Vertebra T10"
+    ],
+    "etymology": "From Latin vertebra ‘joint (of the spine)’, from vertere ‘to turn’ — the bones on which the back turns. ‘Thoracic’ is from Greek thōrax ‘breastplate, chest’, so this is the tenth chest vertebra — the one that carries rib 10.",
+    "articulations": [
+      "T9 (disc and facet joints)",
+      "T11 (disc and facet joints)",
+      "Head of rib 10 (costovertebral joint)",
+      "Tubercle of rib 10 (costotransverse joint, when present)"
+    ],
+    "landmarks": [
+      "Usually a single whole costal facet for rib 10 (body/pedicle junction)",
+      "Transverse costal facet small or absent"
+    ],
+    "tip": "The oesophagus passes through the diaphragm at about the T10 level."
+  },
+  {
+    "id": "vertebra-t11",
+    "kind": "bone",
+    "name": "T11 vertebra",
+    "aka": [
+      "T11",
+      "Eleventh thoracic vertebra"
+    ],
+    "region": "Spine",
+    "tier": 4,
+    "parts": [
+      "Vertebra T11"
+    ],
+    "etymology": "From Latin vertebra ‘joint (of the spine)’, from vertere ‘to turn’ — the bones on which the back turns. ‘Thoracic’ is from Greek thōrax ‘breastplate, chest’, so this is the eleventh chest vertebra — the one that carries rib 11.",
+    "articulations": [
+      "T10 (disc and facet joints)",
+      "T12 (disc and facet joints)",
+      "Head of rib 11 (costovertebral joint only)"
+    ],
+    "landmarks": [
+      "Single whole costal facet for rib 11 on the pedicle",
+      "No transverse costal facet (rib 11 has no tubercle articulation)",
+      "Short, more horizontal spinous process (lumbar-like)"
+    ],
+    "tip": "A transitional vertebra: no transverse-process rib joint, so rotation starts to be restricted."
+  },
+  {
+    "id": "vertebra-t12",
+    "kind": "bone",
+    "name": "T12 vertebra",
+    "aka": [
+      "T12",
+      "Twelfth thoracic vertebra"
+    ],
+    "region": "Spine",
+    "tier": 4,
+    "parts": [
+      "Vertebra T12"
+    ],
+    "etymology": "From Latin vertebra ‘joint (of the spine)’, from vertere ‘to turn’ — the bones on which the back turns. ‘Thoracic’ is from Greek thōrax ‘breastplate, chest’, so this is the twelfth chest vertebra — the one that carries rib 12.",
+    "articulations": [
+      "T11 (disc and facet joints)",
+      "L1 (disc and facet joints)",
+      "Head of rib 12 (costovertebral joint only)"
+    ],
+    "landmarks": [
+      "Single whole costal facet for rib 12",
+      "No transverse costal facets",
+      "Thoracic-type superior and lumbar-type inferior articular processes",
+      "Mammillary and accessory processes appear"
+    ],
+    "tip": "The thoracolumbar junction — a common site of osteoporotic compression fractures; the aorta passes through the diaphragm at T12."
+  },
+  {
+    "id": "vertebra-l1",
+    "kind": "bone",
+    "name": "L1 vertebra",
+    "aka": [
+      "L1",
+      "First lumbar vertebra"
+    ],
+    "region": "Spine",
+    "tier": 4,
+    "parts": [
+      "Vertebra L1"
+    ],
+    "etymology": "From Latin vertebra ‘joint (of the spine)’, from vertere ‘to turn’ — the bones on which the back turns. ‘Lumbar’ is from Latin lumbus ‘loin’, so this is the first vertebra of the loin (low back).",
+    "articulations": [
+      "T12 (disc and facet joints)",
+      "L2 (disc and facet joints)"
+    ],
+    "landmarks": [
+      "Smallest lumbar body",
+      "Kidney-shaped body, no costal facets or transverse foramina",
+      "Short, hatchet-shaped spinous process",
+      "Mammillary and accessory processes"
+    ],
+    "tip": "In adults the spinal cord (conus medullaris) usually ends at L1–L2; the transpyloric plane crosses L1."
+  },
+  {
+    "id": "vertebra-l2",
+    "kind": "bone",
+    "name": "L2 vertebra",
+    "aka": [
+      "L2",
+      "Second lumbar vertebra"
+    ],
+    "region": "Spine",
+    "tier": 4,
+    "parts": [
+      "Vertebra L2"
+    ],
+    "etymology": "From Latin vertebra ‘joint (of the spine)’, from vertere ‘to turn’ — the bones on which the back turns. ‘Lumbar’ is from Latin lumbus ‘loin’, so this is the second vertebra of the loin (low back).",
+    "articulations": [
+      "L1 (disc and facet joints)",
+      "L3 (disc and facet joints)"
+    ],
+    "landmarks": [
+      "Kidney-shaped body",
+      "Sagittally oriented facets (limit rotation)",
+      "Attachment of the diaphragmatic crura (right L1–L3, left L1–L2)",
+      "Mammillary processes"
+    ],
+    "tip": "Psoas major arises from the bodies and transverse processes of T12–L4/L5, including L2; L2 is in the middle of its origin."
+  },
+  {
+    "id": "vertebra-l3",
+    "kind": "bone",
+    "name": "L3 vertebra",
+    "aka": [
+      "L3",
+      "Third lumbar vertebra"
+    ],
+    "region": "Spine",
+    "tier": 4,
+    "parts": [
+      "Vertebra L3"
+    ],
+    "etymology": "From Latin vertebra ‘joint (of the spine)’, from vertere ‘to turn’ — the bones on which the back turns. ‘Lumbar’ is from Latin lumbus ‘loin’, so this is the third vertebra of the loin (low back).",
+    "articulations": [
+      "L2 (disc and facet joints)",
+      "L4 (disc and facet joints)"
+    ],
+    "landmarks": [
+      "Usually the longest transverse processes",
+      "Large kidney-shaped body",
+      "Sagittal facet joints",
+      "Mammillary processes"
+    ],
+    "tip": "Sits at the apex of the lumbar lordosis; its long transverse processes are a big lever for quadratus lumborum and the thoracolumbar fascia."
+  },
+  {
+    "id": "vertebra-l4",
+    "kind": "bone",
+    "name": "L4 vertebra",
+    "aka": [
+      "L4",
+      "Fourth lumbar vertebra"
+    ],
+    "region": "Spine",
+    "tier": 4,
+    "parts": [
+      "Vertebra L4"
+    ],
+    "etymology": "From Latin vertebra ‘joint (of the spine)’, from vertere ‘to turn’ — the bones on which the back turns. ‘Lumbar’ is from Latin lumbus ‘loin’, so this is the fourth vertebra of the loin (low back).",
+    "articulations": [
+      "L3 (disc and facet joints)",
+      "L5 (disc and facet joints)"
+    ],
+    "landmarks": [
+      "Large kidney-shaped body",
+      "Spinous process level with the tops of the iliac crests (supracristal plane, L4 or L4–L5)",
+      "Mammillary processes"
+    ],
+    "tip": "Draw a line between the iliac crest tops to find L4 — the usual landmark for lumbar puncture at L3–L4 or L4–L5; the aorta bifurcates at L4."
+  },
+  {
+    "id": "vertebra-l5",
+    "kind": "bone",
+    "name": "L5 vertebra",
+    "aka": [
+      "L5",
+      "Fifth lumbar vertebra"
+    ],
+    "region": "Spine",
+    "tier": 3,
+    "parts": [
+      "Vertebra L5"
+    ],
+    "etymology": "From Latin vertebra ‘joint (of the spine)’, from vertere ‘to turn’ — the bones on which the back turns. ‘Lumbar’ is from Latin lumbus ‘loin’, so this is the fifth vertebra of the loin (low back).",
+    "articulations": [
+      "L4 (disc and facet joints)",
+      "Sacrum (lumbosacral joint: L5–S1 disc and facets)",
+      "Ilium (via iliolumbar ligament, not a synovial joint)"
+    ],
+    "landmarks": [
+      "Largest lumbar body, wedge-shaped (taller in front)",
+      "Massive transverse processes joined to the ilium by the iliolumbar ligament",
+      "Small spinous process",
+      "More coronally oriented inferior facets"
+    ],
+    "tip": "Its wedge shape creates the lumbosacral angle; L5 is the commonest site of spondylolysis/spondylolisthesis, and L4–L5/L5–S1 discs herniate most often."
+  },
+  {
+    "id": "sacrum",
+    "kind": "bone",
+    "name": "Sacrum",
+    "region": "Spine",
+    "tier": 2,
+    "parts": [
+      "Sacrum"
+    ],
+    "etymology": "From Latin os sacrum ‘sacred bone’, a translation of Greek hieron osteon. Why it was ‘sacred’ is uncertain — probably because it was the part offered in sacrifices, or thought to be indestructible. So it means ‘the sacred bone’ at the back of the pelvis.",
+    "articulations": [
+      "L5 (lumbosacral joint)",
+      "Ilium of each hip bone (sacroiliac joints)",
+      "Coccyx (sacrococcygeal joint)"
+    ],
+    "landmarks": [
+      "Five fused vertebrae (S1–S5)",
+      "Sacral promontory",
+      "Alae (wings)",
+      "Auricular surfaces",
+      "Anterior and posterior sacral foramina",
+      "Median sacral crest",
+      "Sacral hiatus and cornua",
+      "Sacral canal"
+    ],
+    "tip": "The dimples of Venus mark the posterior superior iliac spines — the SI joints lie just deep to them, at about S2."
+  },
+  {
+    "id": "coccyx",
+    "kind": "bone",
+    "name": "Coccyx",
+    "aka": [
+      "Tailbone"
+    ],
+    "region": "Spine",
+    "tier": 3,
+    "parts": [
+      "Coccyx"
+    ],
+    "etymology": "From Greek kokkyx ‘cuckoo’. So it means ‘the cuckoo bone’ — its tapering shape was likened to a cuckoo’s beak.",
+    "articulations": [
+      "Sacrum (sacrococcygeal joint)"
+    ],
+    "landmarks": [
+      "3–5 fused rudimentary vertebrae",
+      "Coccygeal cornua",
+      "Rudimentary transverse processes of Co1",
+      "Apex (tip)"
+    ],
+    "tip": "The tailbone: gluteus maximus, coccygeus and levator ani (via the anococcygeal body) attach to it."
+  },
+  {
+    "id": "sternum-body",
+    "kind": "bone",
+    "name": "Sternum — body",
+    "aka": [
+      "Body of sternum",
+      "Gladiolus"
+    ],
+    "region": "Thorax",
+    "tier": 1,
+    "parts": [
+      "Body of sternum"
+    ],
+    "etymology": "Sternum from Greek sternon ‘chest, breast’. The body was historically called the gladiolus (Latin ‘small sword’, the blade of the sword-shaped sternum). So it means ‘the blade of the breastbone’.",
+    "articulations": [
+      "Manubrium (manubriosternal joint — sternal angle)",
+      "Xiphoid process (xiphisternal joint)",
+      "Costal cartilages of ribs 2 (in part) to 7 (sternocostal joints)"
+    ],
+    "landmarks": [
+      "Costal notches for ribs 2–7",
+      "Transverse ridges (fused sternebrae)",
+      "Sternal angle (with manubrium)",
+      "Xiphisternal junction"
+    ],
+    "tip": "CPR compressions go on the lower half of the sternal body — above the xiphoid."
+  },
+  {
+    "id": "sternum-manubrium",
+    "kind": "bone",
+    "name": "Sternum — manubrium",
+    "aka": [
+      "Manubrium"
+    ],
+    "region": "Thorax",
+    "tier": 2,
+    "parts": [
+      "Manubrium of sternum"
+    ],
+    "etymology": "Sternum from Greek sternon ‘chest’; manubrium is Latin ‘handle’. The sternum was likened to a sword, so it means ‘the handle of the breastbone’.",
+    "articulations": [
+      "Clavicles (sternoclavicular joints)",
+      "Costal cartilage of rib 1 (synchondrosis)",
+      "Costal cartilage of rib 2 (in part, at the sternal angle)",
+      "Body of sternum (manubriosternal joint)"
+    ],
+    "landmarks": [
+      "Jugular (suprasternal) notch",
+      "Clavicular notches",
+      "Costal notch for rib 1",
+      "Demifacet for rib 2",
+      "Sternal angle (of Louis)"
+    ],
+    "tip": "Find the sternal angle and slide sideways to locate rib 2 — the standard way to count ribs."
+  },
+  {
+    "id": "xiphoid-process",
+    "kind": "bone",
+    "name": "Sternum — xiphoid process",
+    "aka": [
+      "Xiphoid",
+      "Xiphisternum"
+    ],
+    "region": "Thorax",
+    "tier": 3,
+    "parts": [
+      "Xiphoid process"
+    ],
+    "etymology": "From Greek xiphos ‘sword’ + -oeidēs ‘like’. So it means ‘the sword-shaped process’ — the pointed tip of the sword-like sternum.",
+    "articulations": [
+      "Body of sternum (xiphisternal joint)",
+      "Costal cartilage of rib 7 (in part)"
+    ],
+    "landmarks": [
+      "Pointed tip, cartilaginous in youth (ossifies around age 40)",
+      "Attachment of linea alba",
+      "Attachment of the sternal part of the diaphragm",
+      "Attachment of rectus abdominis (anterior surface, with cartilages 5–7)"
+    ],
+    "tip": "Keep your hands off it in CPR — compressing the xiphoid can injure the liver."
+  },
+  {
+    "id": "rib-1",
+    "kind": "bone",
+    "name": "1st rib",
+    "aka": [
+      "First rib",
+      "Rib 1"
+    ],
+    "region": "Thorax",
+    "tier": 3,
+    "parts": [
+      "First rib"
+    ],
+    "etymology": "From Latin costa ‘rib’ (hence costal, intercostal). The first costa — a true rib (vertebrosternal) and atypical. True ribs reach the sternum by their own cartilage; false ribs do not; floating ribs have no front attachment.",
+    "articulations": [
+      "T1 body (costovertebral joint — single facet on the head)",
+      "T1 transverse process (costotransverse joint)",
+      "Manubrium via its costal cartilage (synchondrosis)"
+    ],
+    "landmarks": [
+      "Shortest, broadest and most curved rib; flat with superior and inferior surfaces",
+      "Single facet on the head",
+      "Scalene tubercle (anterior scalene insertion)",
+      "Groove for subclavian vein (in front of the tubercle)",
+      "Groove for subclavian artery and lower brachial plexus trunk (behind the tubercle)",
+      "No costal groove"
+    ],
+    "tip": "Lies largely behind the clavicle; a cervical rib or tight scalenes here can cause thoracic outlet syndrome."
+  },
+  {
+    "id": "rib-2",
+    "kind": "bone",
+    "name": "2nd rib",
+    "aka": [
+      "Second rib",
+      "Rib 2"
+    ],
+    "region": "Thorax",
+    "tier": 4,
+    "parts": [
+      "Second rib"
+    ],
+    "etymology": "From Latin costa ‘rib’ (hence costal, intercostal). The second costa — a true rib and atypical.",
+    "articulations": [
+      "T1 and T2 bodies (costovertebral joint)",
+      "T2 transverse process (costotransverse joint)",
+      "Sternum at the sternal angle via its costal cartilage"
+    ],
+    "landmarks": [
+      "About twice the length of rib 1, thinner and less curved",
+      "Tuberosity for serratus anterior on its outer surface",
+      "Two facets on the head",
+      "Faint costal groove"
+    ],
+    "tip": "Its cartilage meets the sternal angle — the first rib you can reliably count from the front."
+  },
+  {
+    "id": "rib-3",
+    "kind": "bone",
+    "name": "3rd rib",
+    "aka": [
+      "Third rib",
+      "Rib 3"
+    ],
+    "region": "Thorax",
+    "tier": 4,
+    "parts": [
+      "Third rib"
+    ],
+    "etymology": "From Latin costa ‘rib’ (hence costal, intercostal). The third costa — a true rib (vertebrosternal) and typical.",
+    "articulations": [
+      "T2 and T3 bodies (costovertebral joint)",
+      "T3 transverse process (costotransverse joint)",
+      "Sternum via its costal cartilage (sternocostal joint)"
+    ],
+    "landmarks": [
+      "Typical rib: head with two facets, neck, tubercle, angle, costal groove",
+      "Origin of pectoralis minor (ribs 3–5)"
+    ],
+    "tip": "Pectoralis minor arises from ribs 3–5 — a tight pec minor tilts the scapula forward."
+  },
+  {
+    "id": "rib-4",
+    "kind": "bone",
+    "name": "4th rib",
+    "aka": [
+      "Fourth rib",
+      "Rib 4"
+    ],
+    "region": "Thorax",
+    "tier": 4,
+    "parts": [
+      "Fourth rib"
+    ],
+    "etymology": "From Latin costa ‘rib’ (hence costal, intercostal). The fourth costa — a true rib and typical.",
+    "articulations": [
+      "T3 and T4 bodies (costovertebral joint)",
+      "T4 transverse process (costotransverse joint)",
+      "Sternum via its costal cartilage (sternocostal joint)"
+    ],
+    "landmarks": [
+      "Typical rib: head with two facets, neck, tubercle, angle, costal groove",
+      "Origin of pectoralis minor (ribs 3–5) and serratus anterior slips"
+    ],
+    "tip": "In men the nipple usually lies over the 4th intercostal space, just below this rib."
+  },
+  {
+    "id": "rib-5",
+    "kind": "bone",
+    "name": "5th rib",
+    "aka": [
+      "Fifth rib",
+      "Rib 5"
+    ],
+    "region": "Thorax",
+    "tier": 4,
+    "parts": [
+      "Fifth rib"
+    ],
+    "etymology": "From Latin costa ‘rib’ (hence costal, intercostal). The fifth costa — a true rib and typical.",
+    "articulations": [
+      "T4 and T5 bodies (costovertebral joint)",
+      "T5 transverse process (costotransverse joint)",
+      "Sternum via its costal cartilage (sternocostal joint)"
+    ],
+    "landmarks": [
+      "Typical rib: head with two facets, neck, tubercle, angle, costal groove",
+      "Costal cartilage receives part of rectus abdominis (cartilages 5–7)"
+    ],
+    "tip": "The apex beat of the heart is felt in the 5th intercostal space, midclavicular line — just below this rib."
+  },
+  {
+    "id": "rib-6",
+    "kind": "bone",
+    "name": "6th rib",
+    "aka": [
+      "Sixth rib",
+      "Rib 6"
+    ],
+    "region": "Thorax",
+    "tier": 4,
+    "parts": [
+      "Sixth rib"
+    ],
+    "etymology": "From Latin costa ‘rib’ (hence costal, intercostal). The sixth costa — a true rib and typical.",
+    "articulations": [
+      "T5 and T6 bodies (costovertebral joint)",
+      "T6 transverse process (costotransverse joint)",
+      "Sternum via its costal cartilage (sternocostal joint)"
+    ],
+    "landmarks": [
+      "Typical rib: head with two facets, neck, tubercle, angle, costal groove",
+      "Cartilage gives origin to the sternocostal head of pectoralis major (cartilages 1–6) and part of rectus abdominis"
+    ],
+    "tip": "Intercostal nerves run in the costal groove under each rib — needles go just above a rib, never below."
+  },
+  {
+    "id": "rib-7",
+    "kind": "bone",
+    "name": "7th rib",
+    "aka": [
+      "Seventh rib",
+      "Rib 7"
+    ],
+    "region": "Thorax",
+    "tier": 4,
+    "parts": [
+      "Seventh rib"
+    ],
+    "etymology": "From Latin costa ‘rib’ (hence costal, intercostal). The seventh costa — the last true rib and typical.",
+    "articulations": [
+      "T6 and T7 bodies (costovertebral joint)",
+      "T7 transverse process (costotransverse joint)",
+      "Sternum near the xiphisternal junction via its costal cartilage"
+    ],
+    "landmarks": [
+      "Usually the longest rib",
+      "Typical rib: head with two facets, neck, tubercle, angle, costal groove",
+      "Cartilage gives insertion to rectus abdominis"
+    ],
+    "tip": "The last rib whose own cartilage reaches the sternum (ribs 1–7 are ‘true’ ribs)."
+  },
+  {
+    "id": "rib-8",
+    "kind": "bone",
+    "name": "8th rib",
+    "aka": [
+      "Eighth rib",
+      "Rib 8"
+    ],
+    "region": "Thorax",
+    "tier": 4,
+    "parts": [
+      "Eighth rib"
+    ],
+    "etymology": "From Latin costa ‘rib’ (hence costal, intercostal). The eighth costa — the first false rib (vertebrochondral) and typical.",
+    "articulations": [
+      "T7 and T8 bodies (costovertebral joint)",
+      "T8 transverse process (costotransverse joint)",
+      "Costal cartilage of rib 7 (interchondral joint)"
+    ],
+    "landmarks": [
+      "Typical rib: head with two facets, neck, tubercle, angle, costal groove",
+      "Cartilage forms part of the costal margin"
+    ],
+    "tip": "Its cartilage joins the one above rather than the sternum — the first ‘false’ rib; cartilages 7–10 form the costal margin."
+  },
+  {
+    "id": "rib-9",
+    "kind": "bone",
+    "name": "9th rib",
+    "aka": [
+      "Ninth rib",
+      "Rib 9"
+    ],
+    "region": "Thorax",
+    "tier": 4,
+    "parts": [
+      "Ninth rib"
+    ],
+    "etymology": "From Latin costa ‘rib’ (hence costal, intercostal). The ninth costa — a false rib (vertebrochondral) and typical.",
+    "articulations": [
+      "T8 and T9 bodies (costovertebral joint)",
+      "T9 transverse process (costotransverse joint)",
+      "Costal cartilage of rib 8 (interchondral joint)"
+    ],
+    "landmarks": [
+      "Last typical rib: head with two facets, neck, tubercle, angle, costal groove",
+      "Cartilage forms part of the costal margin"
+    ],
+    "tip": "Lower-rib fractures (8–12) on the right can injure the liver, on the left the spleen."
+  },
+  {
+    "id": "rib-10",
+    "kind": "bone",
+    "name": "10th rib",
+    "aka": [
+      "Tenth rib",
+      "Rib 10"
+    ],
+    "region": "Thorax",
+    "tier": 4,
+    "parts": [
+      "Tenth rib"
+    ],
+    "etymology": "From Latin costa ‘rib’ (hence costal, intercostal). The tenth costa — the last false rib and atypical.",
+    "articulations": [
+      "T10 body (costovertebral joint — usually a single facet on the head)",
+      "T10 transverse process (costotransverse joint)",
+      "Costal cartilage of rib 9 (interchondral joint)"
+    ],
+    "landmarks": [
+      "Usually a single facet on the head",
+      "Tubercle, angle and costal groove present",
+      "Forms the lowest point of the costal margin"
+    ],
+    "tip": "The lowest point of the costal margin, at the 10th costal cartilage, marks the subcostal plane (about L3)."
+  },
+  {
+    "id": "rib-11",
+    "kind": "bone",
+    "name": "11th rib",
+    "aka": [
+      "Eleventh rib",
+      "Rib 11"
+    ],
+    "region": "Thorax",
+    "tier": 4,
+    "parts": [
+      "Eleventh rib"
+    ],
+    "etymology": "From Latin costa ‘rib’ (hence costal, intercostal). The eleventh costa — a floating rib (vertebral) and atypical.",
+    "articulations": [
+      "T11 body (costovertebral joint — single facet)",
+      "No costotransverse joint",
+      "Anterior end free in the abdominal wall muscles"
+    ],
+    "landmarks": [
+      "Single facet on the head",
+      "No tubercle (no articulation with the transverse process); neck indistinct",
+      "Slight angle and shallow costal groove",
+      "Short, tapered cartilaginous tip"
+    ],
+    "tip": "A floating rib — its tip ends in the abdominal wall, so it has no anterior attachment."
+  },
+  {
+    "id": "rib-12",
+    "kind": "bone",
+    "name": "12th rib",
+    "aka": [
+      "Twelfth rib",
+      "Rib 12"
+    ],
+    "region": "Thorax",
+    "tier": 3,
+    "parts": [
+      "Twelfth rib"
+    ],
+    "etymology": "From Latin costa ‘rib’ (hence costal, intercostal). The twelfth costa — a floating rib (vertebral) and atypical.",
+    "articulations": [
+      "T12 body (costovertebral joint — single facet)",
+      "No costotransverse joint",
+      "Anterior end free in the posterior abdominal wall"
+    ],
+    "landmarks": [
+      "Shortest of the lower ribs (length varies a lot)",
+      "Single facet on the head",
+      "No tubercle, no angle, no costal groove",
+      "Attachment of quadratus lumborum and the diaphragm (lateral arcuate ligament region)"
+    ],
+    "tip": "Quadratus lumborum pulls down on it in forced expiration; the kidney and pleura lie just in front of it."
+  },
+  {
+    "id": "clavicle",
+    "kind": "bone",
+    "name": "Clavicle",
+    "aka": [
+      "Collarbone"
+    ],
+    "region": "Shoulder",
+    "tier": 1,
+    "parts": [
+      "Clavicle"
+    ],
+    "etymology": "From Latin clavicula ‘little key’, diminutive of clavis ‘key’. Probably because it rotates along its long axis like a key turning in a lock (or resembles an ancient key). So it means ‘the little key bone’.",
+    "articulations": [
+      "Manubrium of sternum (sternoclavicular joint)",
+      "Acromion of scapula (acromioclavicular joint)",
+      "Costal cartilage of rib 1 (via costoclavicular ligament)"
+    ],
+    "landmarks": [
+      "S-shaped shaft (convex forward medially)",
+      "Sternal end",
+      "Acromial end",
+      "Conoid tubercle",
+      "Trapezoid line",
+      "Subclavian groove (subclavius)",
+      "Impression for costoclavicular ligament"
+    ],
+    "tip": "The most commonly fractured bone, usually at the junction of its middle and lateral thirds; the only bony link between arm and trunk."
+  },
+  {
+    "id": "scapula",
+    "kind": "bone",
+    "name": "Scapula",
+    "aka": [
+      "Shoulder blade"
+    ],
+    "region": "Shoulder",
+    "tier": 1,
+    "parts": [
+      "Scapula"
+    ],
+    "etymology": "Latin scapula ‘shoulder blade’ (classically used in the plural scapulae ‘the shoulders’); probably related to a root meaning ‘to dig’, likening it to a spade. So it means ‘the shoulder blade’.",
+    "articulations": [
+      "Humerus (glenohumeral joint)",
+      "Clavicle (acromioclavicular joint)",
+      "Thoracic wall (scapulothoracic ‘joint’ — functional, not true)"
+    ],
+    "landmarks": [
+      "Spine of scapula",
+      "Acromion",
+      "Coracoid process",
+      "Glenoid cavity",
+      "Supraglenoid and infraglenoid tubercles",
+      "Supraspinous, infraspinous and subscapular fossae",
+      "Superior, inferior and lateral angles",
+      "Medial and lateral borders",
+      "Suprascapular notch"
+    ],
+    "tip": "Seventeen muscles attach to it — rotator cuff, deltoid, traps, rhomboids, serratus anterior, biceps, triceps long head and more."
+  },
+  {
+    "id": "humerus",
+    "kind": "bone",
+    "name": "Humerus",
+    "region": "Arm",
+    "tier": 1,
+    "parts": [
+      "Humerus"
+    ],
+    "etymology": "From Latin umerus ‘shoulder, upper arm’ (the h was added later). So it means ‘the shoulder/upper-arm bone’.",
+    "articulations": [
+      "Glenoid cavity of scapula (glenohumeral joint)",
+      "Ulna (humeroulnar joint, at the trochlea)",
+      "Radius (humeroradial joint, at the capitulum)"
+    ],
+    "landmarks": [
+      "Head",
+      "Anatomical neck",
+      "Surgical neck",
+      "Greater and lesser tubercles",
+      "Intertubercular (bicipital) groove",
+      "Deltoid tuberosity",
+      "Radial (spiral) groove",
+      "Medial and lateral epicondyles",
+      "Medial and lateral supracondylar ridges",
+      "Capitulum",
+      "Trochlea",
+      "Olecranon, coronoid and radial fossae"
+    ],
+    "tip": "Surgical-neck fractures endanger the axillary nerve; mid-shaft fractures the radial nerve in the spiral groove."
+  },
+  {
+    "id": "radius",
+    "kind": "bone",
+    "name": "Radius",
+    "region": "Forearm",
+    "tier": 2,
+    "parts": [
+      "Radius"
+    ],
+    "etymology": "Latin radius ‘spoke of a wheel, ray’. So it means ‘the spoke’ — in pronation and supination it swings around the ulna like a spoke around a hub.",
+    "articulations": [
+      "Humerus (humeroradial joint, at the capitulum)",
+      "Ulna (proximal and distal radioulnar joints)",
+      "Scaphoid and lunate (radiocarpal / wrist joint)"
+    ],
+    "landmarks": [
+      "Head (disc-shaped)",
+      "Neck",
+      "Radial tuberosity (biceps brachii)",
+      "Interosseous border",
+      "Dorsal (Lister’s) tubercle",
+      "Ulnar notch",
+      "Styloid process"
+    ],
+    "tip": "Thumb-side forearm bone; a fall on an outstretched hand classically breaks its distal end (Colles fracture)."
+  },
+  {
+    "id": "ulna",
+    "kind": "bone",
+    "name": "Ulna",
+    "region": "Forearm",
+    "tier": 2,
+    "parts": [
+      "Ulna"
+    ],
+    "etymology": "Latin ulna ‘elbow, forearm’ (related to English ‘ell’, an old forearm-length measure). So it means ‘the elbow bone’ — its olecranon is the point of the elbow.",
+    "articulations": [
+      "Humerus (humeroulnar joint, at the trochlea)",
+      "Radius (proximal and distal radioulnar joints)",
+      "Triquetrum and lunate indirectly, via the articular disc (TFCC)"
+    ],
+    "landmarks": [
+      "Olecranon (triceps)",
+      "Coronoid process",
+      "Trochlear notch",
+      "Radial notch",
+      "Ulnar tuberosity (brachialis)",
+      "Interosseous border",
+      "Head (distal)",
+      "Styloid process"
+    ],
+    "tip": "Little-finger-side forearm bone; the olecranon is the point of the elbow you lean on, and the hook of the trochlear notch makes it the elbow’s main hinge."
+  },
+  {
+    "id": "scaphoid",
+    "kind": "bone",
+    "name": "Scaphoid",
+    "aka": [
+      "Navicular of the hand (old term)"
+    ],
+    "region": "Hand",
+    "tier": 3,
+    "parts": [
+      "Scaphoid bone"
+    ],
+    "etymology": "From Greek skaphē ‘boat, skiff’ + -oeidēs ‘like’. So it means ‘boat-shaped bone’ — its concave surface was likened to a small boat. Carpal is from Greek karpos ‘wrist’.",
+    "articulations": [
+      "Radius (radiocarpal joint)",
+      "Lunate",
+      "Capitate",
+      "Trapezium",
+      "Trapezoid"
+    ],
+    "landmarks": [
+      "Tubercle (palpable at the wrist crease, base of thenar eminence)",
+      "Waist",
+      "Proximal and distal poles",
+      "Floor of the anatomical snuffbox"
+    ],
+    "tip": "The most commonly fractured carpal; snuffbox tenderness after a fall needs imaging, as waist fractures risk avascular necrosis of the proximal pole."
+  },
+  {
+    "id": "lunate",
+    "kind": "bone",
+    "name": "Lunate",
+    "region": "Hand",
+    "tier": 4,
+    "parts": [
+      "Lunate bone"
+    ],
+    "etymology": "From Latin luna ‘moon’. So it means ‘moon-shaped bone’ — it is crescent-shaped. Carpal is from Greek karpos ‘wrist’.",
+    "articulations": [
+      "Radius (radiocarpal joint)",
+      "Articular disc (TFCC)",
+      "Scaphoid",
+      "Triquetrum",
+      "Capitate",
+      "Hamate (sometimes)"
+    ],
+    "landmarks": [
+      "Crescent shape",
+      "Convex proximal surface",
+      "Concave distal surface for the capitate"
+    ],
+    "tip": "The most commonly dislocated carpal (can compress the median nerve); avascular necrosis of it is Kienböck’s disease."
+  },
+  {
+    "id": "triquetrum",
+    "kind": "bone",
+    "name": "Triquetrum",
+    "aka": [
+      "Triquetral bone"
+    ],
+    "region": "Hand",
+    "tier": 4,
+    "parts": [
+      "Triquetrum bone"
+    ],
+    "etymology": "From Latin triquetrus ‘three-cornered, triangular’. So it means ‘the triangular bone’ — pyramid-shaped. Carpal is from Greek karpos ‘wrist’.",
+    "articulations": [
+      "Lunate",
+      "Pisiform",
+      "Hamate",
+      "Articular disc (TFCC)"
+    ],
+    "landmarks": [
+      "Pyramidal shape",
+      "Oval facet for the pisiform on its palmar surface",
+      "Dorsal ridge"
+    ],
+    "tip": "The second most commonly fractured carpal — typically a dorsal chip from a fall onto the back of the hand."
+  },
+  {
+    "id": "pisiform",
+    "kind": "bone",
+    "name": "Pisiform",
+    "region": "Hand",
+    "tier": 4,
+    "parts": [
+      "Pisiform bone"
+    ],
+    "etymology": "From Latin pisum ‘pea’ + forma ‘shape’. So it means ‘pea-shaped bone’ — small and round. Carpal is from Greek karpos ‘wrist’.",
+    "articulations": [
+      "Triquetrum (pisotriquetral joint)"
+    ],
+    "landmarks": [
+      "Sesamoid within the flexor carpi ulnaris tendon",
+      "Origin of abductor digiti minimi",
+      "Pisohamate and pisometacarpal ligaments",
+      "Medial wall of Guyon’s canal"
+    ],
+    "tip": "The bony pea you can feel at the base of the hypothenar eminence; FCU pulls through it via the pisohamate/pisometacarpal ligaments."
+  },
+  {
+    "id": "trapezium",
+    "kind": "bone",
+    "name": "Trapezium",
+    "aka": [
+      "Greater multangular"
+    ],
+    "region": "Hand",
+    "tier": 4,
+    "parts": [
+      "Trapezium bone"
+    ],
+    "etymology": "From Greek trapezion ‘little table’ (a four-sided figure). So it means ‘the little table bone’ — irregular and four-sided. Remember: trapeziUM is by the thUMb. Carpal is from Greek karpos ‘wrist’.",
+    "articulations": [
+      "1st metacarpal (saddle-shaped thumb CMC joint)",
+      "Scaphoid",
+      "Trapezoid",
+      "2nd metacarpal"
+    ],
+    "landmarks": [
+      "Saddle-shaped distal facet",
+      "Tubercle (flexor retinaculum, thenar muscles)",
+      "Groove for the flexor carpi radialis tendon"
+    ],
+    "tip": "Its saddle joint with the 1st metacarpal gives the thumb opposition — and is a classic site of osteoarthritis."
+  },
+  {
+    "id": "trapezoid",
+    "kind": "bone",
+    "name": "Trapezoid",
+    "aka": [
+      "Lesser multangular"
+    ],
+    "region": "Hand",
+    "tier": 4,
+    "parts": [
+      "Trapezoid bone"
+    ],
+    "etymology": "From Greek trapezoeidēs ‘table-shaped’ (trapeza ‘table’ + -oeidēs ‘like’). So it means ‘shaped like a little table’ — a small wedge-like four-sided bone. Carpal is from Greek karpos ‘wrist’.",
+    "articulations": [
+      "Scaphoid",
+      "Trapezium",
+      "Capitate",
+      "2nd metacarpal"
+    ],
+    "landmarks": [
+      "Smallest bone of the distal row",
+      "Wedge shape (broader dorsally)",
+      "Fits into the notched base of the 2nd metacarpal"
+    ],
+    "tip": "Locks into the forked base of the 2nd metacarpal, making the index ray the stable ‘fixed’ unit of the hand."
+  },
+  {
+    "id": "capitate",
+    "kind": "bone",
+    "name": "Capitate",
+    "region": "Hand",
+    "tier": 4,
+    "parts": [
+      "Capitate bone"
+    ],
+    "etymology": "From Latin caput ‘head’ (capitatus ‘having a head’). So it means ‘the bone with a head’ — its rounded head fits into the lunate and scaphoid. Carpal is from Greek karpos ‘wrist’.",
+    "articulations": [
+      "Scaphoid",
+      "Lunate (midcarpal joint)",
+      "Trapezoid",
+      "Hamate",
+      "2nd, 3rd and 4th metacarpals"
+    ],
+    "landmarks": [
+      "Largest carpal bone",
+      "Rounded head (proximal)",
+      "Neck",
+      "Body"
+    ],
+    "tip": "The largest and most central carpal — the axis around which wrist movement is often described; aligned with the 3rd metacarpal."
+  },
+  {
+    "id": "hamate",
+    "kind": "bone",
+    "name": "Hamate",
+    "region": "Hand",
+    "tier": 4,
+    "parts": [
+      "Hamate bone"
+    ],
+    "etymology": "From Latin hamatus ‘hooked’, from hamus ‘hook’. So it means ‘the hooked bone’ — named for the hook projecting from its palmar surface. Carpal is from Greek karpos ‘wrist’.",
+    "articulations": [
+      "Lunate",
+      "Triquetrum",
+      "Capitate",
+      "4th and 5th metacarpals"
+    ],
+    "landmarks": [
+      "Hook of hamate (hamulus)",
+      "Attachment of the flexor retinaculum",
+      "Lateral boundary of Guyon’s canal",
+      "Wedge-shaped body"
+    ],
+    "tip": "The hook can fracture from the butt of a golf club, bat or racket pressing into the palm."
+  },
+  {
+    "id": "metacarpal-1",
+    "kind": "bone",
+    "name": "1st metacarpal (thumb)",
+    "aka": [
+      "First metacarpal",
+      "MC1"
+    ],
+    "region": "Hand",
+    "tier": 4,
+    "parts": [
+      "First metacarpal bone"
+    ],
+    "etymology": "From Greek meta ‘beyond, after’ + karpos ‘wrist’. So metacarpal means ‘the bone beyond the wrist’ — the bones of the palm. This one supports the thumb.",
+    "articulations": [
+      "Trapezium (saddle CMC joint)",
+      "Proximal phalanx of the thumb (MCP joint)"
+    ],
+    "landmarks": [
+      "Base, shaft and head (knuckle)",
+      "Shortest and thickest metacarpal",
+      "Saddle-shaped base",
+      "Insertion of opponens pollicis (shaft) and abductor pollicis longus (base)",
+      "Two sesamoids at the palmar head"
+    ],
+    "tip": "A fracture-dislocation of its base is a Bennett’s fracture; it lies in a different plane, letting the thumb oppose."
+  },
+  {
+    "id": "metacarpal-2",
+    "kind": "bone",
+    "name": "2nd metacarpal",
+    "aka": [
+      "Second metacarpal",
+      "MC2"
+    ],
+    "region": "Hand",
+    "tier": 4,
+    "parts": [
+      "Second metacarpal bone"
+    ],
+    "etymology": "From Greek meta ‘beyond, after’ + karpos ‘wrist’. So metacarpal means ‘the bone beyond the wrist’ — the bones of the palm.",
+    "articulations": [
+      "Trapezoid (notched base)",
+      "Trapezium",
+      "Capitate",
+      "3rd metacarpal",
+      "Proximal phalanx of the index finger (MCP joint)"
+    ],
+    "landmarks": [
+      "Base, shaft and head (knuckle)",
+      "Longest metacarpal",
+      "Forked/notched base gripping the trapezoid",
+      "Insertion of extensor carpi radialis longus (dorsal base) and flexor carpi radialis (palmar base)"
+    ],
+    "tip": "Its keyed-in base makes the index CMC joint almost immobile — the stable post of the hand."
+  },
+  {
+    "id": "metacarpal-3",
+    "kind": "bone",
+    "name": "3rd metacarpal",
+    "aka": [
+      "Third metacarpal",
+      "MC3"
+    ],
+    "region": "Hand",
+    "tier": 4,
+    "parts": [
+      "Third metacarpal bone"
+    ],
+    "etymology": "From Greek meta ‘beyond, after’ + karpos ‘wrist’. So metacarpal means ‘the bone beyond the wrist’ — the bones of the palm.",
+    "articulations": [
+      "Capitate",
+      "2nd and 4th metacarpals",
+      "Proximal phalanx of the middle finger (MCP joint)"
+    ],
+    "landmarks": [
+      "Base, shaft and head (knuckle)",
+      "Styloid process on the dorsal base",
+      "Insertion of extensor carpi radialis brevis (base)",
+      "Origin of adductor pollicis (transverse head, shaft)"
+    ],
+    "tip": "The only metacarpal with a styloid process, where ECRB inserts; with the 2nd it forms the rigid central column."
+  },
+  {
+    "id": "metacarpal-4",
+    "kind": "bone",
+    "name": "4th metacarpal",
+    "aka": [
+      "Fourth metacarpal",
+      "MC4"
+    ],
+    "region": "Hand",
+    "tier": 4,
+    "parts": [
+      "Fourth metacarpal bone"
+    ],
+    "etymology": "From Greek meta ‘beyond, after’ + karpos ‘wrist’. So metacarpal means ‘the bone beyond the wrist’ — the bones of the palm.",
+    "articulations": [
+      "Capitate and hamate",
+      "3rd and 5th metacarpals",
+      "Proximal phalanx of the ring finger (MCP joint)"
+    ],
+    "landmarks": [
+      "Base, shaft and head (knuckle)",
+      "Thin shaft",
+      "Small quadrilateral base with facets for capitate and hamate"
+    ],
+    "tip": "Its CMC joint is mobile, letting the ulnar side of the palm cup for grip."
+  },
+  {
+    "id": "metacarpal-5",
+    "kind": "bone",
+    "name": "5th metacarpal",
+    "aka": [
+      "Fifth metacarpal",
+      "MC5"
+    ],
+    "region": "Hand",
+    "tier": 4,
+    "parts": [
+      "Fifth metacarpal bone"
+    ],
+    "etymology": "From Greek meta ‘beyond, after’ + karpos ‘wrist’. So metacarpal means ‘the bone beyond the wrist’ — the bones of the palm.",
+    "articulations": [
+      "Hamate",
+      "4th metacarpal",
+      "Proximal phalanx of the little finger (MCP joint)"
+    ],
+    "landmarks": [
+      "Base, shaft and head (knuckle)",
+      "Tubercle on the medial base (extensor carpi ulnaris)",
+      "Insertion of opponens digiti minimi (shaft)"
+    ],
+    "tip": "A punch with a closed fist commonly breaks its neck — the ‘boxer’s fracture’."
+  },
+  {
+    "id": "proximal-phalanx-thumb",
+    "kind": "bone",
+    "name": "Proximal phalanx of the thumb",
+    "aka": [
+      "Proximal phalanx of first finger",
+      "Proximal phalanx of digit 1 (hand)",
+      "P1 of digit 1 (hand)"
+    ],
+    "region": "Hand",
+    "tier": 5,
+    "parts": [
+      "Proximal phalanx of first finger of hand"
+    ],
+    "etymology": "From Greek phalanx ‘a line of soldiers in battle formation’ (plural phalanges) — the finger bones are lined up in rows like ranks of soldiers. Proximal (Latin proximus ‘nearest’) means the one nearest the palm. The thumb is pollex in Latin (hence ‘pollicis’ in muscle names). The thumb has only two phalanges (no middle one).",
+    "articulations": [
+      "Head of 1st metacarpal (MCP joint)",
+      "Distal phalanx of the thumb (IP joint)"
+    ],
+    "landmarks": [
+      "Base with concave oval facet",
+      "Shaft",
+      "Bicondylar head (trochlea)",
+      "Abductor pollicis brevis and flexor pollicis brevis (radial base, via the radial sesamoid)",
+      "Adductor pollicis (ulnar base, via the ulnar sesamoid)",
+      "Extensor pollicis brevis (dorsal base)"
+    ],
+    "tip": "Skier’s/gamekeeper’s thumb is a tear of the ulnar collateral ligament at the MCP joint on its base."
+  },
+  {
+    "id": "proximal-phalanx-index-finger",
+    "kind": "bone",
+    "name": "Proximal phalanx of the index finger",
+    "aka": [
+      "Proximal phalanx of second finger",
+      "Proximal phalanx of digit 2 (hand)",
+      "P1 of digit 2 (hand)"
+    ],
+    "region": "Hand",
+    "tier": 5,
+    "parts": [
+      "Proximal phalanx of second finger of hand"
+    ],
+    "etymology": "From Greek phalanx ‘a line of soldiers in battle formation’ (plural phalanges) — the finger bones are lined up in rows like ranks of soldiers. Proximal (Latin proximus ‘nearest’) means the one nearest the palm. Index is Latin ‘pointer’, from indicare ‘to point out’.",
+    "articulations": [
+      "Head of 2nd metacarpal (MCP joint)",
+      "Middle phalanx of the index finger (PIP joint)"
+    ],
+    "landmarks": [
+      "Base with concave oval facet",
+      "Shaft",
+      "Bicondylar head (trochlea)",
+      "1st dorsal interosseous (radial side of base/extensor expansion)",
+      "1st palmar interosseous (ulnar side)",
+      "1st lumbrical (radial side, via extensor expansion)"
+    ],
+    "tip": "The 1st dorsal interosseous abducts the index on this bone — the muscle bulk in the first web space."
+  },
+  {
+    "id": "proximal-phalanx-middle-finger",
+    "kind": "bone",
+    "name": "Proximal phalanx of the middle finger",
+    "aka": [
+      "Proximal phalanx of third finger",
+      "Proximal phalanx of digit 3 (hand)",
+      "P1 of digit 3 (hand)"
+    ],
+    "region": "Hand",
+    "tier": 5,
+    "parts": [
+      "Proximal phalanx of third finger of hand"
+    ],
+    "etymology": "From Greek phalanx ‘a line of soldiers in battle formation’ (plural phalanges) — the finger bones are lined up in rows like ranks of soldiers. Proximal (Latin proximus ‘nearest’) means the one nearest the palm. The middle finger is digitus medius in Latin.",
+    "articulations": [
+      "Head of 3rd metacarpal (MCP joint)",
+      "Middle phalanx of the middle finger (PIP joint)"
+    ],
+    "landmarks": [
+      "Base with concave oval facet",
+      "Shaft",
+      "Bicondylar head (trochlea)",
+      "2nd dorsal interosseous (radial side)",
+      "3rd dorsal interosseous (ulnar side)",
+      "No palmar interosseous"
+    ],
+    "tip": "The middle finger is the axis for finger abduction/adduction, so only dorsal interossei attach to it — one on each side."
+  },
+  {
+    "id": "proximal-phalanx-ring-finger",
+    "kind": "bone",
+    "name": "Proximal phalanx of the ring finger",
+    "aka": [
+      "Proximal phalanx of fourth finger",
+      "Proximal phalanx of digit 4 (hand)",
+      "P1 of digit 4 (hand)"
+    ],
+    "region": "Hand",
+    "tier": 5,
+    "parts": [
+      "Proximal phalanx of fourth finger of hand"
+    ],
+    "etymology": "From Greek phalanx ‘a line of soldiers in battle formation’ (plural phalanges) — the finger bones are lined up in rows like ranks of soldiers. Proximal (Latin proximus ‘nearest’) means the one nearest the palm. The ring finger is digitus anularis in Latin (anulus ‘ring’).",
+    "articulations": [
+      "Head of 4th metacarpal (MCP joint)",
+      "Middle phalanx of the ring finger (PIP joint)"
+    ],
+    "landmarks": [
+      "Base with concave oval facet",
+      "Shaft",
+      "Bicondylar head (trochlea)",
+      "4th dorsal interosseous (ulnar side)",
+      "Palmar interosseous (radial side)"
+    ],
+    "tip": "Palmar interossei adduct toward the middle finger, dorsal ones abduct away — here they pull on opposite sides of the base."
+  },
+  {
+    "id": "proximal-phalanx-little-finger",
+    "kind": "bone",
+    "name": "Proximal phalanx of the little finger",
+    "aka": [
+      "Proximal phalanx of fifth finger",
+      "Proximal phalanx of digit 5 (hand)",
+      "P1 of digit 5 (hand)"
+    ],
+    "region": "Hand",
+    "tier": 5,
+    "parts": [
+      "Proximal phalanx of fifth finger of hand"
+    ],
+    "etymology": "From Greek phalanx ‘a line of soldiers in battle formation’ (plural phalanges) — the finger bones are lined up in rows like ranks of soldiers. Proximal (Latin proximus ‘nearest’) means the one nearest the palm. The little finger is digitus minimus in Latin (hence ‘digiti minimi’).",
+    "articulations": [
+      "Head of 5th metacarpal (MCP joint)",
+      "Middle phalanx of the little finger (PIP joint)"
+    ],
+    "landmarks": [
+      "Base with concave oval facet",
+      "Shaft",
+      "Bicondylar head (trochlea)",
+      "Abductor digiti minimi and flexor digiti minimi brevis (ulnar side of base)",
+      "Palmar interosseous (radial side)"
+    ],
+    "tip": "The hypothenar muscles insert on its base, so it moves with the little-finger side of the palm."
+  },
+  {
+    "id": "middle-phalanx-index-finger",
+    "kind": "bone",
+    "name": "Middle phalanx of the index finger",
+    "aka": [
+      "Middle phalanx of second finger",
+      "Middle phalanx of digit 2 (hand)",
+      "P2 of digit 2 (hand)"
+    ],
+    "region": "Hand",
+    "tier": 5,
+    "parts": [
+      "Middle phalanx of second finger of hand"
+    ],
+    "etymology": "From Greek phalanx ‘a line of soldiers in battle formation’ (plural phalanges) — the finger bones are lined up in rows like ranks of soldiers. Middle means the second of the three. Index is Latin ‘pointer’, from indicare ‘to point out’.",
+    "articulations": [
+      "Proximal phalanx of the index finger (PIP joint)",
+      "Distal phalanx of the index finger (DIP joint)"
+    ],
+    "landmarks": [
+      "Base with two concave facets and a median ridge",
+      "Shaft",
+      "Bicondylar head (trochlea)",
+      "Flexor digitorum superficialis splits to insert on both sides of the shaft",
+      "Central slip of the extensor expansion (dorsal base)"
+    ],
+    "tip": "Test index FDS by holding the other fingers straight and asking for PIP flexion."
+  },
+  {
+    "id": "middle-phalanx-middle-finger",
+    "kind": "bone",
+    "name": "Middle phalanx of the middle finger",
+    "aka": [
+      "Middle phalanx of third finger",
+      "Middle phalanx of digit 3 (hand)",
+      "P2 of digit 3 (hand)"
+    ],
+    "region": "Hand",
+    "tier": 5,
+    "parts": [
+      "Middle phalanx of third finger of hand"
+    ],
+    "etymology": "From Greek phalanx ‘a line of soldiers in battle formation’ (plural phalanges) — the finger bones are lined up in rows like ranks of soldiers. Middle means the second of the three. The middle finger is digitus medius in Latin.",
+    "articulations": [
+      "Proximal phalanx of the middle finger (PIP joint)",
+      "Distal phalanx of the middle finger (DIP joint)"
+    ],
+    "landmarks": [
+      "Base with two concave facets and a median ridge",
+      "Shaft",
+      "Bicondylar head (trochlea)",
+      "Usually the longest middle phalanx",
+      "FDS insertion on both sides of the shaft",
+      "Central slip of extensor expansion (dorsal base)"
+    ],
+    "tip": "The middle finger is the longest digit, and its middle phalanx is usually the longest one in the hand."
+  },
+  {
+    "id": "middle-phalanx-ring-finger",
+    "kind": "bone",
+    "name": "Middle phalanx of the ring finger",
+    "aka": [
+      "Middle phalanx of fourth finger",
+      "Middle phalanx of digit 4 (hand)",
+      "P2 of digit 4 (hand)"
+    ],
+    "region": "Hand",
+    "tier": 5,
+    "parts": [
+      "Middle phalanx of fourth finger of hand"
+    ],
+    "etymology": "From Greek phalanx ‘a line of soldiers in battle formation’ (plural phalanges) — the finger bones are lined up in rows like ranks of soldiers. Middle means the second of the three. The ring finger is digitus anularis in Latin (anulus ‘ring’).",
+    "articulations": [
+      "Proximal phalanx of the ring finger (PIP joint)",
+      "Distal phalanx of the ring finger (DIP joint)"
+    ],
+    "landmarks": [
+      "Base with two concave facets and a median ridge",
+      "Shaft",
+      "Bicondylar head (trochlea)",
+      "FDS insertion on both sides of the shaft",
+      "Central slip of extensor expansion (dorsal base)"
+    ],
+    "tip": "Rupture of the central slip at its base gives a boutonnière deformity (PIP flexed, DIP hyperextended)."
+  },
+  {
+    "id": "middle-phalanx-little-finger",
+    "kind": "bone",
+    "name": "Middle phalanx of the little finger",
+    "aka": [
+      "Middle phalanx of fifth finger",
+      "Middle phalanx of digit 5 (hand)",
+      "P2 of digit 5 (hand)"
+    ],
+    "region": "Hand",
+    "tier": 5,
+    "parts": [
+      "Middle phalanx of fifth finger of hand"
+    ],
+    "etymology": "From Greek phalanx ‘a line of soldiers in battle formation’ (plural phalanges) — the finger bones are lined up in rows like ranks of soldiers. Middle means the second of the three. The little finger is digitus minimus in Latin (hence ‘digiti minimi’).",
+    "articulations": [
+      "Proximal phalanx of the little finger (PIP joint)",
+      "Distal phalanx of the little finger (DIP joint)"
+    ],
+    "landmarks": [
+      "Base with two concave facets and a median ridge",
+      "Shaft",
+      "Bicondylar head (trochlea)",
+      "Shortest middle phalanx of the hand",
+      "FDS insertion (tendon sometimes small or absent)",
+      "Central slip of extensor expansion (dorsal base)"
+    ],
+    "tip": "Little-finger FDS is weak or absent in some people, so PIP flexion may rely on FDP."
+  },
+  {
+    "id": "distal-phalanx-thumb",
+    "kind": "bone",
+    "name": "Distal phalanx of the thumb",
+    "aka": [
+      "Distal phalanx of first finger",
+      "Distal phalanx of digit 1 (hand)",
+      "P2 of digit 1 (hand)"
+    ],
+    "region": "Hand",
+    "tier": 5,
+    "parts": [
+      "Distal phalanx of first finger of hand"
+    ],
+    "etymology": "From Greek phalanx ‘a line of soldiers in battle formation’ (plural phalanges) — the finger bones are lined up in rows like ranks of soldiers. Distal (from Latin distare ‘to stand apart’) means the one furthest from the palm — the fingertip bone. The thumb is pollex in Latin (hence ‘pollicis’ in muscle names). The thumb has only two phalanges (no middle one).",
+    "articulations": [
+      "Proximal phalanx of the thumb (IP joint)"
+    ],
+    "landmarks": [
+      "Base",
+      "Short shaft",
+      "Flexor pollicis longus (palmar base)",
+      "Extensor pollicis longus (dorsal base)",
+      "Ungual tuberosity (tuft)"
+    ],
+    "tip": "FPL is the only muscle that flexes the thumb IP joint — bending the thumb tip tests it (anterior interosseous nerve)."
+  },
+  {
+    "id": "distal-phalanx-index-finger",
+    "kind": "bone",
+    "name": "Distal phalanx of the index finger",
+    "aka": [
+      "Distal phalanx of second finger",
+      "Distal phalanx of digit 2 (hand)",
+      "P3 of digit 2 (hand)"
+    ],
+    "region": "Hand",
+    "tier": 5,
+    "parts": [
+      "Distal phalanx of second finger of hand"
+    ],
+    "etymology": "From Greek phalanx ‘a line of soldiers in battle formation’ (plural phalanges) — the finger bones are lined up in rows like ranks of soldiers. Distal (from Latin distare ‘to stand apart’) means the one furthest from the palm — the fingertip bone. Index is Latin ‘pointer’, from indicare ‘to point out’.",
+    "articulations": [
+      "Middle phalanx of the index finger (DIP joint)"
+    ],
+    "landmarks": [
+      "Base",
+      "Short shaft",
+      "Flexor digitorum profundus (palmar base)",
+      "Terminal extensor tendon (dorsal base)",
+      "Ungual tuberosity (tuft)"
+    ],
+    "tip": "Mallet finger: the terminal extensor tendon pulls off its dorsal base and the DIP droops."
+  },
+  {
+    "id": "distal-phalanx-middle-finger",
+    "kind": "bone",
+    "name": "Distal phalanx of the middle finger",
+    "aka": [
+      "Distal phalanx of third finger",
+      "Distal phalanx of digit 3 (hand)",
+      "P3 of digit 3 (hand)"
+    ],
+    "region": "Hand",
+    "tier": 5,
+    "parts": [
+      "Distal phalanx of third finger of hand"
+    ],
+    "etymology": "From Greek phalanx ‘a line of soldiers in battle formation’ (plural phalanges) — the finger bones are lined up in rows like ranks of soldiers. Distal (from Latin distare ‘to stand apart’) means the one furthest from the palm — the fingertip bone. The middle finger is digitus medius in Latin.",
+    "articulations": [
+      "Middle phalanx of the middle finger (DIP joint)"
+    ],
+    "landmarks": [
+      "Base",
+      "Short shaft",
+      "Flexor digitorum profundus (palmar base)",
+      "Terminal extensor tendon (dorsal base)",
+      "Ungual tuberosity (tuft)"
+    ],
+    "tip": "Only FDP flexes the DIP joint — hold the middle phalanx still and bend the tip to test it."
+  },
+  {
+    "id": "distal-phalanx-ring-finger",
+    "kind": "bone",
+    "name": "Distal phalanx of the ring finger",
+    "aka": [
+      "Distal phalanx of fourth finger",
+      "Distal phalanx of digit 4 (hand)",
+      "P3 of digit 4 (hand)"
+    ],
+    "region": "Hand",
+    "tier": 5,
+    "parts": [
+      "Distal phalanx of fourth finger of hand"
+    ],
+    "etymology": "From Greek phalanx ‘a line of soldiers in battle formation’ (plural phalanges) — the finger bones are lined up in rows like ranks of soldiers. Distal (from Latin distare ‘to stand apart’) means the one furthest from the palm — the fingertip bone. The ring finger is digitus anularis in Latin (anulus ‘ring’).",
+    "articulations": [
+      "Middle phalanx of the ring finger (DIP joint)"
+    ],
+    "landmarks": [
+      "Base",
+      "Short shaft",
+      "Flexor digitorum profundus (palmar base)",
+      "Terminal extensor tendon (dorsal base)",
+      "Ungual tuberosity (tuft)"
+    ],
+    "tip": "Jersey finger — FDP avulsion from its base when grabbing a shirt — most often involves the ring finger."
+  },
+  {
+    "id": "distal-phalanx-little-finger",
+    "kind": "bone",
+    "name": "Distal phalanx of the little finger",
+    "aka": [
+      "Distal phalanx of fifth finger",
+      "Distal phalanx of digit 5 (hand)",
+      "P3 of digit 5 (hand)"
+    ],
+    "region": "Hand",
+    "tier": 5,
+    "parts": [
+      "Distal phalanx of fifth finger of hand"
+    ],
+    "etymology": "From Greek phalanx ‘a line of soldiers in battle formation’ (plural phalanges) — the finger bones are lined up in rows like ranks of soldiers. Distal (from Latin distare ‘to stand apart’) means the one furthest from the palm — the fingertip bone. The little finger is digitus minimus in Latin (hence ‘digiti minimi’).",
+    "articulations": [
+      "Middle phalanx of the little finger (DIP joint)"
+    ],
+    "landmarks": [
+      "Base",
+      "Short shaft",
+      "Flexor digitorum profundus (palmar base)",
+      "Terminal extensor tendon (dorsal base)",
+      "Ungual tuberosity (tuft)"
+    ],
+    "tip": "FDP to the ring and little fingers is supplied by the ulnar nerve — weak tip flexion here suggests ulnar nerve damage."
+  },
+  {
+    "id": "hip-bone",
+    "kind": "bone",
+    "name": "Hip bone (os coxae)",
+    "aka": [
+      "Os coxae",
+      "Innominate bone",
+      "Pelvic bone"
+    ],
+    "region": "Pelvis",
+    "tier": 1,
+    "parts": [
+      "Hip bone"
+    ],
+    "etymology": "Os coxae is Latin ‘bone of the hip’ (coxa ‘hip’). It fuses from three bones: ilium, from Latin ilia ‘flanks, loins’; ischium, from Greek ischion ‘hip joint, haunch’; and pubis, from Latin (os) pubis, from pubes ‘grown-up, adult’ — named for the hair that appears over it at puberty. So: the flank part, the sitting/haunch part and the ‘adult’ part.",
+    "articulations": [
+      "Femur (hip joint, at the acetabulum)",
+      "Sacrum (sacroiliac joint)",
+      "Opposite hip bone (pubic symphysis)"
+    ],
+    "landmarks": [
+      "Ilium: iliac crest, ASIS, AIIS, PSIS, PSIS dimples, iliac fossa, gluteal lines, auricular surface",
+      "Ischium: ischial tuberosity (sit bone), ischial spine, ischial ramus",
+      "Pubis: pubic tubercle, pubic crest, symphyseal surface, superior and inferior pubic rami",
+      "Acetabulum (all three bones meet here at the Y-shaped triradiate cartilage)",
+      "Obturator foramen",
+      "Greater and lesser sciatic notches"
+    ],
+    "tip": "The ischial tuberosity is the hamstrings’ origin; the ASIS is the origin of sartorius and the standard landmark for pelvic tilt."
+  },
+  {
+    "id": "femur",
+    "kind": "bone",
+    "name": "Femur",
+    "aka": [
+      "Thigh bone"
+    ],
+    "region": "Thigh",
+    "tier": 1,
+    "parts": [
+      "Femur"
+    ],
+    "etymology": "Latin femur ‘thigh’. So it simply means ‘the thigh bone’.",
+    "articulations": [
+      "Acetabulum of hip bone (hip joint)",
+      "Tibia (tibiofemoral / knee joint)",
+      "Patella (patellofemoral joint)"
+    ],
+    "landmarks": [
+      "Head",
+      "Fovea capitis",
+      "Neck",
+      "Greater and lesser trochanters",
+      "Intertrochanteric line and crest",
+      "Gluteal tuberosity",
+      "Linea aspera",
+      "Adductor tubercle",
+      "Medial and lateral condyles",
+      "Medial and lateral epicondyles",
+      "Intercondylar fossa",
+      "Patellar surface"
+    ],
+    "tip": "The longest and strongest bone; neck fractures in older adults can cut off the blood supply to the head."
+  },
+  {
+    "id": "patella",
+    "kind": "bone",
+    "name": "Patella",
+    "aka": [
+      "Kneecap"
+    ],
+    "region": "Knee",
+    "tier": 1,
+    "parts": [
+      "Patella"
+    ],
+    "etymology": "Latin patella ‘small dish, small pan’, diminutive of patina ‘dish’. So it means ‘the little dish’ — a flat, rounded plate at the front of the knee.",
+    "articulations": [
+      "Patellar surface of femur (patellofemoral joint)"
+    ],
+    "landmarks": [
+      "Base (superior — quadriceps tendon)",
+      "Apex (inferior — patellar ligament)",
+      "Lateral and medial articular facets (lateral larger)",
+      "Odd facet",
+      "Anterior surface"
+    ],
+    "tip": "The largest sesamoid bone, in the quadriceps tendon; it lengthens the quads’ lever arm for knee extension."
+  },
+  {
+    "id": "tibia",
+    "kind": "bone",
+    "name": "Tibia",
+    "aka": [
+      "Shin bone"
+    ],
+    "region": "Leg",
+    "tier": 1,
+    "parts": [
+      "Tibia"
+    ],
+    "etymology": "Latin tibia ‘shin bone’, also ‘flute, pipe’ — probably because early flutes were made from animal shin bones. So it means ‘the shin bone’.",
+    "articulations": [
+      "Femur (knee joint)",
+      "Fibula (superior and inferior tibiofibular joints)",
+      "Talus (talocrural / ankle joint)"
+    ],
+    "landmarks": [
+      "Medial and lateral condyles (tibial plateau)",
+      "Intercondylar eminence",
+      "Tibial tuberosity (patellar ligament)",
+      "Gerdy’s tubercle (iliotibial band)",
+      "Anterior border (shin)",
+      "Soleal line",
+      "Medial malleolus",
+      "Fibular notch"
+    ],
+    "tip": "Its anterior border lies just under the skin — the ‘shin’ — which is why shin fractures are often open."
+  },
+  {
+    "id": "fibula",
+    "kind": "bone",
+    "name": "Fibula",
+    "aka": [
+      "Calf bone"
+    ],
+    "region": "Leg",
+    "tier": 2,
+    "parts": [
+      "Fibula"
+    ],
+    "etymology": "Latin fibula ‘clasp, brooch’. Probably because the slender fibula beside the tibia looks like the pin of a brooch. So it means ‘the pin bone’.",
+    "articulations": [
+      "Tibia (superior and inferior tibiofibular joints)",
+      "Talus (lateral malleolus, part of the ankle joint)"
+    ],
+    "landmarks": [
+      "Head",
+      "Apex (styloid process) of head",
+      "Neck",
+      "Shaft",
+      "Lateral malleolus",
+      "Malleolar fossa"
+    ],
+    "tip": "Biceps femoris and the LCL attach to its head; the common fibular nerve wraps around its neck, where it is easily injured."
+  },
+  {
+    "id": "talus",
+    "kind": "bone",
+    "name": "Talus",
+    "aka": [
+      "Astragalus"
+    ],
+    "region": "Foot",
+    "tier": 3,
+    "parts": [
+      "Talus"
+    ],
+    "etymology": "Latin talus ‘ankle bone, knucklebone’ — ankle bones of animals were used as dice. So it means ‘the ankle bone’. Tarsal is from Greek tarsos ‘flat surface, wicker frame’ (originally the sole/flat of the foot).",
+    "articulations": [
+      "Tibia and fibula (talocrural / ankle joint)",
+      "Calcaneus (subtalar joint)",
+      "Navicular (talonavicular joint)"
+    ],
+    "landmarks": [
+      "Head",
+      "Neck",
+      "Body",
+      "Trochlea (wider in front)",
+      "Lateral process",
+      "Posterior process with medial and lateral tubercles",
+      "Groove for flexor hallucis longus"
+    ],
+    "tip": "No muscles attach to it; its trochlea is wider in front, so the ankle is most stable in dorsiflexion."
+  },
+  {
+    "id": "calcaneus",
+    "kind": "bone",
+    "name": "Calcaneus",
+    "aka": [
+      "Heel bone",
+      "Os calcis"
+    ],
+    "region": "Foot",
+    "tier": 2,
+    "parts": [
+      "Calcaneus"
+    ],
+    "etymology": "From Latin calx, calcis ‘heel’ (also ‘lime, chalk’). So it means ‘the heel bone’.",
+    "articulations": [
+      "Talus (subtalar joint)",
+      "Cuboid (calcaneocuboid joint)"
+    ],
+    "landmarks": [
+      "Calcaneal tuberosity (Achilles tendon)",
+      "Medial and lateral processes of the tuberosity (plantar fascia)",
+      "Sustentaculum tali",
+      "Groove for flexor hallucis longus",
+      "Fibular (peroneal) trochlea",
+      "Sinus tarsi (with talus)"
+    ],
+    "tip": "The largest tarsal; the Achilles tendon inserts on its tuberosity and plantar fasciitis pain sits at its medial process."
+  },
+  {
+    "id": "navicular",
+    "kind": "bone",
+    "name": "Navicular",
+    "aka": [
+      "Navicular of the foot"
+    ],
+    "region": "Foot",
+    "tier": 4,
+    "parts": [
+      "Navicular bone"
+    ],
+    "etymology": "From Latin navicula ‘little boat’, diminutive of navis ‘ship’. So it means ‘boat-shaped bone’. Tarsal is from Greek tarsos ‘flat surface, wicker frame’ (originally the sole/flat of the foot).",
+    "articulations": [
+      "Talus (talonavicular joint)",
+      "Medial, intermediate and lateral cuneiforms",
+      "Cuboid (sometimes)"
+    ],
+    "landmarks": [
+      "Navicular tuberosity (tibialis posterior)",
+      "Concave proximal surface for the talar head",
+      "Three facets distally for the cuneiforms"
+    ],
+    "tip": "Its tuberosity is palpable in front of the medial malleolus — the landmark for the navicular drop test of arch collapse."
+  },
+  {
+    "id": "cuboid",
+    "kind": "bone",
+    "name": "Cuboid",
+    "region": "Foot",
+    "tier": 4,
+    "parts": [
+      "Cuboid bone"
+    ],
+    "etymology": "From Greek kybos ‘cube’ + -oeidēs ‘like’. So it means ‘cube-shaped bone’. Tarsal is from Greek tarsos ‘flat surface, wicker frame’ (originally the sole/flat of the foot).",
+    "articulations": [
+      "Calcaneus (calcaneocuboid joint)",
+      "Lateral cuneiform",
+      "Navicular (sometimes)",
+      "4th and 5th metatarsals"
+    ],
+    "landmarks": [
+      "Groove for the fibularis (peroneus) longus tendon",
+      "Cuboid tuberosity"
+    ],
+    "tip": "Fibularis longus runs in its plantar groove on the way to the 1st metatarsal and medial cuneiform."
+  },
+  {
+    "id": "medial-cuneiform",
+    "kind": "bone",
+    "name": "Medial cuneiform",
+    "aka": [
+      "First cuneiform"
+    ],
+    "region": "Foot",
+    "tier": 4,
+    "parts": [
+      "Medial cuneiform bone"
+    ],
+    "etymology": "From Latin cuneus ‘wedge’ + forma ‘shape’. So it means ‘wedge-shaped bone’ — the three cuneiforms form the transverse arch like wedges in a Roman arch. Tarsal is from Greek tarsos ‘flat surface, wicker frame’ (originally the sole/flat of the foot).",
+    "articulations": [
+      "Navicular",
+      "Intermediate cuneiform",
+      "1st metatarsal",
+      "2nd metatarsal"
+    ],
+    "landmarks": [
+      "Largest cuneiform",
+      "Insertion of tibialis anterior and fibularis longus (with base of 1st metatarsal)",
+      "Part of tibialis posterior insertion",
+      "Lisfranc ligament attachment (to the 2nd metatarsal base)"
+    ],
+    "tip": "Tibialis anterior and fibularis longus insert side by side on it, acting like a stirrup under the medial arch."
+  },
+  {
+    "id": "intermediate-cuneiform",
+    "kind": "bone",
+    "name": "Intermediate cuneiform",
+    "aka": [
+      "Middle cuneiform",
+      "Second cuneiform"
+    ],
+    "region": "Foot",
+    "tier": 4,
+    "parts": [
+      "Intermediate cuneiform bone"
+    ],
+    "etymology": "From Latin cuneus ‘wedge’ + forma ‘shape’. So it means ‘wedge-shaped bone’ — the three cuneiforms form the transverse arch like wedges in a Roman arch. Tarsal is from Greek tarsos ‘flat surface, wicker frame’ (originally the sole/flat of the foot).",
+    "articulations": [
+      "Navicular",
+      "Medial cuneiform",
+      "Lateral cuneiform",
+      "2nd metatarsal"
+    ],
+    "landmarks": [
+      "Smallest cuneiform",
+      "Set back (recessed) so the 2nd metatarsal base keys in between the medial and lateral cuneiforms"
+    ],
+    "tip": "Its recessed position locks the 2nd metatarsal base — the keystone of the Lisfranc (tarsometatarsal) joint."
+  },
+  {
+    "id": "lateral-cuneiform",
+    "kind": "bone",
+    "name": "Lateral cuneiform",
+    "aka": [
+      "Third cuneiform"
+    ],
+    "region": "Foot",
+    "tier": 4,
+    "parts": [
+      "Lateral cuneiform bone"
+    ],
+    "etymology": "From Latin cuneus ‘wedge’ + forma ‘shape’. So it means ‘wedge-shaped bone’ — the three cuneiforms form the transverse arch like wedges in a Roman arch. Tarsal is from Greek tarsos ‘flat surface, wicker frame’ (originally the sole/flat of the foot).",
+    "articulations": [
+      "Navicular",
+      "Intermediate cuneiform",
+      "Cuboid",
+      "2nd, 3rd and 4th metatarsals"
+    ],
+    "landmarks": [
+      "Wedge shape (base dorsal)",
+      "Part of tibialis posterior insertion",
+      "Origin of part of flexor hallucis brevis"
+    ],
+    "tip": "Sits between the intermediate cuneiform and the cuboid, linking the medial and lateral columns of the foot."
+  },
+  {
+    "id": "metatarsal-1",
+    "kind": "bone",
+    "name": "1st metatarsal (big toe)",
+    "aka": [
+      "First metatarsal",
+      "MT1"
+    ],
+    "region": "Foot",
+    "tier": 4,
+    "parts": [
+      "First metatarsal bone"
+    ],
+    "etymology": "From Greek meta ‘beyond, after’ + tarsos ‘flat of the foot’. So metatarsal means ‘the bone beyond the tarsus’ — the long bones of the forefoot.",
+    "articulations": [
+      "Medial cuneiform",
+      "2nd metatarsal (variable)",
+      "Proximal phalanx of the big toe (MTP joint)",
+      "Medial and lateral sesamoids (under the head)"
+    ],
+    "landmarks": [
+      "Base, shaft and head",
+      "Shortest and thickest metatarsal",
+      "Tuberosity on the plantar base (fibularis longus)",
+      "Tibialis anterior insertion (medial base)",
+      "Grooves under the head for the two sesamoids"
+    ],
+    "tip": "Takes the most load at push-off; hallux valgus (bunion) angles its head medially."
+  },
+  {
+    "id": "metatarsal-2",
+    "kind": "bone",
+    "name": "2nd metatarsal",
+    "aka": [
+      "Second metatarsal",
+      "MT2"
+    ],
+    "region": "Foot",
+    "tier": 4,
+    "parts": [
+      "Second metatarsal bone"
+    ],
+    "etymology": "From Greek meta ‘beyond, after’ + tarsos ‘flat of the foot’. So metatarsal means ‘the bone beyond the tarsus’ — the long bones of the forefoot.",
+    "articulations": [
+      "Medial, intermediate and lateral cuneiforms",
+      "1st and 3rd metatarsals",
+      "Proximal phalanx of the 2nd toe (MTP joint)"
+    ],
+    "landmarks": [
+      "Base, shaft and head",
+      "Usually the longest metatarsal",
+      "Base recessed between the medial and lateral cuneiforms",
+      "Lisfranc ligament attachment (from the medial cuneiform)"
+    ],
+    "tip": "Its rigid, keyed-in base makes it the classic site of a metatarsal stress (‘march’) fracture."
+  },
+  {
+    "id": "metatarsal-3",
+    "kind": "bone",
+    "name": "3rd metatarsal",
+    "aka": [
+      "Third metatarsal",
+      "MT3"
+    ],
+    "region": "Foot",
+    "tier": 4,
+    "parts": [
+      "Third metatarsal bone"
+    ],
+    "etymology": "From Greek meta ‘beyond, after’ + tarsos ‘flat of the foot’. So metatarsal means ‘the bone beyond the tarsus’ — the long bones of the forefoot.",
+    "articulations": [
+      "Lateral cuneiform",
+      "2nd and 4th metatarsals",
+      "Proximal phalanx of the 3rd toe (MTP joint)"
+    ],
+    "landmarks": [
+      "Base, shaft and head",
+      "Slender shaft",
+      "Origin of 1st plantar interosseous (medial side)"
+    ],
+    "tip": "Also a common stress-fracture site; with the 2nd it forms the stiff central forefoot."
+  },
+  {
+    "id": "metatarsal-4",
+    "kind": "bone",
+    "name": "4th metatarsal",
+    "aka": [
+      "Fourth metatarsal",
+      "MT4"
+    ],
+    "region": "Foot",
+    "tier": 4,
+    "parts": [
+      "Fourth metatarsal bone"
+    ],
+    "etymology": "From Greek meta ‘beyond, after’ + tarsos ‘flat of the foot’. So metatarsal means ‘the bone beyond the tarsus’ — the long bones of the forefoot.",
+    "articulations": [
+      "Lateral cuneiform and cuboid",
+      "3rd and 5th metatarsals",
+      "Proximal phalanx of the 4th toe (MTP joint)"
+    ],
+    "landmarks": [
+      "Base, shaft and head",
+      "Quadrilateral base articulating with the cuboid",
+      "Origin of 2nd plantar interosseous (medial side)"
+    ],
+    "tip": "Part of the mobile lateral column — its joint with the cuboid lets the outer forefoot adapt to the ground."
+  },
+  {
+    "id": "metatarsal-5",
+    "kind": "bone",
+    "name": "5th metatarsal",
+    "aka": [
+      "Fifth metatarsal",
+      "MT5"
+    ],
+    "region": "Foot",
+    "tier": 4,
+    "parts": [
+      "Fifth metatarsal bone"
+    ],
+    "etymology": "From Greek meta ‘beyond, after’ + tarsos ‘flat of the foot’. So metatarsal means ‘the bone beyond the tarsus’ — the long bones of the forefoot.",
+    "articulations": [
+      "Cuboid",
+      "4th metatarsal",
+      "Proximal phalanx of the 5th toe (MTP joint)"
+    ],
+    "landmarks": [
+      "Base, shaft and head",
+      "Tuberosity on the lateral base (fibularis brevis)",
+      "Fibularis tertius insertion (dorsal base)",
+      "Origin of flexor digiti minimi brevis"
+    ],
+    "tip": "An inversion sprain can avulse its tuberosity; a Jones fracture is just beyond, at the metaphyseal–diaphyseal junction, and heals poorly."
+  },
+  {
+    "id": "proximal-phalanx-big-toe",
+    "kind": "bone",
+    "name": "Proximal phalanx of the big toe",
+    "aka": [
+      "Proximal phalanx of first toe",
+      "Proximal phalanx of digit 1 (foot)"
+    ],
+    "region": "Foot",
+    "tier": 5,
+    "parts": [
+      "Proximal phalanx of first finger of foot"
+    ],
+    "etymology": "From Greek phalanx ‘a line of soldiers in battle formation’ (plural phalanges) — the toe bones are lined up in rows like ranks of soldiers. Proximal (Latin proximus ‘nearest’) means the one nearest the sole. The big toe is the hallux in Latin (hence ‘hallucis’ in muscle names); it has only two phalanges (no middle one).",
+    "articulations": [
+      "Head of 1st metatarsal (MTP joint)",
+      "Distal phalanx of the big toe (IP joint)"
+    ],
+    "landmarks": [
+      "Base with concave facet",
+      "Shaft",
+      "Head (trochlea)",
+      "Abductor hallucis (medial base)",
+      "Flexor hallucis brevis (both sides of base, via the sesamoids)",
+      "Adductor hallucis (lateral base)",
+      "Extensor hallucis brevis (dorsal base)"
+    ],
+    "tip": "Hallux valgus drifts it laterally on the 1st metatarsal head; ‘turf toe’ is a plantar-plate sprain at its base."
+  },
+  {
+    "id": "proximal-phalanx-2nd-toe",
+    "kind": "bone",
+    "name": "Proximal phalanx of the 2nd toe",
+    "aka": [
+      "Proximal phalanx of second toe",
+      "Proximal phalanx of digit 2 (foot)"
+    ],
+    "region": "Foot",
+    "tier": 5,
+    "parts": [
+      "Proximal phalanx of second finger of foot"
+    ],
+    "etymology": "From Greek phalanx ‘a line of soldiers in battle formation’ (plural phalanges) — the toe bones are lined up in rows like ranks of soldiers. Proximal (Latin proximus ‘nearest’) means the one nearest the sole.",
+    "articulations": [
+      "Head of 2nd metatarsal (MTP joint)",
+      "Middle phalanx of the 2nd toe (PIP joint)"
+    ],
+    "landmarks": [
+      "Base with concave facet",
+      "Shaft",
+      "Head (trochlea)",
+      "1st dorsal interosseous (medial side)",
+      "2nd dorsal interosseous (lateral side)",
+      "Lumbrical (medial side, via extensor expansion)"
+    ],
+    "tip": "The 2nd toe is the foot’s axis, so only dorsal interossei attach to it; hammer toe most often involves this toe."
+  },
+  {
+    "id": "proximal-phalanx-3rd-toe",
+    "kind": "bone",
+    "name": "Proximal phalanx of the 3rd toe",
+    "aka": [
+      "Proximal phalanx of third toe",
+      "Proximal phalanx of digit 3 (foot)"
+    ],
+    "region": "Foot",
+    "tier": 5,
+    "parts": [
+      "Proximal phalanx of third finger of foot"
+    ],
+    "etymology": "From Greek phalanx ‘a line of soldiers in battle formation’ (plural phalanges) — the toe bones are lined up in rows like ranks of soldiers. Proximal (Latin proximus ‘nearest’) means the one nearest the sole.",
+    "articulations": [
+      "Head of 3rd metatarsal (MTP joint)",
+      "Middle phalanx of the 3rd toe (PIP joint)"
+    ],
+    "landmarks": [
+      "Base with concave facet",
+      "Shaft",
+      "Head (trochlea)",
+      "3rd dorsal interosseous (lateral side)",
+      "1st plantar interosseous (medial side)",
+      "Lumbrical (medial side, via extensor expansion)"
+    ],
+    "tip": "Plantar interossei adduct toes 3–5 toward the 2nd toe; dorsal interossei abduct away from it."
+  },
+  {
+    "id": "proximal-phalanx-4th-toe",
+    "kind": "bone",
+    "name": "Proximal phalanx of the 4th toe",
+    "aka": [
+      "Proximal phalanx of fourth toe",
+      "Proximal phalanx of digit 4 (foot)"
+    ],
+    "region": "Foot",
+    "tier": 5,
+    "parts": [
+      "Proximal phalanx of fourth finger of foot"
+    ],
+    "etymology": "From Greek phalanx ‘a line of soldiers in battle formation’ (plural phalanges) — the toe bones are lined up in rows like ranks of soldiers. Proximal (Latin proximus ‘nearest’) means the one nearest the sole.",
+    "articulations": [
+      "Head of 4th metatarsal (MTP joint)",
+      "Middle phalanx of the 4th toe (PIP joint)"
+    ],
+    "landmarks": [
+      "Base with concave facet",
+      "Shaft",
+      "Head (trochlea)",
+      "4th dorsal interosseous (lateral side)",
+      "2nd plantar interosseous (medial side)",
+      "Lumbrical (medial side, via extensor expansion)"
+    ],
+    "tip": "Lesser-toe proximal phalanges are long and slender compared with the stubby middle and distal ones."
+  },
+  {
+    "id": "proximal-phalanx-5th-toe",
+    "kind": "bone",
+    "name": "Proximal phalanx of the 5th toe",
+    "aka": [
+      "Proximal phalanx of fifth toe",
+      "Proximal phalanx of digit 5 (foot)",
+      "Proximal phalanx of the little toe"
+    ],
+    "region": "Foot",
+    "tier": 5,
+    "parts": [
+      "Proximal phalanx of fifth finger of foot"
+    ],
+    "etymology": "From Greek phalanx ‘a line of soldiers in battle formation’ (plural phalanges) — the toe bones are lined up in rows like ranks of soldiers. Proximal (Latin proximus ‘nearest’) means the one nearest the sole. The little toe is digitus minimus (hence ‘digiti minimi’).",
+    "articulations": [
+      "Head of 5th metatarsal (MTP joint)",
+      "Middle phalanx of the 5th toe (PIP joint)"
+    ],
+    "landmarks": [
+      "Base with concave facet",
+      "Shaft",
+      "Head (trochlea)",
+      "Abductor digiti minimi and flexor digiti minimi brevis (lateral base)",
+      "3rd plantar interosseous (medial side)",
+      "Lumbrical (medial side, via extensor expansion)"
+    ],
+    "tip": "A stubbed little toe most often fractures this phalanx."
+  },
+  {
+    "id": "middle-phalanx-2nd-toe",
+    "kind": "bone",
+    "name": "Middle phalanx of the 2nd toe",
+    "aka": [
+      "Middle phalanx of second toe",
+      "Middle phalanx of digit 2 (foot)"
+    ],
+    "region": "Foot",
+    "tier": 5,
+    "parts": [
+      "Middle phalanx of second finger of foot"
+    ],
+    "etymology": "From Greek phalanx ‘a line of soldiers in battle formation’ (plural phalanges) — the toe bones are lined up in rows like ranks of soldiers. Middle means the second of the three.",
+    "articulations": [
+      "Proximal phalanx of the 2nd toe (PIP joint)",
+      "Distal phalanx of the 2nd toe (DIP joint)"
+    ],
+    "landmarks": [
+      "Base",
+      "Short shaft",
+      "Head",
+      "Flexor digitorum brevis (both sides of the shaft)",
+      "Extensor expansion (EDL/EDB) central slip (dorsal base)"
+    ],
+    "tip": "In a hammer toe the PIP joint between this bone and the proximal phalanx is fixed in flexion."
+  },
+  {
+    "id": "middle-phalanx-3rd-toe",
+    "kind": "bone",
+    "name": "Middle phalanx of the 3rd toe",
+    "aka": [
+      "Middle phalanx of third toe",
+      "Middle phalanx of digit 3 (foot)"
+    ],
+    "region": "Foot",
+    "tier": 5,
+    "parts": [
+      "Middle phalanx of third finger of foot"
+    ],
+    "etymology": "From Greek phalanx ‘a line of soldiers in battle formation’ (plural phalanges) — the toe bones are lined up in rows like ranks of soldiers. Middle means the second of the three.",
+    "articulations": [
+      "Proximal phalanx of the 3rd toe (PIP joint)",
+      "Distal phalanx of the 3rd toe (DIP joint)"
+    ],
+    "landmarks": [
+      "Base",
+      "Short shaft",
+      "Head",
+      "Flexor digitorum brevis (both sides of the shaft)",
+      "Extensor expansion central slip (dorsal base)"
+    ],
+    "tip": "Flexor digitorum brevis (‘short toe flexor’) inserts on the middle phalanges of toes 2–5 and flexes the PIP joints."
+  },
+  {
+    "id": "middle-phalanx-4th-toe",
+    "kind": "bone",
+    "name": "Middle phalanx of the 4th toe",
+    "aka": [
+      "Middle phalanx of fourth toe",
+      "Middle phalanx of digit 4 (foot)"
+    ],
+    "region": "Foot",
+    "tier": 5,
+    "parts": [
+      "Middle phalanx of fourth finger of foot"
+    ],
+    "etymology": "From Greek phalanx ‘a line of soldiers in battle formation’ (plural phalanges) — the toe bones are lined up in rows like ranks of soldiers. Middle means the second of the three.",
+    "articulations": [
+      "Proximal phalanx of the 4th toe (PIP joint)",
+      "Distal phalanx of the 4th toe (DIP joint)"
+    ],
+    "landmarks": [
+      "Base",
+      "Short shaft",
+      "Head",
+      "Flexor digitorum brevis (both sides of the shaft)",
+      "Extensor expansion central slip (dorsal base)"
+    ],
+    "tip": "Middle phalanges of the lesser toes are short, almost cube-like bones."
+  },
+  {
+    "id": "middle-phalanx-5th-toe",
+    "kind": "bone",
+    "name": "Middle phalanx of the 5th toe",
+    "aka": [
+      "Middle phalanx of fifth toe",
+      "Middle phalanx of digit 5 (foot)",
+      "Middle phalanx of the little toe"
+    ],
+    "region": "Foot",
+    "tier": 5,
+    "parts": [
+      "Middle phalanx of fifth finger of foot"
+    ],
+    "etymology": "From Greek phalanx ‘a line of soldiers in battle formation’ (plural phalanges) — the toe bones are lined up in rows like ranks of soldiers. Middle means the second of the three. The little toe is digitus minimus (hence ‘digiti minimi’).",
+    "articulations": [
+      "Proximal phalanx of the 5th toe (PIP joint)",
+      "Distal phalanx of the 5th toe (DIP joint)"
+    ],
+    "landmarks": [
+      "Base",
+      "Short shaft",
+      "Head",
+      "Flexor digitorum brevis slip (often small or absent)",
+      "Frequently fused with the distal phalanx (symphalangism)"
+    ],
+    "tip": "Often fused with the distal phalanx, so many little toes appear to have only two phalanges."
+  },
+  {
+    "id": "distal-phalanx-big-toe",
+    "kind": "bone",
+    "name": "Distal phalanx of the big toe",
+    "aka": [
+      "Distal phalanx of first toe",
+      "Distal phalanx of digit 1 (foot)"
+    ],
+    "region": "Foot",
+    "tier": 5,
+    "parts": [
+      "Distal phalanx of first finger of foot"
+    ],
+    "etymology": "From Greek phalanx ‘a line of soldiers in battle formation’ (plural phalanges) — the toe bones are lined up in rows like ranks of soldiers. Distal (from Latin distare ‘to stand apart’) means the one furthest away — the toe-tip bone. The big toe is the hallux in Latin (hence ‘hallucis’ in muscle names); it has only two phalanges (no middle one).",
+    "articulations": [
+      "Proximal phalanx of the big toe (IP joint)"
+    ],
+    "landmarks": [
+      "Base",
+      "Flexor hallucis longus (plantar base)",
+      "Extensor hallucis longus (dorsal base)",
+      "Ungual tuberosity (tuft)"
+    ],
+    "tip": "FHL inserts here — the last tendon to push off the ground in gait."
+  },
+  {
+    "id": "distal-phalanx-2nd-toe",
+    "kind": "bone",
+    "name": "Distal phalanx of the 2nd toe",
+    "aka": [
+      "Distal phalanx of second toe",
+      "Distal phalanx of digit 2 (foot)"
+    ],
+    "region": "Foot",
+    "tier": 5,
+    "parts": [
+      "Distal phalanx of second finger of foot"
+    ],
+    "etymology": "From Greek phalanx ‘a line of soldiers in battle formation’ (plural phalanges) — the toe bones are lined up in rows like ranks of soldiers. Distal (from Latin distare ‘to stand apart’) means the one furthest away — the toe-tip bone.",
+    "articulations": [
+      "Middle phalanx of the 2nd toe (DIP joint)"
+    ],
+    "landmarks": [
+      "Base",
+      "Flexor digitorum longus (plantar base)",
+      "Extensor digitorum longus/brevis via extensor expansion (dorsal base)",
+      "Ungual tuberosity (tuft)"
+    ],
+    "tip": "FDL inserts on the distal phalanges of toes 2–5, curling the toes to grip the ground."
+  },
+  {
+    "id": "distal-phalanx-3rd-toe",
+    "kind": "bone",
+    "name": "Distal phalanx of the 3rd toe",
+    "aka": [
+      "Distal phalanx of third toe",
+      "Distal phalanx of digit 3 (foot)"
+    ],
+    "region": "Foot",
+    "tier": 5,
+    "parts": [
+      "Distal phalanx of third finger of foot"
+    ],
+    "etymology": "From Greek phalanx ‘a line of soldiers in battle formation’ (plural phalanges) — the toe bones are lined up in rows like ranks of soldiers. Distal (from Latin distare ‘to stand apart’) means the one furthest away — the toe-tip bone.",
+    "articulations": [
+      "Middle phalanx of the 3rd toe (DIP joint)"
+    ],
+    "landmarks": [
+      "Base",
+      "Flexor digitorum longus (plantar base)",
+      "Extensor expansion (dorsal base)",
+      "Ungual tuberosity (tuft)"
+    ],
+    "tip": "Mallet toe is fixed flexion at the DIP joint just proximal to this bone."
+  },
+  {
+    "id": "distal-phalanx-4th-toe",
+    "kind": "bone",
+    "name": "Distal phalanx of the 4th toe",
+    "aka": [
+      "Distal phalanx of fourth toe",
+      "Distal phalanx of digit 4 (foot)"
+    ],
+    "region": "Foot",
+    "tier": 5,
+    "parts": [
+      "Distal phalanx of fourth finger of foot"
+    ],
+    "etymology": "From Greek phalanx ‘a line of soldiers in battle formation’ (plural phalanges) — the toe bones are lined up in rows like ranks of soldiers. Distal (from Latin distare ‘to stand apart’) means the one furthest away — the toe-tip bone.",
+    "articulations": [
+      "Middle phalanx of the 4th toe (DIP joint)"
+    ],
+    "landmarks": [
+      "Base",
+      "Flexor digitorum longus (plantar base)",
+      "Extensor expansion (dorsal base)",
+      "Ungual tuberosity (tuft)"
+    ],
+    "tip": "A tiny tufted bone supporting the nail bed of the 4th toe."
+  },
+  {
+    "id": "distal-phalanx-5th-toe",
+    "kind": "bone",
+    "name": "Distal phalanx of the 5th toe",
+    "aka": [
+      "Distal phalanx of fifth toe",
+      "Distal phalanx of digit 5 (foot)",
+      "Distal phalanx of the little toe"
+    ],
+    "region": "Foot",
+    "tier": 5,
+    "parts": [
+      "Distal phalanx of fifth finger of foot"
+    ],
+    "etymology": "From Greek phalanx ‘a line of soldiers in battle formation’ (plural phalanges) — the toe bones are lined up in rows like ranks of soldiers. Distal (from Latin distare ‘to stand apart’) means the one furthest away — the toe-tip bone. The little toe is digitus minimus (hence ‘digiti minimi’).",
+    "articulations": [
+      "Middle phalanx of the 5th toe (DIP joint)"
+    ],
+    "landmarks": [
+      "Base",
+      "Flexor digitorum longus (plantar base)",
+      "Extensor expansion (dorsal base)",
+      "Often fused with the middle phalanx"
+    ],
+    "tip": "The smallest phalanx in the foot; frequently fused with the middle phalanx."
+  },
+  {
+    "id": "sesamoid-bones-of-foot",
+    "kind": "bone",
+    "name": "Sesamoid bones of the foot (hallux sesamoids)",
+    "aka": [
+      "Hallux sesamoids",
+      "Tibial and fibular sesamoids"
+    ],
+    "region": "Foot",
+    "tier": 5,
+    "parts": [
+      "Sesamoid bones of foot"
+    ],
+    "etymology": "From Greek sēsamon ‘sesame seed’ + -oeidēs ‘like’. So it means ‘shaped like a sesame seed’ — small, oval bones embedded in tendons.",
+    "articulations": [
+      "Plantar surface of the 1st metatarsal head (grooves)"
+    ],
+    "landmarks": [
+      "Medial (tibial) sesamoid — usually larger",
+      "Lateral (fibular) sesamoid",
+      "Within the two tendons of flexor hallucis brevis",
+      "FHL tendon runs between them",
+      "Attachments of abductor hallucis (medial) and adductor hallucis (lateral)"
+    ],
+    "tip": "They take load under the big-toe ball and protect the FHL tendon; sesamoiditis is common in runners and dancers."
+  }
+]

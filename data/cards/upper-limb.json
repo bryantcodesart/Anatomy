@@ -1,0 +1,1215 @@
+[
+  {
+    "kind": "muscle",
+    "id": "deltoid",
+    "name": "Deltoid",
+    "aka": [
+      "Delts",
+      "Deltoideus"
+    ],
+    "region": "Shoulder",
+    "tier": 1,
+    "parts": [
+      "Clavicular part of deltoid muscle",
+      "Acromial part of deltoid muscle",
+      "Scapular spinal part of deltoid muscle"
+    ],
+    "etymology": "From Greek delta (the triangular letter Δ) + -eidēs ‘shaped like’ (via Latin deltoides). So it means ‘the triangle-shaped muscle’ — an inverted Δ capping the shoulder.",
+    "origin": "Lateral third of clavicle (anterior border), lateral margin and superior surface of acromion, and inferior lip of the spine of the scapula",
+    "insertion": "Deltoid tuberosity of humerus",
+    "actions": [
+      "Shoulder abduction (acromial part, beyond the first ~15°)",
+      "Shoulder flexion and internal rotation (clavicular part)",
+      "Shoulder extension and external rotation (spinal part)",
+      "Shoulder horizontal abduction (spinal part)"
+    ],
+    "innervation": "Axillary nerve (C5–C6)",
+    "tip": "Shoulder dislocations or surgical-neck fractures can injure the axillary nerve — check sensation over the “regimental badge” area and deltoid strength."
+  },
+  {
+    "kind": "muscle",
+    "id": "anterior-deltoid",
+    "name": "Anterior deltoid (clavicular part)",
+    "aka": [
+      "Front delt",
+      "Clavicular deltoid"
+    ],
+    "region": "Shoulder",
+    "tier": 2,
+    "parts": [
+      "Clavicular part of deltoid muscle"
+    ],
+    "etymology": "From Greek delta (the triangular letter Δ) + -eidēs ‘shaped like’ (via Latin deltoides). So it means ‘the triangle-shaped muscle’ — an inverted Δ capping the shoulder. ‘Clavicular’ is from Latin clavicula ‘little key’ — the part arising from the collarbone.",
+    "origin": "Anterior border and superior surface of lateral third of clavicle",
+    "insertion": "Deltoid tuberosity of humerus",
+    "actions": [
+      "Shoulder flexion",
+      "Shoulder internal rotation",
+      "Shoulder horizontal adduction",
+      "Assists shoulder abduction"
+    ],
+    "innervation": "Axillary nerve (C5–C6)",
+    "tip": "Heavily loaded by pressing (bench, overhead press) — usually needs less isolation work than the middle and posterior delts."
+  },
+  {
+    "kind": "muscle",
+    "id": "middle-deltoid",
+    "name": "Middle deltoid (acromial part)",
+    "aka": [
+      "Lateral delt",
+      "Side delt",
+      "Acromial deltoid"
+    ],
+    "region": "Shoulder",
+    "tier": 2,
+    "parts": [
+      "Acromial part of deltoid muscle"
+    ],
+    "etymology": "From Greek delta (the triangular letter Δ) + -eidēs ‘shaped like’ (via Latin deltoides). So it means ‘the triangle-shaped muscle’ — an inverted Δ capping the shoulder. ‘Acromial’ is from Greek akron ‘tip’ + ōmos ‘shoulder’ — the part arising from the acromion, the tip of the shoulder.",
+    "origin": "Lateral margin and superior surface of acromion",
+    "insertion": "Deltoid tuberosity of humerus",
+    "actions": [
+      "Shoulder abduction (prime mover after the first ~15°)",
+      "Shoulder abduction in the scapular plane"
+    ],
+    "innervation": "Axillary nerve (C5–C6)",
+    "tip": "Multipennate, so it is strong but short-ranged; lateral raises train it, and supraspinatus helps initiate abduction."
+  },
+  {
+    "kind": "muscle",
+    "id": "posterior-deltoid",
+    "name": "Posterior deltoid (spinal part)",
+    "aka": [
+      "Rear delt",
+      "Spinal deltoid"
+    ],
+    "region": "Shoulder",
+    "tier": 2,
+    "parts": [
+      "Scapular spinal part of deltoid muscle"
+    ],
+    "etymology": "From Greek delta (the triangular letter Δ) + -eidēs ‘shaped like’ (via Latin deltoides). So it means ‘the triangle-shaped muscle’ — an inverted Δ capping the shoulder. ‘Spinal’ refers to the spine of the scapula (Latin spina ‘thorn’), from which this part arises.",
+    "origin": "Inferior lip of the crest of the spine of the scapula",
+    "insertion": "Deltoid tuberosity of humerus",
+    "actions": [
+      "Shoulder horizontal abduction",
+      "Shoulder extension",
+      "Shoulder external rotation"
+    ],
+    "innervation": "Axillary nerve (C5–C6)",
+    "tip": "Often underdeveloped relative to the front delts — face pulls and reverse flyes help balance pressing-dominant programmes."
+  },
+  {
+    "kind": "muscle",
+    "id": "pectoralis-major",
+    "name": "Pectoralis major",
+    "aka": [
+      "Pecs",
+      "Pec major"
+    ],
+    "region": "Thorax",
+    "tier": 1,
+    "parts": [
+      "Clavicular head of pectoralis major muscle",
+      "Sternocostal head of pectoralis major muscle",
+      "Abdominal part of pectoralis major muscle"
+    ],
+    "etymology": "From Latin pectoralis ‘of the chest’ (pectus, breast) + major ‘larger’. So it means ‘the larger chest muscle’ (vs pectoralis minor beneath it).",
+    "origin": "Clavicular head: anterior surface of medial half of clavicle; sternocostal head: anterior surface of sternum and costal cartilages 1–6; abdominal part: aponeurosis of external oblique (anterior rectus sheath)",
+    "insertion": "Lateral lip of the intertubercular (bicipital) groove of humerus (crest of greater tubercle)",
+    "actions": [
+      "Shoulder horizontal adduction",
+      "Shoulder adduction",
+      "Shoulder internal rotation",
+      "Shoulder flexion (clavicular head)",
+      "Shoulder extension from a flexed position (sternocostal head)"
+    ],
+    "innervation": "Lateral pectoral nerve (C5–C7) and medial pectoral nerve (C8–T1)",
+    "tip": "Its tendon twists so the lower fibres insert highest — ruptures usually happen at the bottom of a heavy bench press."
+  },
+  {
+    "kind": "muscle",
+    "id": "pectoralis-major-clavicular-head",
+    "name": "Pectoralis major — clavicular head",
+    "aka": [
+      "Upper chest",
+      "Upper pec"
+    ],
+    "region": "Thorax",
+    "tier": 2,
+    "parts": [
+      "Clavicular head of pectoralis major muscle"
+    ],
+    "etymology": "From Latin pectoralis ‘of the chest’ (pectus, breast) + major ‘larger’. So it means ‘the larger chest muscle’ (vs pectoralis minor beneath it). ‘Clavicular’ is from Latin clavicula ‘little key’ — the head arising from the collarbone.",
+    "origin": "Anterior surface of medial half of clavicle",
+    "insertion": "Lateral lip of the intertubercular (bicipital) groove of humerus",
+    "actions": [
+      "Shoulder flexion",
+      "Shoulder horizontal adduction",
+      "Shoulder internal rotation",
+      "Shoulder adduction"
+    ],
+    "innervation": "Lateral pectoral nerve (C5–C7)",
+    "tip": "Emphasised by incline pressing and low-to-high cable flyes, because its fibres run upward toward the clavicle."
+  },
+  {
+    "kind": "muscle",
+    "id": "pectoralis-major-sternocostal-head",
+    "name": "Pectoralis major — sternocostal head",
+    "aka": [
+      "Mid/lower chest"
+    ],
+    "region": "Thorax",
+    "tier": 3,
+    "parts": [
+      "Sternocostal head of pectoralis major muscle"
+    ],
+    "etymology": "From Latin pectoralis ‘of the chest’ (pectus, breast) + major ‘larger’. So it means ‘the larger chest muscle’ (vs pectoralis minor beneath it). ‘Sternocostal’ is from Greek sternon ‘chest, breastbone’ + Latin costa ‘rib’ — the head arising from the sternum and rib cartilages.",
+    "origin": "Anterior surface of sternum and costal cartilages 1–6",
+    "insertion": "Lateral lip of the intertubercular (bicipital) groove of humerus",
+    "actions": [
+      "Shoulder horizontal adduction",
+      "Shoulder adduction",
+      "Shoulder extension from a flexed position",
+      "Shoulder internal rotation"
+    ],
+    "innervation": "Lateral and medial pectoral nerves (C7–T1)",
+    "tip": "The bulk of the pec — flat and decline pressing, dips and high-to-low flyes load it most."
+  },
+  {
+    "kind": "muscle",
+    "id": "pectoralis-major-abdominal-part",
+    "name": "Pectoralis major — abdominal part",
+    "aka": [
+      "Lowest pec fibres"
+    ],
+    "region": "Thorax",
+    "tier": 4,
+    "parts": [
+      "Abdominal part of pectoralis major muscle"
+    ],
+    "etymology": "From Latin pectoralis ‘of the chest’ (pectus, breast) + major ‘larger’. So it means ‘the larger chest muscle’ (vs pectoralis minor beneath it). ‘Abdominal’ is from Latin abdomen ‘belly’ — the slip arising from the abdominal wall aponeurosis.",
+    "origin": "Aponeurosis of external oblique muscle (anterior layer of rectus sheath)",
+    "insertion": "Lateral lip of the intertubercular (bicipital) groove of humerus (highest, deepest fibres of the twisted tendon)",
+    "actions": [
+      "Shoulder adduction",
+      "Shoulder extension from a flexed position",
+      "Shoulder internal rotation"
+    ],
+    "innervation": "Medial pectoral nerve (C8–T1)",
+    "tip": "These fibres insert most superiorly and are most stretched at the bottom of a wide bench — the commonest site of pec tears."
+  },
+  {
+    "kind": "muscle",
+    "id": "pectoralis-minor",
+    "name": "Pectoralis minor",
+    "aka": [
+      "Pec minor"
+    ],
+    "region": "Thorax",
+    "tier": 3,
+    "parts": [
+      "Pectoralis minor muscle"
+    ],
+    "etymology": "From Latin pectoralis ‘of the chest’ (pectus, breast) + minor ‘smaller’. So it means ‘the smaller chest muscle’, lying under pectoralis major.",
+    "origin": "Anterior surfaces of ribs 3–5 near their costal cartilages",
+    "insertion": "Medial border and superior surface of the coracoid process of scapula",
+    "actions": [
+      "Scapular protraction",
+      "Scapular depression",
+      "Scapular downward rotation",
+      "Scapular anterior tilt",
+      "Elevates ribs 3–5 in forced inspiration (scapula fixed)"
+    ],
+    "innervation": "Medial pectoral nerve (C8–T1), with a contribution from the lateral pectoral nerve",
+    "tip": "A short pec minor tilts the scapula forward (rounded shoulders) and can compress the brachial plexus beneath it (pectoralis minor / thoracic outlet syndrome)."
+  },
+  {
+    "kind": "muscle",
+    "id": "subclavius",
+    "name": "Subclavius",
+    "region": "Thorax",
+    "tier": 4,
+    "parts": [
+      "Subclavius muscle"
+    ],
+    "etymology": "From Latin sub ‘under’ + clavis/clavicula ‘(little) key, collarbone’. So it means ‘the muscle under the clavicle’.",
+    "origin": "Junction of the 1st rib and its costal cartilage",
+    "insertion": "Subclavian groove on the inferior surface of the middle third of the clavicle",
+    "actions": [
+      "Depresses and anchors the clavicle",
+      "Stabilises the sternoclavicular joint"
+    ],
+    "innervation": "Nerve to subclavius (C5–C6)",
+    "tip": "Cushions the subclavian vessels and brachial plexus if the clavicle is fractured."
+  },
+  {
+    "kind": "muscle",
+    "id": "serratus-anterior",
+    "name": "Serratus anterior",
+    "aka": [
+      "Boxer’s muscle"
+    ],
+    "region": "Thorax",
+    "tier": 2,
+    "parts": [
+      "Serratus anterior muscle"
+    ],
+    "etymology": "From Latin serratus ‘saw-toothed’ (serra, saw) + anterior ‘in front’. So it means ‘the saw-toothed muscle at the front (side) of the chest’ — its rib slips look like saw teeth.",
+    "origin": "External surfaces of the lateral parts of ribs 1–8 (often 1–9)",
+    "insertion": "Anterior (costal) surface of the medial border of the scapula, from superior to inferior angle",
+    "actions": [
+      "Scapular protraction",
+      "Scapular upward rotation (lower fibres)",
+      "Holds the scapula against the thoracic wall",
+      "Scapular posterior tilt"
+    ],
+    "innervation": "Long thoracic nerve (C5–C7)",
+    "tip": "Long thoracic nerve injury causes medial scapular winging; the “plus” phase of a push-up-plus trains it."
+  },
+  {
+    "kind": "muscle",
+    "id": "supraspinatus",
+    "name": "Supraspinatus",
+    "region": "Shoulder",
+    "tier": 3,
+    "parts": [
+      "Supraspinatus muscle"
+    ],
+    "etymology": "From Latin supra ‘above’ + spina ‘spine’. So it means ‘the muscle above the spine (of the scapula)’, filling the supraspinous fossa.",
+    "origin": "Medial two-thirds of the supraspinous fossa of scapula",
+    "insertion": "Superior facet of the greater tubercle of humerus",
+    "actions": [
+      "Shoulder abduction (initiates, ~first 15°)",
+      "Stabilises the humeral head in the glenoid (rotator cuff)"
+    ],
+    "innervation": "Suprascapular nerve (C5–C6)",
+    "tip": "Rotator cuff = SITS (Supraspinatus, Infraspinatus, Teres minor, Subscapularis); supraspinatus is the most commonly impinged and torn — test with empty/full can."
+  },
+  {
+    "kind": "muscle",
+    "id": "infraspinatus",
+    "name": "Infraspinatus",
+    "region": "Shoulder",
+    "tier": 3,
+    "parts": [
+      "Infraspinatus muscle"
+    ],
+    "etymology": "From Latin infra ‘below’ + spina ‘spine’. So it means ‘the muscle below the spine (of the scapula)’, filling the infraspinous fossa.",
+    "origin": "Medial two-thirds of the infraspinous fossa of scapula",
+    "insertion": "Middle facet of the greater tubercle of humerus",
+    "actions": [
+      "Shoulder external rotation",
+      "Stabilises the humeral head in the glenoid (rotator cuff)",
+      "Shoulder horizontal abduction (assists)"
+    ],
+    "innervation": "Suprascapular nerve (C5–C6)",
+    "tip": "The main external rotator of the cuff — side-lying or cable external rotations target it; suprascapular nerve entrapment at the spinoglenoid notch weakens it alone."
+  },
+  {
+    "kind": "muscle",
+    "id": "teres-minor",
+    "name": "Teres minor",
+    "region": "Shoulder",
+    "tier": 3,
+    "parts": [
+      "Teres minor muscle"
+    ],
+    "etymology": "From Latin teres ‘round, smooth (rounded off)’ + minor ‘smaller’. So it means ‘the smaller round muscle’ (vs teres major below it).",
+    "origin": "Upper two-thirds of the posterior surface of the lateral border of scapula",
+    "insertion": "Inferior facet of the greater tubercle of humerus",
+    "actions": [
+      "Shoulder external rotation",
+      "Shoulder adduction (weak)",
+      "Stabilises the humeral head in the glenoid (rotator cuff)"
+    ],
+    "innervation": "Axillary nerve (C5–C6)",
+    "tip": "A rotator cuff muscle (SITS) supplied by the axillary nerve, not the suprascapular; the hornblower’s sign tests it."
+  },
+  {
+    "kind": "muscle",
+    "id": "subscapularis",
+    "name": "Subscapularis",
+    "region": "Shoulder",
+    "tier": 3,
+    "parts": [
+      "Subscapularis muscle"
+    ],
+    "etymology": "From Latin sub ‘under’ + scapula ‘shoulder blade’. So it means ‘the muscle under (on the front of) the shoulder blade’, filling the subscapular fossa.",
+    "origin": "Subscapular fossa (anterior surface of scapula)",
+    "insertion": "Lesser tubercle of humerus (and anterior shoulder capsule)",
+    "actions": [
+      "Shoulder internal rotation",
+      "Stabilises the humeral head anteriorly (rotator cuff)",
+      "Shoulder adduction (assists)"
+    ],
+    "innervation": "Upper and lower subscapular nerves (C5–C6)",
+    "tip": "The only rotator cuff muscle on the lesser tubercle (the “S” facing forward in SITS); test with the lift-off or belly-press test."
+  },
+  {
+    "kind": "muscle",
+    "id": "teres-major",
+    "name": "Teres major",
+    "region": "Shoulder",
+    "tier": 3,
+    "parts": [
+      "Teres major muscle"
+    ],
+    "etymology": "From Latin teres ‘round, smooth (rounded off)’ + major ‘larger’. So it means ‘the larger round muscle’ (vs teres minor above it).",
+    "origin": "Dorsal surface of the inferior angle of scapula",
+    "insertion": "Medial lip of the intertubercular (bicipital) groove of humerus",
+    "actions": [
+      "Shoulder extension",
+      "Shoulder adduction",
+      "Shoulder internal rotation"
+    ],
+    "innervation": "Lower subscapular nerve (C5–C7)",
+    "tip": "NOT part of the rotator cuff — it is “lat’s little helper”; mnemonic: “a lady between two majors” (lat dorsi inserts between pec major and teres major)."
+  },
+  {
+    "kind": "muscle",
+    "id": "biceps-brachii",
+    "name": "Biceps brachii",
+    "aka": [
+      "Biceps",
+      "Bis"
+    ],
+    "region": "Arm",
+    "tier": 1,
+    "parts": [
+      "Long head of biceps brachii",
+      "Short head of biceps brachii"
+    ],
+    "etymology": "From Latin bi- ‘two’ + caput ‘head’ (biceps, ‘two-headed’) + brachii ‘of the arm’ (brachium). So it means ‘the two-headed muscle of the arm’.",
+    "origin": "Long head: supraglenoid tubercle of scapula and superior glenoid labrum; short head: apex of the coracoid process of scapula",
+    "insertion": "Radial tuberosity, and via the bicipital aponeurosis into the deep fascia of the medial forearm",
+    "actions": [
+      "Forearm supination (strongest with elbow flexed)",
+      "Elbow flexion (strongest with forearm supinated)",
+      "Shoulder flexion (weak)"
+    ],
+    "innervation": "Musculocutaneous nerve (C5–C6)",
+    "tip": "Biceps reflex tests C5–C6; it is a powerful supinator — think of turning a screwdriver clockwise with the right hand."
+  },
+  {
+    "kind": "muscle",
+    "id": "biceps-brachii-long-head",
+    "name": "Biceps brachii — long head",
+    "aka": [
+      "Outer biceps"
+    ],
+    "region": "Arm",
+    "tier": 3,
+    "parts": [
+      "Long head of biceps brachii"
+    ],
+    "etymology": "From Latin bi- ‘two’ + caput ‘head’ (biceps, ‘two-headed’) + brachii ‘of the arm’ (brachium). So it means ‘the two-headed muscle of the arm’. The ‘long head’ has the longer tendon, running from above the glenoid through the shoulder joint.",
+    "origin": "Supraglenoid tubercle of scapula and superior glenoid labrum (tendon runs intra-articularly then down the intertubercular groove)",
+    "insertion": "Radial tuberosity and bicipital aponeurosis (common tendon with short head)",
+    "actions": [
+      "Forearm supination",
+      "Elbow flexion",
+      "Shoulder flexion (weak)",
+      "Stabilises the humeral head (depresses it in the glenoid)"
+    ],
+    "innervation": "Musculocutaneous nerve (C5–C6)",
+    "tip": "Site of SLAP lesions and bicipital tendinopathy in the groove; a rupture gives the “Popeye” bulge. Incline curls stretch it."
+  },
+  {
+    "kind": "muscle",
+    "id": "biceps-brachii-short-head",
+    "name": "Biceps brachii — short head",
+    "aka": [
+      "Inner biceps"
+    ],
+    "region": "Arm",
+    "tier": 3,
+    "parts": [
+      "Short head of biceps brachii"
+    ],
+    "etymology": "From Latin bi- ‘two’ + caput ‘head’ (biceps, ‘two-headed’) + brachii ‘of the arm’ (brachium). So it means ‘the two-headed muscle of the arm’. The ‘short head’ has the shorter tendon, arising from the coracoid process.",
+    "origin": "Apex of the coracoid process of scapula (with coracobrachialis)",
+    "insertion": "Radial tuberosity and bicipital aponeurosis (common tendon with long head)",
+    "actions": [
+      "Forearm supination",
+      "Elbow flexion",
+      "Shoulder flexion (weak)",
+      "Shoulder horizontal adduction (weak)"
+    ],
+    "innervation": "Musculocutaneous nerve (C5–C6)",
+    "tip": "Shares the coracoid origin with coracobrachialis and pec minor’s insertion; preacher and spider curls (arm in front) bias it."
+  },
+  {
+    "kind": "muscle",
+    "id": "brachialis",
+    "name": "Brachialis",
+    "region": "Arm",
+    "tier": 3,
+    "parts": [
+      "Brachialis muscle"
+    ],
+    "etymology": "From Latin brachialis ‘of the arm’ (brachium, arm). So it simply means ‘the arm muscle’ — the deep flexor lying on the front of the humerus.",
+    "origin": "Distal half of the anterior surface of the humerus",
+    "insertion": "Coronoid process and tuberosity of the ulna",
+    "actions": [
+      "Elbow flexion (in all forearm positions)"
+    ],
+    "innervation": "Musculocutaneous nerve (C5–C6); small lateral part by the radial nerve (C7)",
+    "tip": "The “workhorse” elbow flexor — it inserts on the ulna, so forearm rotation does not change its leverage; hammer and reverse curls emphasise it."
+  },
+  {
+    "kind": "muscle",
+    "id": "coracobrachialis",
+    "name": "Coracobrachialis",
+    "region": "Arm",
+    "tier": 3,
+    "parts": [
+      "Coracobrachialis muscle"
+    ],
+    "etymology": "From Greek korax ‘raven’ (the coracoid process looks like a raven’s beak) + Latin brachium ‘arm’. So it means ‘the muscle from the coracoid to the arm’.",
+    "origin": "Apex of the coracoid process of scapula (with short head of biceps)",
+    "insertion": "Middle third of the medial surface of the humerus",
+    "actions": [
+      "Shoulder flexion",
+      "Shoulder adduction",
+      "Shoulder horizontal adduction"
+    ],
+    "innervation": "Musculocutaneous nerve (C5–C7), which pierces it",
+    "tip": "The musculocutaneous nerve pierces it — a handy landmark in the axilla."
+  },
+  {
+    "kind": "muscle",
+    "id": "triceps-brachii",
+    "name": "Triceps brachii",
+    "aka": [
+      "Triceps",
+      "Tris"
+    ],
+    "region": "Arm",
+    "tier": 1,
+    "parts": [
+      "Long head of triceps brachii",
+      "Lateral head of triceps brachii",
+      "Medial head of triceps brachii"
+    ],
+    "etymology": "From Latin tri- ‘three’ + caput ‘head’ (triceps, ‘three-headed’) + brachii ‘of the arm’ (brachium). So it means ‘the three-headed muscle of the arm’.",
+    "origin": "Long head: infraglenoid tubercle of scapula; lateral head: posterior humerus above (lateral to) the radial groove; medial head: posterior humerus below (medial to) the radial groove",
+    "insertion": "Posterior surface of the olecranon process of ulna (and deep fascia of forearm)",
+    "actions": [
+      "Elbow extension",
+      "Shoulder extension (long head)",
+      "Shoulder adduction (long head)"
+    ],
+    "innervation": "Radial nerve (C6–C8)",
+    "tip": "Triceps reflex tests C7; the long head crosses the shoulder, so overhead extensions stretch it most."
+  },
+  {
+    "kind": "muscle",
+    "id": "triceps-brachii-long-head",
+    "name": "Triceps brachii — long head",
+    "region": "Arm",
+    "tier": 3,
+    "parts": [
+      "Long head of triceps brachii"
+    ],
+    "etymology": "From Latin tri- ‘three’ + caput ‘head’ (triceps, ‘three-headed’) + brachii ‘of the arm’ (brachium). So it means ‘the three-headed muscle of the arm’. The ‘long head’ is the longest, arising from the scapula and crossing the shoulder.",
+    "origin": "Infraglenoid tubercle of scapula",
+    "insertion": "Posterior surface of the olecranon process of ulna (common tendon)",
+    "actions": [
+      "Elbow extension",
+      "Shoulder extension",
+      "Shoulder adduction"
+    ],
+    "innervation": "Radial nerve (C6–C8)",
+    "tip": "The only biarticular head — overhead extensions and pullovers stretch it; it forms borders of the quadrangular and triangular spaces."
+  },
+  {
+    "kind": "muscle",
+    "id": "triceps-brachii-lateral-head",
+    "name": "Triceps brachii — lateral head",
+    "region": "Arm",
+    "tier": 3,
+    "parts": [
+      "Lateral head of triceps brachii"
+    ],
+    "etymology": "From Latin tri- ‘three’ + caput ‘head’ (triceps, ‘three-headed’) + brachii ‘of the arm’ (brachium). So it means ‘the three-headed muscle of the arm’. The ‘lateral head’ lies on the outer side of the back of the arm.",
+    "origin": "Posterior surface of humerus, superior (lateral) to the radial groove",
+    "insertion": "Posterior surface of the olecranon process of ulna (common tendon)",
+    "actions": [
+      "Elbow extension"
+    ],
+    "innervation": "Radial nerve (C6–C8)",
+    "tip": "Gives the “horseshoe” shape on the outer arm; pushdowns with a neutral grip load it well."
+  },
+  {
+    "kind": "muscle",
+    "id": "triceps-brachii-medial-head",
+    "name": "Triceps brachii — medial head",
+    "aka": [
+      "Deep head"
+    ],
+    "region": "Arm",
+    "tier": 3,
+    "parts": [
+      "Medial head of triceps brachii"
+    ],
+    "etymology": "From Latin tri- ‘three’ + caput ‘head’ (triceps, ‘three-headed’) + brachii ‘of the arm’ (brachium). So it means ‘the three-headed muscle of the arm’. The ‘medial head’ lies deep and toward the inner side, below the radial groove.",
+    "origin": "Posterior surface of humerus, inferior (medial) to the radial groove",
+    "insertion": "Posterior surface of the olecranon process of ulna (common tendon) and elbow joint capsule",
+    "actions": [
+      "Elbow extension (active in all extension, even low load)"
+    ],
+    "innervation": "Radial nerve (C6–C8)",
+    "tip": "The workhorse of elbow extension; the radial nerve runs in the groove between it and the lateral head — at risk in humeral shaft fractures."
+  },
+  {
+    "kind": "muscle",
+    "id": "pronator-teres",
+    "name": "Pronator teres",
+    "region": "Forearm",
+    "tier": 4,
+    "parts": [
+      "Superficial head of pronator teres",
+      "Deep head of pronator teres"
+    ],
+    "etymology": "From Latin pronator ‘one that turns face-down’ (pronus, bent forward) + teres ‘round, smooth’. So it means ‘the rounded pronator’.",
+    "origin": "Humeral (superficial) head: medial epicondyle (common flexor origin) and medial supracondylar ridge; ulnar (deep) head: medial side of the coronoid process of ulna",
+    "insertion": "Middle of the lateral surface of the radius (pronator tuberosity, point of maximum convexity)",
+    "actions": [
+      "Forearm pronation",
+      "Elbow flexion (weak)"
+    ],
+    "innervation": "Median nerve (C6–C7)",
+    "tip": "The median nerve passes between its two heads — compression here (pronator syndrome) mimics carpal tunnel but includes palm numbness."
+  },
+  {
+    "kind": "muscle",
+    "id": "flexor-carpi-radialis",
+    "name": "Flexor carpi radialis",
+    "aka": [
+      "FCR"
+    ],
+    "region": "Forearm",
+    "tier": 4,
+    "parts": [
+      "Flexor carpi radialis"
+    ],
+    "etymology": "From Latin flexor ‘bender’ + carpi ‘of the wrist’ (Greek karpos) + radialis ‘of the radius (radial side)’. So it means ‘the wrist flexor on the radial side’.",
+    "origin": "Medial epicondyle of humerus (common flexor tendon)",
+    "insertion": "Base of the 2nd metacarpal (and slip to the 3rd)",
+    "actions": [
+      "Wrist flexion",
+      "Wrist radial deviation"
+    ],
+    "innervation": "Median nerve (C6–C7)",
+    "tip": "Its tendon is the landmark for the radial pulse (artery just lateral) — part of the common flexor origin stressed in medial epicondylalgia (golfer’s elbow)."
+  },
+  {
+    "kind": "muscle",
+    "id": "palmaris-longus",
+    "name": "Palmaris longus",
+    "region": "Forearm",
+    "tier": 4,
+    "parts": [
+      "Palmaris longus muscle"
+    ],
+    "etymology": "From Latin palmaris ‘of the palm’ (palma) + longus ‘long’. So it means ‘the long muscle of the palm’ — a long tendon into the palmar aponeurosis.",
+    "origin": "Medial epicondyle of humerus (common flexor tendon)",
+    "insertion": "Distal half of the flexor retinaculum and the palmar aponeurosis",
+    "actions": [
+      "Wrist flexion (weak)",
+      "Tenses the palmar aponeurosis"
+    ],
+    "innervation": "Median nerve (C7–C8)",
+    "tip": "Absent in roughly 1 in 7 people; passes superficial to the carpal tunnel and is a favourite tendon graft (e.g. UCL “Tommy John” reconstruction)."
+  },
+  {
+    "kind": "muscle",
+    "id": "flexor-carpi-ulnaris",
+    "name": "Flexor carpi ulnaris",
+    "aka": [
+      "FCU"
+    ],
+    "region": "Forearm",
+    "tier": 4,
+    "parts": [
+      "Humeral head of flexor carpi ulnaris",
+      "Ulnar head of flexor carpi ulnaris"
+    ],
+    "etymology": "From Latin flexor ‘bender’ + carpi ‘of the wrist’ + ulnaris ‘of the ulna (ulnar side)’. So it means ‘the wrist flexor on the ulnar side’.",
+    "origin": "Humeral head: medial epicondyle (common flexor tendon); ulnar head: medial margin of olecranon and proximal two-thirds of the posterior border of ulna",
+    "insertion": "Pisiform, then via pisohamate ligament to hook of hamate and pisometacarpal ligament to base of 5th metacarpal",
+    "actions": [
+      "Wrist flexion",
+      "Wrist ulnar deviation"
+    ],
+    "innervation": "Ulnar nerve (C7–T1)",
+    "tip": "The ulnar nerve enters the forearm between its two heads (cubital tunnel) — a site of entrapment; the only anterior forearm muscle fully supplied by the ulnar nerve besides the medial FDP."
+  },
+  {
+    "kind": "muscle",
+    "id": "flexor-digitorum-superficialis",
+    "name": "Flexor digitorum superficialis",
+    "aka": [
+      "FDS",
+      "Flexor digitorum sublimis"
+    ],
+    "region": "Forearm",
+    "tier": 4,
+    "parts": [
+      "Humero-ulnar head of flexor digitorum superficialis",
+      "Radial head of flexor digitorum superficialis"
+    ],
+    "etymology": "From Latin flexor ‘bender’ + digitorum ‘of the fingers’ (digitus) + superficialis ‘on the surface’. So it means ‘the superficial finger flexor’ (above flexor digitorum profundus).",
+    "origin": "Humero-ulnar head: medial epicondyle (common flexor tendon), ulnar collateral ligament and coronoid process of ulna; radial head: superior half of anterior border of radius (oblique line)",
+    "insertion": "Sides of the middle phalanges of digits 2–5 (each tendon splits around the FDP tendon)",
+    "actions": [
+      "Finger PIP flexion (digits 2–5)",
+      "Finger MCP flexion",
+      "Wrist flexion"
+    ],
+    "innervation": "Median nerve (C7–T1)",
+    "tip": "Its four tendons pass through the carpal tunnel — test it by flexing one finger’s PIP while the others are held in extension."
+  },
+  {
+    "kind": "muscle",
+    "id": "flexor-digitorum-profundus",
+    "name": "Flexor digitorum profundus",
+    "aka": [
+      "FDP"
+    ],
+    "region": "Forearm",
+    "tier": 4,
+    "parts": [
+      "Flexor digitorum profundus"
+    ],
+    "etymology": "From Latin flexor ‘bender’ + digitorum ‘of the fingers’ + profundus ‘deep’. So it means ‘the deep finger flexor’.",
+    "origin": "Proximal three-quarters of the anterior and medial surfaces of ulna and adjacent interosseous membrane",
+    "insertion": "Bases of the distal phalanges of digits 2–5 (palmar surface)",
+    "actions": [
+      "Finger DIP flexion (digits 2–5)",
+      "Assists PIP and MCP flexion",
+      "Wrist flexion (assists)"
+    ],
+    "innervation": "Medial part (digits 4–5): ulnar nerve (C8–T1); lateral part (digits 2–3): anterior interosseous branch of median nerve (C8–T1)",
+    "tip": "The only muscle that flexes the DIP joints; its tendons run through the carpal tunnel, and avulsion from the ring finger is “jersey finger”."
+  },
+  {
+    "kind": "muscle",
+    "id": "flexor-pollicis-longus",
+    "name": "Flexor pollicis longus",
+    "aka": [
+      "FPL"
+    ],
+    "region": "Forearm",
+    "tier": 4,
+    "parts": [
+      "Flexor pollicis longus"
+    ],
+    "etymology": "From Latin flexor ‘bender’ + pollicis ‘of the thumb’ (pollex) + longus ‘long’. So it means ‘the long flexor of the thumb’.",
+    "origin": "Anterior surface of the radius and adjacent interosseous membrane (variable slip from coronoid process/medial epicondyle)",
+    "insertion": "Palmar base of the distal phalanx of the thumb",
+    "actions": [
+      "Thumb IP flexion",
+      "Thumb MCP and CMC flexion (assists)"
+    ],
+    "innervation": "Anterior interosseous branch of median nerve (C7–C8)",
+    "tip": "Its tendon runs through the carpal tunnel; anterior interosseous nerve palsy weakens FPL and index FDP so the patient cannot make a round “OK” sign."
+  },
+  {
+    "kind": "muscle",
+    "id": "pronator-quadratus",
+    "name": "Pronator quadratus",
+    "region": "Forearm",
+    "tier": 4,
+    "parts": [
+      "Pronator quadratus"
+    ],
+    "etymology": "From Latin pronator ‘one that turns face-down’ + quadratus ‘squared, four-sided’. So it means ‘the square pronator’ across the distal forearm.",
+    "origin": "Distal quarter of the anterior surface of the ulna",
+    "insertion": "Distal quarter of the anterior surface of the radius",
+    "actions": [
+      "Forearm pronation (prime mover)",
+      "Holds radius and ulna together at the distal radioulnar joint"
+    ],
+    "innervation": "Anterior interosseous branch of median nerve (C7–C8)",
+    "tip": "The main pronator in all elbow positions — pronator teres joins in for fast or resisted pronation."
+  },
+  {
+    "kind": "muscle",
+    "id": "brachioradialis",
+    "name": "Brachioradialis",
+    "region": "Forearm",
+    "tier": 3,
+    "parts": [
+      "Brachioradialis muscle"
+    ],
+    "etymology": "From Latin brachium ‘arm’ + radialis ‘of the radius’. So it means ‘the muscle from the arm (humerus) to the radius’.",
+    "origin": "Proximal two-thirds of the lateral supracondylar ridge of humerus",
+    "insertion": "Lateral surface of the distal radius, just proximal to the radial styloid process",
+    "actions": [
+      "Elbow flexion (strongest with forearm in mid-prone/neutral)",
+      "Returns forearm to mid-prone from full pronation or supination"
+    ],
+    "innervation": "Radial nerve (C5–C6)",
+    "tip": "An elbow flexor supplied by the radial (“extensor”) nerve; hammer curls target it and its reflex tests C6."
+  },
+  {
+    "kind": "muscle",
+    "id": "extensor-carpi-radialis-longus",
+    "name": "Extensor carpi radialis longus",
+    "aka": [
+      "ECRL"
+    ],
+    "region": "Forearm",
+    "tier": 4,
+    "parts": [
+      "Extensor carpi radialis longus"
+    ],
+    "etymology": "From Latin extensor ‘stretcher, straightener’ + carpi ‘of the wrist’ + radialis ‘radial side’ + longus ‘long’. So it means ‘the long radial wrist extensor’.",
+    "origin": "Distal third of the lateral supracondylar ridge of humerus",
+    "insertion": "Dorsal surface of the base of the 2nd metacarpal",
+    "actions": [
+      "Wrist extension",
+      "Wrist radial deviation",
+      "Elbow flexion (weak)"
+    ],
+    "innervation": "Radial nerve (C6–C7)",
+    "tip": "Works with ECRB to hold the wrist extended during gripping, giving the finger flexors optimal length."
+  },
+  {
+    "kind": "muscle",
+    "id": "extensor-carpi-radialis-brevis",
+    "name": "Extensor carpi radialis brevis",
+    "aka": [
+      "ECRB"
+    ],
+    "region": "Forearm",
+    "tier": 4,
+    "parts": [
+      "Extensor carpi radialis brevis"
+    ],
+    "etymology": "From Latin extensor ‘straightener’ + carpi ‘of the wrist’ + radialis ‘radial side’ + brevis ‘short’. So it means ‘the short radial wrist extensor’.",
+    "origin": "Lateral epicondyle of humerus (common extensor tendon)",
+    "insertion": "Dorsal surface of the base of the 3rd metacarpal",
+    "actions": [
+      "Wrist extension",
+      "Wrist radial deviation"
+    ],
+    "innervation": "Deep branch of radial nerve (C7–C8)",
+    "tip": "Its origin is the usual site of lateral epicondylalgia (tennis elbow) — progressive eccentric wrist-extension loading is first-line rehab."
+  },
+  {
+    "kind": "muscle",
+    "id": "extensor-digitorum",
+    "name": "Extensor digitorum",
+    "aka": [
+      "Extensor digitorum communis",
+      "EDC"
+    ],
+    "region": "Forearm",
+    "tier": 4,
+    "parts": [
+      "Extensor digitorum"
+    ],
+    "etymology": "From Latin extensor ‘straightener’ + digitorum ‘of the fingers’. So it means ‘the extensor of the fingers’.",
+    "origin": "Lateral epicondyle of humerus (common extensor tendon)",
+    "insertion": "Extensor (dorsal digital) expansions of digits 2–5, to bases of middle and distal phalanges",
+    "actions": [
+      "Finger MCP extension (digits 2–5)",
+      "Finger IP extension (with lumbricals and interossei)",
+      "Wrist extension"
+    ],
+    "innervation": "Posterior interosseous nerve, deep branch of radial (C7–C8)",
+    "tip": "Linked by intertendinous connections on the back of the hand — the reason it is hard to lift your ring finger alone."
+  },
+  {
+    "kind": "muscle",
+    "id": "extensor-digiti-minimi",
+    "name": "Extensor digiti minimi",
+    "aka": [
+      "EDM"
+    ],
+    "region": "Forearm",
+    "tier": 4,
+    "parts": [
+      "Extensor digiti minimi"
+    ],
+    "etymology": "From Latin extensor ‘straightener’ + digiti minimi ‘of the smallest finger’. So it means ‘the extensor of the little finger’.",
+    "origin": "Lateral epicondyle of humerus (common extensor tendon)",
+    "insertion": "Extensor expansion of the 5th digit",
+    "actions": [
+      "Little finger MCP and IP extension",
+      "Wrist extension (assists)"
+    ],
+    "innervation": "Posterior interosseous nerve, deep branch of radial (C7–C8)",
+    "tip": "Lets you extend the little finger independently — the “pinky out” muscle."
+  },
+  {
+    "kind": "muscle",
+    "id": "extensor-carpi-ulnaris",
+    "name": "Extensor carpi ulnaris",
+    "aka": [
+      "ECU"
+    ],
+    "region": "Forearm",
+    "tier": 4,
+    "parts": [
+      "Humeral head of extensor carpi ulnaris",
+      "Ulnar head of extensor carpi ulnaris"
+    ],
+    "etymology": "From Latin extensor ‘straightener’ + carpi ‘of the wrist’ + ulnaris ‘of the ulna (ulnar side)’. So it means ‘the wrist extensor on the ulnar side’.",
+    "origin": "Humeral head: lateral epicondyle (common extensor tendon); ulnar head: posterior border of ulna (by aponeurosis)",
+    "insertion": "Medial (dorsal) side of the base of the 5th metacarpal",
+    "actions": [
+      "Wrist extension",
+      "Wrist ulnar deviation"
+    ],
+    "innervation": "Posterior interosseous nerve, deep branch of radial (C7–C8)",
+    "tip": "Its tendon can sublux over the ulnar head — a cause of ulnar-sided wrist pain in racquet and golf athletes."
+  },
+  {
+    "kind": "muscle",
+    "id": "anconeus",
+    "name": "Anconeus",
+    "region": "Forearm",
+    "tier": 4,
+    "parts": [
+      "Anconeus muscle"
+    ],
+    "etymology": "From Greek ankōn ‘elbow’ (via Latin anconeus). So it means ‘the elbow muscle’.",
+    "origin": "Posterior surface of the lateral epicondyle of humerus",
+    "insertion": "Lateral surface of the olecranon and superior part of the posterior surface of ulna",
+    "actions": [
+      "Elbow extension (assists triceps)",
+      "Stabilises the elbow joint",
+      "Abducts the ulna during pronation"
+    ],
+    "innervation": "Radial nerve (C7–C8)",
+    "tip": "A small triangular extension of the triceps; it tensions the posterolateral capsule and helps stabilise the elbow."
+  },
+  {
+    "kind": "muscle",
+    "id": "supinator",
+    "name": "Supinator",
+    "region": "Forearm",
+    "tier": 4,
+    "parts": [
+      "Supinator"
+    ],
+    "etymology": "From Latin supinare ‘to lay on the back, turn palm-up’ (supinus, lying face up). So it means ‘the muscle that turns the palm up’.",
+    "origin": "Lateral epicondyle of humerus, radial collateral and annular ligaments, supinator crest and fossa of ulna",
+    "insertion": "Lateral, posterior and anterior surfaces of the proximal third of the radius",
+    "actions": [
+      "Forearm supination (especially with elbow extended or slow, unresisted)"
+    ],
+    "innervation": "Deep branch of radial nerve (C5–C6)",
+    "tip": "The posterior interosseous nerve passes through it (arcade of Frohse) — radial tunnel syndrome mimics tennis elbow."
+  },
+  {
+    "kind": "muscle",
+    "id": "abductor-pollicis-longus",
+    "name": "Abductor pollicis longus",
+    "aka": [
+      "APL"
+    ],
+    "region": "Forearm",
+    "tier": 4,
+    "parts": [
+      "Abductor pollicis longus"
+    ],
+    "etymology": "From Latin abductor ‘one that leads away’ (ab ‘away’ + ducere ‘to lead’) + pollicis ‘of the thumb’ + longus ‘long’. So it means ‘the long muscle that leads the thumb away’.",
+    "origin": "Posterior surfaces of the proximal halves of ulna and radius and the interosseous membrane",
+    "insertion": "Lateral side of the base of the 1st metacarpal",
+    "actions": [
+      "Thumb abduction at the CMC joint",
+      "Thumb extension at the CMC joint",
+      "Wrist radial deviation (assists)"
+    ],
+    "innervation": "Posterior interosseous nerve, deep branch of radial (C7–C8)",
+    "tip": "With EPB it forms the first dorsal compartment — inflamed in De Quervain’s tenosynovitis (Finkelstein test); the pair bounds the anatomical snuffbox radially."
+  },
+  {
+    "kind": "muscle",
+    "id": "extensor-pollicis-brevis",
+    "name": "Extensor pollicis brevis",
+    "aka": [
+      "EPB"
+    ],
+    "region": "Forearm",
+    "tier": 4,
+    "parts": [
+      "Extensor pollicis brevis"
+    ],
+    "etymology": "From Latin extensor ‘straightener’ + pollicis ‘of the thumb’ + brevis ‘short’. So it means ‘the short extensor of the thumb’.",
+    "origin": "Posterior surface of the distal third of the radius and the interosseous membrane",
+    "insertion": "Dorsal base of the proximal phalanx of the thumb",
+    "actions": [
+      "Thumb MCP extension",
+      "Thumb CMC extension",
+      "Thumb abduction (assists)"
+    ],
+    "innervation": "Posterior interosseous nerve, deep branch of radial (C7–C8)",
+    "tip": "Shares the first dorsal compartment with APL (De Quervain’s); forms the radial border of the anatomical snuffbox."
+  },
+  {
+    "kind": "muscle",
+    "id": "extensor-pollicis-longus",
+    "name": "Extensor pollicis longus",
+    "aka": [
+      "EPL"
+    ],
+    "region": "Forearm",
+    "tier": 4,
+    "parts": [
+      "Extensor pollicis longus"
+    ],
+    "etymology": "From Latin extensor ‘straightener’ + pollicis ‘of the thumb’ + longus ‘long’. So it means ‘the long extensor of the thumb’.",
+    "origin": "Posterior surface of the middle third of the ulna and the interosseous membrane",
+    "insertion": "Dorsal base of the distal phalanx of the thumb",
+    "actions": [
+      "Thumb IP extension",
+      "Thumb MCP and CMC extension",
+      "Thumb retroposition (lifts thumb off the table)"
+    ],
+    "innervation": "Posterior interosseous nerve, deep branch of radial (C7–C8)",
+    "tip": "Hooks around Lister’s tubercle and forms the ulnar border of the anatomical snuffbox; can rupture weeks after a distal radius fracture."
+  },
+  {
+    "kind": "muscle",
+    "id": "extensor-indicis",
+    "name": "Extensor indicis",
+    "aka": [
+      "Extensor indicis proprius"
+    ],
+    "region": "Forearm",
+    "tier": 4,
+    "parts": [
+      "Extensor indicis"
+    ],
+    "etymology": "From Latin extensor ‘straightener’ + indicis ‘of the pointer (index finger)’ (index, ‘one that points out’). So it means ‘the extensor of the pointing finger’.",
+    "origin": "Posterior surface of the distal third of the ulna and the interosseous membrane",
+    "insertion": "Extensor expansion of the index finger (ulnar side of the extensor digitorum tendon)",
+    "actions": [
+      "Index finger MCP and IP extension (independent pointing)",
+      "Wrist extension (assists)"
+    ],
+    "innervation": "Posterior interosseous nerve, deep branch of radial (C7–C8)",
+    "tip": "Gives the index finger independent extension — the “pointing” muscle; its tendon is sometimes transferred to replace a ruptured EPL."
+  },
+  {
+    "kind": "muscle",
+    "id": "abductor-pollicis-brevis",
+    "name": "Abductor pollicis brevis",
+    "aka": [
+      "APB"
+    ],
+    "region": "Hand",
+    "tier": 4,
+    "parts": [
+      "Abductor pollicis brevis"
+    ],
+    "etymology": "From Latin abductor ‘one that leads away’ + pollicis ‘of the thumb’ + brevis ‘short’. So it means ‘the short muscle that leads the thumb away’.",
+    "origin": "Flexor retinaculum and the tubercles of the scaphoid and trapezium",
+    "insertion": "Lateral side of the base of the proximal phalanx of the thumb",
+    "actions": [
+      "Thumb palmar abduction (CMC and MCP)",
+      "Assists opposition"
+    ],
+    "innervation": "Recurrent (thenar) branch of median nerve (C8–T1)",
+    "tip": "The most superficial thenar muscle — weakness and wasting here is a classic sign of advanced carpal tunnel syndrome."
+  },
+  {
+    "kind": "muscle",
+    "id": "flexor-pollicis-brevis",
+    "name": "Flexor pollicis brevis",
+    "aka": [
+      "FPB"
+    ],
+    "region": "Hand",
+    "tier": 4,
+    "parts": [
+      "Superficial head of flexor pollicis brevis",
+      "Deep head of flexor pollicis brevis"
+    ],
+    "etymology": "From Latin flexor ‘bender’ + pollicis ‘of the thumb’ + brevis ‘short’. So it means ‘the short flexor of the thumb’.",
+    "origin": "Superficial head: flexor retinaculum and tubercle of trapezium; deep head: trapezoid and capitate",
+    "insertion": "Lateral side of the base of the proximal phalanx of the thumb (via the radial sesamoid)",
+    "actions": [
+      "Thumb MCP flexion",
+      "Thumb CMC flexion",
+      "Assists opposition"
+    ],
+    "innervation": "Superficial head: recurrent branch of median nerve (C8–T1); deep head: deep branch of ulnar nerve (C8–T1)",
+    "tip": "Dual nerve supply means thumb flexion is often partly spared in an isolated median or ulnar nerve lesion."
+  },
+  {
+    "kind": "muscle",
+    "id": "opponens-pollicis",
+    "name": "Opponens pollicis",
+    "region": "Hand",
+    "tier": 4,
+    "parts": [
+      "Opponens pollicis muscle"
+    ],
+    "etymology": "From Latin opponens ‘placing against’ (ob ‘against’ + ponere ‘to place’) + pollicis ‘of the thumb’. So it means ‘the muscle that sets the thumb against the fingers’.",
+    "origin": "Flexor retinaculum and tubercle of trapezium",
+    "insertion": "Entire lateral border of the 1st metacarpal",
+    "actions": [
+      "Thumb opposition (flexes and medially rotates the 1st metacarpal at the CMC joint)"
+    ],
+    "innervation": "Recurrent (thenar) branch of median nerve (C8–T1)",
+    "tip": "Opposition is what makes the human grip — loss of it (median nerve injury) gives the flat “ape hand”."
+  },
+  {
+    "kind": "muscle",
+    "id": "adductor-pollicis",
+    "name": "Adductor pollicis",
+    "region": "Hand",
+    "tier": 4,
+    "parts": [
+      "Oblique head of adductor pollicis",
+      "Transverse head of adductor pollicis"
+    ],
+    "etymology": "From Latin adductor ‘one that leads toward’ (ad ‘toward’ + ducere ‘to lead’) + pollicis ‘of the thumb’. So it means ‘the muscle that draws the thumb toward the palm’.",
+    "origin": "Oblique head: bases of 2nd and 3rd metacarpals, capitate and adjacent carpals; transverse head: anterior surface of the shaft of the 3rd metacarpal",
+    "insertion": "Medial side of the base of the proximal phalanx of the thumb (via the ulnar sesamoid)",
+    "actions": [
+      "Thumb adduction (CMC)",
+      "Assists thumb MCP flexion (key/lateral pinch)"
+    ],
+    "innervation": "Deep branch of ulnar nerve (C8–T1)",
+    "tip": "Ulnar nerve palsy weakens it — Froment’s sign: the patient flexes the thumb IP (using FPL) to hold paper in a key pinch."
+  },
+  {
+    "kind": "muscle",
+    "id": "abductor-digiti-minimi-hand",
+    "name": "Abductor digiti minimi (hand)",
+    "aka": [
+      "ADM"
+    ],
+    "region": "Hand",
+    "tier": 4,
+    "parts": [
+      "Abductor digiti minimi of hand"
+    ],
+    "etymology": "From Latin abductor ‘one that leads away’ + digiti minimi ‘of the smallest finger’. So it means ‘the muscle that leads the little finger away’.",
+    "origin": "Pisiform and tendon of flexor carpi ulnaris (pisohamate ligament)",
+    "insertion": "Medial side of the base of the proximal phalanx of the 5th digit",
+    "actions": [
+      "Little finger abduction",
+      "Little finger MCP flexion (assists)"
+    ],
+    "innervation": "Deep branch of ulnar nerve (C8–T1)",
+    "tip": "The most superficial and medial hypothenar muscle — its wasting is an early sign of ulnar neuropathy."
+  },
+  {
+    "kind": "muscle",
+    "id": "flexor-digiti-minimi-brevis-hand",
+    "name": "Flexor digiti minimi brevis (hand)",
+    "aka": [
+      "FDM"
+    ],
+    "region": "Hand",
+    "tier": 4,
+    "parts": [
+      "Flexor digiti minimi of hand"
+    ],
+    "etymology": "From Latin flexor ‘bender’ + digiti minimi ‘of the smallest finger’ + brevis ‘short’. So it means ‘the short flexor of the little finger’.",
+    "origin": "Hook of hamate and flexor retinaculum",
+    "insertion": "Medial side of the base of the proximal phalanx of the 5th digit",
+    "actions": [
+      "Little finger MCP flexion"
+    ],
+    "innervation": "Deep branch of ulnar nerve (C8–T1)",
+    "tip": "Part of the hypothenar eminence with ADM and opponens digiti minimi; often fused with ADM."
+  },
+  {
+    "kind": "muscle",
+    "id": "opponens-digiti-minimi-hand",
+    "name": "Opponens digiti minimi (hand)",
+    "region": "Hand",
+    "tier": 4,
+    "parts": [
+      "Opponens digiti minimi muscle of hand"
+    ],
+    "etymology": "From Latin opponens ‘placing against’ + digiti minimi ‘of the smallest finger’. So it means ‘the muscle that sets the little finger against the thumb’.",
+    "origin": "Hook of hamate and flexor retinaculum",
+    "insertion": "Medial border of the 5th metacarpal",
+    "actions": [
+      "Opposition of the little finger (draws the 5th metacarpal anteriorly and rotates it laterally)",
+      "Deepens the hollow of the palm (cupping)"
+    ],
+    "innervation": "Deep branch of ulnar nerve (C8–T1)",
+    "tip": "Helps cup the palm for gripping round objects, working with opponens pollicis."
+  },
+  {
+    "kind": "muscle",
+    "id": "lumbricals-hand",
+    "name": "Lumbricals of the hand",
+    "aka": [
+      "Lumbricales"
+    ],
+    "region": "Hand",
+    "tier": 4,
+    "parts": [
+      "Lumbrical muscles of hand"
+    ],
+    "etymology": "From Latin lumbricus ‘earthworm’. So it means ‘the earthworm-like muscles’ — four slender worm-shaped strands in the palm.",
+    "origin": "Tendons of flexor digitorum profundus (1st and 2nd: radial sides of tendons to digits 2–3; 3rd and 4th: adjacent sides of tendons to digits 3–5)",
+    "insertion": "Lateral (radial) sides of the extensor expansions of digits 2–5",
+    "actions": [
+      "Finger MCP flexion (digits 2–5)",
+      "Finger IP extension (digits 2–5)"
+    ],
+    "innervation": "Lumbricals 1–2: median nerve (C8–T1); lumbricals 3–4: deep branch of ulnar nerve (C8–T1)",
+    "tip": "They create the “table-top” position (MCP flexed, IPs straight); unusually, they arise from a tendon rather than bone."
+  },
+  {
+    "kind": "muscle",
+    "id": "dorsal-interossei-hand",
+    "name": "Dorsal interossei of the hand",
+    "aka": [
+      "DAB"
+    ],
+    "region": "Hand",
+    "tier": 4,
+    "parts": [
+      "Dorsal interossei muscles of hand"
+    ],
+    "etymology": "From Latin dorsalis ‘of the back’ + inter ‘between’ + os/ossis ‘bone’. So it means ‘the muscles between the bones on the back of the hand’ (between the metacarpals).",
+    "origin": "Adjacent sides of the 1st–5th metacarpals (four bipennate muscles)",
+    "insertion": "Bases of the proximal phalanges and extensor expansions of digits 2–4 (radial side of 2nd and 3rd; ulnar side of 3rd and 4th)",
+    "actions": [
+      "Finger abduction (digits 2–4, away from the axis of the middle finger)",
+      "Finger MCP flexion (assists)",
+      "Finger IP extension (assists)"
+    ],
+    "innervation": "Deep branch of ulnar nerve (C8–T1)",
+    "tip": "Mnemonic DAB — Dorsal ABduct; the 1st dorsal interosseous is the bulge between thumb and index and wastes visibly in ulnar palsy."
+  },
+  {
+    "kind": "muscle",
+    "id": "palmar-interossei",
+    "name": "Palmar interossei",
+    "aka": [
+      "PAD",
+      "Volar interossei"
+    ],
+    "region": "Hand",
+    "tier": 4,
+    "parts": [
+      "Palmar interossei muscles"
+    ],
+    "etymology": "From Latin palmaris ‘of the palm’ + inter ‘between’ + os/ossis ‘bone’. So it means ‘the muscles between the bones on the palm side’ (between the metacarpals).",
+    "origin": "Palmar surfaces of the 2nd, 4th and 5th metacarpals (unipennate; ulnar side of 2nd, radial sides of 4th and 5th)",
+    "insertion": "Bases of the proximal phalanges and extensor expansions of digits 2, 4 and 5",
+    "actions": [
+      "Finger adduction (digits 2, 4, 5 toward the middle finger)",
+      "Finger MCP flexion (assists)",
+      "Finger IP extension (assists)"
+    ],
+    "innervation": "Deep branch of ulnar nerve (C8–T1)",
+    "tip": "Mnemonic PAD — Palmar ADduct; test by gripping a card between straight fingers (card test for ulnar nerve)."
+  }
+]
