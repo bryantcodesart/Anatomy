@@ -4,6 +4,7 @@ import type { Arena } from './arena';
 import { commandSystem } from './systems/commands';
 import { inputSystem } from './systems/input';
 import { persistSystem } from './systems/persist';
+import { pickSystem } from './systems/pick';
 import { sessionSystem } from './systems/session';
 import { cameraSystem, fadeSystem, focusSystem, renderSystem, resizeSystem } from './systems/visual';
 
@@ -14,20 +15,21 @@ export function tick(a: Arena, t: number) {
   a.time.frame++;
 
   inputSystem(a); //    1. raw pointer deltas -> camera goals
-  commandSystem(a); //  2. UI commands -> grading, settings, resets
-  sessionSystem(a); //  3. pick next card, choose side, frame camera goal
-  resizeSystem(a); //   4. canvas size -> renderer + aspect
-  cameraSystem(a); //   5. damp camera toward goals, derive world position
-  focusSystem(a); //    6. which parts are target / ghosted (uses camera position)
-  fadeSystem(a); //     7. animate per-part state -> GPU state texture
-  renderSystem(a); //   8. draw if anything changed
-  persistSystem(a); //  9. throttled save to localStorage
+  pickSystem(a); //     2. lookup mode: tap -> ray cast -> selection request
+  commandSystem(a); //  3. UI commands -> grading, settings, mode, resets
+  sessionSystem(a); //  4. study: next card + side + camera; lookup: apply selection
+  resizeSystem(a); //   5. canvas size -> renderer + aspect
+  cameraSystem(a); //   6. damp camera toward goals, derive world position
+  focusSystem(a); //    7. which parts are target / ghosted (uses camera position)
+  fadeSystem(a); //     8. animate per-part state -> GPU state texture
+  renderSystem(a); //   9. draw if anything changed
+  persistSystem(a); // 10. throttled save to localStorage
 }
 
 export function start(a: Arena, onFrame: (a: Arena) => void) {
   const frame = (t: number) => {
     tick(a, t);
-    onFrame(a); // 10. UI sync (pushes a snapshot to Solid when ui.version changed)
+    onFrame(a); // 11. UI sync (pushes a snapshot to Solid when ui.version changed)
     requestAnimationFrame(frame);
   };
   requestAnimationFrame(frame);

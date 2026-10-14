@@ -1,5 +1,6 @@
 import { type Component, For, Match, Show, Switch } from 'solid-js';
 import { Cmd, Phase } from '../arena';
+import { Answer } from './Answer';
 import { ui } from './bridge';
 
 export function fmtInterval(ms: number) {
@@ -20,13 +21,13 @@ const GRADES = [
   { g: 4, label: 'Easy', hint: 'Instant', cls: 'easy' },
 ];
 
-const sideName = (s: 'L' | 'R' | 'M') => (s === 'L' ? 'left side' : s === 'R' ? 'right side' : 'midline');
-
-const Tier: Component<{ tier: number }> = (p) => (
+export const Tier: Component<{ tier: number }> = (p) => (
   <span class="tier" title={`Difficulty tier ${p.tier} of 5`}>
     <For each={[1, 2, 3, 4, 5]}>{(t) => <i classList={{ on: t <= p.tier }} />}</For>
   </span>
 );
+
+export const sideName = (s: 'L' | 'R' | 'M') => (s === 'L' ? 'left side' : s === 'R' ? 'right side' : 'midline');
 
 export const CardPanel: Component<{
   ref: (el: HTMLDivElement) => void;
@@ -75,43 +76,7 @@ export const CardPanel: Component<{
                   </div>
                 }
               >
-                <div class="answer">
-                  <h2>{c().name}</h2>
-                  <Show when={c().aka?.length}>
-                    <p class="aka">aka {c().aka!.join(' · ')}</p>
-                  </Show>
-                  <p class="region">{c().region}</p>
-
-                  <section class="ety">
-                    <h3>Etymology</h3>
-                    <p>{c().etymology}</p>
-                  </section>
-
-                  <Show when={c().kind === 'muscle'}>
-                    <dl class="oia">
-                      <dt>Origin</dt><dd>{c().origin}</dd>
-                      <dt>Insertion</dt><dd>{c().insertion}</dd>
-                      <dt>Action</dt>
-                      <dd><ul><For each={c().actions}>{(x) => <li>{x}</li>}</For></ul></dd>
-                      <dt>Nerve</dt><dd>{c().innervation}</dd>
-                    </dl>
-                  </Show>
-                  <Show when={c().kind === 'bone'}>
-                    <dl class="oia">
-                      <Show when={c().articulations?.length}>
-                        <dt>Joints</dt>
-                        <dd><ul><For each={c().articulations}>{(x) => <li>{x}</li>}</For></ul></dd>
-                      </Show>
-                      <Show when={c().landmarks?.length}>
-                        <dt>Landmarks</dt>
-                        <dd><ul><For each={c().landmarks}>{(x) => <li>{x}</li>}</For></ul></dd>
-                      </Show>
-                    </dl>
-                  </Show>
-                  <Show when={c().tip}>
-                    <p class="tip">{c().tip}</p>
-                  </Show>
-                </div>
+                <Answer card={c()} />
                 <div class="grades" role="group" aria-label="How well did you know it?">
                   <For each={GRADES}>
                     {(g, i) => (

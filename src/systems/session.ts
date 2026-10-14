@@ -1,6 +1,6 @@
 // Flash-card state machine. On Phase.Advance it asks the scheduler for the next
 // card, picks a random side (left/right copy), and computes the camera framing.
-import { type Arena, Phase, rand } from '../arena';
+import { type Arena, Mode, Phase, rand } from '../arena';
 import { pickNext } from '../srs/scheduler';
 import { segmentHitsBox as rayHitsBox } from './geom';
 
@@ -9,6 +9,8 @@ const BODY_PIVOT = [0, 0.98, 0];
 export function sessionSystem(a: Arena) {
   const s = a.session, now = a.time.now;
   if (s.paused) return;
+
+  if (s.mode === Mode.Lookup) { lookup(a); return; }
 
   if (s.phase === Phase.Boot) s.phase = Phase.Advance;
 
@@ -36,6 +38,27 @@ export function sessionSystem(a: Arena) {
     frameTarget(a, inst[s.inst].side, inst[s.inst].view);
     s.phase = Phase.Asking;
     s.shownAt = now;
+  }
+  a.ui.version++;
+}
+
+/** Lookup mode: apply a pending selection (from the list, search or a tap). */
+function lookup(a: Arena) {
+  const s = a.session, req = s.lookupReq;
+  if (req === -2) return;
+  s.lookupReq = -2;
+  clearTarget(a);
+  if (req < 0) {
+    s.card = -1;
+    s.phase = Phase.Browse;
+    frameWholeBody(a);
+  } else {
+    const card = Math.floor(req / 4), inst = a.db.cards[card].inst;
+    s.card = card;
+    s.inst = Math.min(req % 4, inst.length - 1);
+    setTarget(a, inst[s.inst].parts);
+    frameTarget(a, inst[s.inst].side, inst[s.inst].view);
+    s.phase = Phase.Lookup;
   }
   a.ui.version++;
 }

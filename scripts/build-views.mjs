@@ -5,7 +5,7 @@
 // For each candidate direction we cast rays from sample points on the target's
 // surface toward the camera; a sample counts as "visible" when its surface faces
 // the camera and no other structure lies in between. The direction with the most
-// visible samples wins (with mild preferences for level, front-ish, same-side views).
+// visible projected area wins (with mild preferences for level, front-ish, same-side views).
 import fs from 'node:fs';
 import zlib from 'node:zlib';
 import * as THREE from 'three';
@@ -64,7 +64,8 @@ for (const card of db.cards) {
         let visible = 0;
         for (const v of samples) {
           n.set(qnor[v * 3], qnor[v * 3 + 1], qnor[v * 3 + 2]).normalize();
-          if (n.dot(d) < 0.15) continue; // surface faces away from this camera
+          const facing = n.dot(d);
+          if (facing < 0.15) continue; // surface faces away from this camera
           o.set(pos[v * 3], pos[v * 3 + 1], pos[v * 3 + 2]).addScaledVector(d, 0.0015);
           ray.set(o, d);
           const hits = bvh.raycast(ray, THREE.DoubleSide, 0, camDist);
@@ -73,11 +74,11 @@ for (const card of db.cards) {
             const a = geo.index.array[h.faceIndex * 3];
             if (!target.has(vertPart[a])) { blocked = true; break; }
           }
-          if (!blocked) visible++;
+          if (!blocked) visible += facing; // projected (foreshortened) visible area
         }
         const lateral = inst.side === 'L' ? d.x : inst.side === 'R' ? -d.x : 0;
         const score = visible / samples.length
-          - 0.06 * Math.abs(pitch)
+          - 0.18 * Math.abs(pitch)
           - 0.25 * Math.max(0, -lateral) // don't look at a left copy from the right
           + 0.03 * d.z; // tie-break toward anterior views
         if (score > best) { best = score; bestYaw = yaw; bestPitch = pitch; }

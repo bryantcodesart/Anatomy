@@ -1,6 +1,6 @@
 // Drains the command queue written by the UI. Each command is a small, explicit
 // state transition; nothing else in the app mutates settings or memory state.
-import { type Arena, Cmd, MAX_TIER, Phase } from '../arena';
+import { type Arena, Cmd, MAX_TIER, Mode, Phase } from '../arena';
 import type { GradeN } from '../srs/fsrs';
 import { grade, previewIntervals, resetCards } from '../srs/scheduler';
 
@@ -59,11 +59,25 @@ export function commandSystem(a: Arena) {
       case Cmd.Pause:
         s.paused = arg === 1;
         break;
+      case Cmd.SetMode:
+        if (arg === s.mode) break;
+        s.mode = arg as Mode;
+        // entering lookup shows the whole body; returning to study re-picks the
+        // next due card (the one being asked was never graded, so nothing is lost)
+        if (s.mode === Mode.Lookup) { s.phase = Phase.Browse; s.lookupReq = -1; }
+        else { s.phase = Phase.Advance; s.lookupReq = -2; }
+        break;
+      case Cmd.LookupShow:
+        if (s.mode === Mode.Lookup) s.lookupReq = arg;
+        break;
+      case Cmd.LookupClear:
+        if (s.mode === Mode.Lookup) s.lookupReq = -1;
+        break;
     }
     if (q.type[k] >= Cmd.SetTierEnabled && q.type[k] <= Cmd.ResetAll) {
       a.persist.dirty = true;
       // the current card may no longer be eligible: re-pick unless mid-answer
-      if (s.phase === Phase.Asking || s.phase === Phase.Empty) s.phase = Phase.Advance;
+      if (s.mode === Mode.Study && (s.phase === Phase.Asking || s.phase === Phase.Empty)) s.phase = Phase.Advance;
     }
     a.ui.version++;
   }

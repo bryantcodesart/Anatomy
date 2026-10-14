@@ -2,11 +2,13 @@
 // arena.ui.version we copy the few values the UI shows into a Solid store.
 // The UI never mutates the arena directly — it pushes commands (arena.pushCmd).
 import { createStore, reconcile } from 'solid-js/store';
-import { type Arena, Phase } from '../arena';
+import { type Arena, Mode, Phase } from '../arena';
 import type { Card } from '../types';
 
 export interface UiState {
   ready: boolean;
+  mode: Mode;
+  inst: number;
   phase: Phase;
   card: Card | null;
   cardIndex: number;
@@ -24,6 +26,8 @@ export interface UiState {
 
 export const [ui, setUi] = createStore<UiState>({
   ready: false,
+  mode: Mode.Study,
+  inst: 0,
   phase: Phase.Boot,
   card: null,
   cardIndex: -1,
@@ -46,6 +50,8 @@ export function uiSyncSystem(a: Arena) {
   const card = s.card >= 0 ? a.db.cards[s.card] : null;
   setUi(reconcile({
     ready: true,
+    mode: s.mode,
+    inst: s.inst,
     phase: s.phase,
     card,
     cardIndex: s.card,

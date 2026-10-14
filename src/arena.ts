@@ -17,7 +17,15 @@ export const STATE_TEX_W = 1024;
 export const enum CS { New = 0, Learning = 1, Review = 2, Relearning = 3 }
 
 /** Session phase of the flash-card state machine. */
-export const enum Phase { Boot = 0, Advance = 1, Asking = 2, Revealed = 3, Empty = 4 }
+export const enum Phase {
+  Boot = 0, Advance = 1, Asking = 2, Revealed = 3, Empty = 4,
+  /** lookup mode: nothing selected, whole body shown */
+  Browse = 5,
+  /** lookup mode: a card is selected and shown with its answer */
+  Lookup = 6,
+}
+
+export const enum Mode { Study = 0, Lookup = 1 }
 
 /** Commands: the only way the UI (or input) asks the simulation to change. */
 export const enum Cmd {
@@ -34,6 +42,9 @@ export const enum Cmd {
   ResetTier = 11, // arg: tier
   ResetAll = 12,
   Pause = 13, // arg: 1 paused (dashboard open) | 0
+  SetMode = 14, // arg: Mode
+  LookupShow = 15, // arg: card * 4 + instance
+  LookupClear = 16,
 }
 
 export interface Arena {
@@ -62,6 +73,9 @@ export interface Arena {
     tier: Uint8Array;
     kind: Uint8Array; // 0 bone, 1 muscle
     order: Uint16Array; // introduction order of new cards (index into cards)
+    /** per part: most specific card containing it (-1 none) and which instance */
+    partCard: Int16Array;
+    partInst: Uint8Array;
   };
 
   /** Per-card memory state (FSRS). */
@@ -96,6 +110,9 @@ export interface Arena {
   };
 
   session: {
+    mode: Mode;
+    /** pending lookup selection: card*4+inst, -1 = clear, -2 = none */
+    lookupReq: number;
     phase: Phase;
     card: number; // -1 none
     inst: number; // which instance (side) of the card is shown
@@ -140,6 +157,14 @@ export interface Arena {
     panY: number;
     zoom: number; // log-scale accumulated
     pinchDist: number;
+    // tap detection (short press without drag) for picking in lookup mode
+    downX: number;
+    downY: number;
+    downT: number;
+    moved: number;
+    tap: number; // 1 when a tap is waiting to be consumed
+    tapX: number; // canvas px
+    tapY: number;
   };
 
   cam: {
@@ -165,6 +190,7 @@ export interface Arena {
     renderer: THREE.WebGLRenderer;
     scene: THREE.Scene;
     camera: THREE.PerspectiveCamera;
+    geometry: THREE.BufferGeometry;
     stateTex: THREE.DataTexture;
     stateData: Uint8Array;
     uniforms: { uTime: { value: number } };
@@ -237,6 +263,8 @@ export function createArena(db: Db, gfx: Arena['gfx']): Arena {
     tier: new Uint8Array(c),
     kind: new Uint8Array(c),
     order: new Uint16Array(c),
+    partCard: new Int16Array(n).fill(-1),
+    partInst: new Uint8Array(n),
   };
   // New-card order: by tier, then biggest structures first (easier to spot).
   const vol = new Float32Array(c);
@@ -250,6 +278,15 @@ export function createArena(db: Db, gfx: Arena['gfx']): Arena {
       v += (b[3] - b[0]) * (b[4] - b[1]) * (b[5] - b[2]);
     }
     vol[i] = v;
+  }
+  // tap-to-identify: map each part to the smallest card that contains it
+  const bestSize = new Int32Array(n).fill(1 << 30);
+  for (let i = 0; i < c; i++) {
+    db.cards[i].inst.forEach((it, k) => {
+      for (const p of it.parts) {
+        if (it.parts.length < bestSize[p]) { bestSize[p] = it.parts.length; cards.partCard[p] = i; cards.partInst[p] = k; }
+      }
+    });
   }
   const idx = Array.from({ length: c }, (_, i) => i);
   idx.sort((x, y) => cards.tier[x] - cards.tier[y] || vol[y] - vol[x]);
@@ -289,6 +326,8 @@ export function createArena(db: Db, gfx: Arena['gfx']): Arena {
       kindEnabled: new Uint8Array([1, 1]),
     },
     session: {
+      mode: Mode.Study,
+      lookupReq: -2,
       phase: Phase.Boot,
       card: -1,
       inst: 0,
@@ -325,6 +364,13 @@ export function createArena(db: Db, gfx: Arena['gfx']): Arena {
       panY: 0,
       zoom: 0,
       pinchDist: 0,
+      downX: 0,
+      downY: 0,
+      downT: 0,
+      moved: 0,
+      tap: 0,
+      tapX: 0,
+      tapY: 0,
     },
     cam: {
       pivot: new Float32Array([0, 1, 0]),

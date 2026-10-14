@@ -142,7 +142,7 @@ export function createGfx(canvas: HTMLCanvasElement, db: Db, bin: ArrayBuffer): 
   scene.add(opaque, ghost);
 
   return {
-    renderer, scene, camera, stateTex, stateData,
+    renderer, scene, camera, geometry: geo, stateTex, stateData,
     uniforms: { uTime }, dirty: true, width: 0, height: 0,
     insetBottom: 0, insetRight: 0, appliedInset: -1,
   };

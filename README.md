@@ -11,6 +11,11 @@ decides when you see it again.
   graded into 5 difficulty levels. New cards come from the easiest level first;
   each level unlocks once 70% of the one below has graduated.
 - Left/right copies are picked at random each time.
+- **Lookup mode** (top-bar switch): browse every muscle and bone by region, or
+  search by name, alternate name, region or etymology word (`/` focuses search).
+  Picking one flies the camera there and shows its full card, with a Left/Right toggle
+  and "Part of" / "Made of" links (e.g. Anterior deltoid ↔ Deltoid). You can also
+  **tap any structure on the body** to identify it.
 - Free orbit (drag), zoom (pinch / wheel), pan (two fingers / right-drag), re-center (R).
 - Keyboard: `Space` reveal, `1–4` grade.
 - Progress lives in `localStorage`. The dashboard shows review history, a due-date
@@ -37,16 +42,17 @@ three.js object. **Systems** (`src/systems/*`) are plain functions that run ever
 tick in a fixed order inside one `requestAnimationFrame` loop (`src/loop.ts`):
 
 ```
-1 input    pointer deltas -> camera goals
-2 commands UI command queue -> grading / settings / resets
-3 session  pick next card (FSRS), choose side, choose camera view
-4 resize   canvas + visible-area projection offset
-5 camera   damp toward goals
-6 focus    target / ghosted / opaque goal per part (vicinity + camera ray tests)
-7 fade     animate per-part state -> GPU state texture
-8 render   draw only if something changed
-9 persist  throttled localStorage save
-10 ui sync push a snapshot to Solid when ui.version changed
+1 input    pointer deltas -> camera goals; taps recorded
+2 pick     lookup mode: tap -> BVH ray cast -> selection request
+3 commands UI command queue -> grading / settings / mode / resets
+4 session  study: next card (FSRS), side, camera view; lookup: apply selection
+5 resize   canvas + visible-area projection offset
+6 camera   damp toward goals
+7 focus    target / ghosted / opaque goal per part (vicinity + camera ray tests)
+8 fade     animate per-part state -> GPU state texture
+9 render   draw only if something changed
+10 persist throttled localStorage save
+11 ui sync push a snapshot to Solid when ui.version changed
 ```
 
 DOM listeners only record raw input into the arena; the Solid UI only pushes
@@ -64,7 +70,19 @@ re-focusing the scene means writing bytes into a typed array.
   `data/CARD_SCHEMA.md`.
 - `data/model-parts.json`: mesh names, sides and bounds produced by the model build.
 - `scripts/build-db.mjs` merges and validates both into `public/db.json`. It fails
-  if a card names a mesh that doesn't exist.
+  if a card names a mesh that doesn't exist, and applies `SOURCE_FIXES`: corrections
+  for meshes the Z-Anatomy source mislabels (its upper and lower trapezius are swapped).
+- `data/views.json`: each card's camera direction, picked by `npm run views`. It
+  ray-casts the real triangles from many angles and keeps the one that shows the most
+  of the structure unobstructed.
+
+### Auditing the meshes
+
+Open the app with `?audit` and call `__audit.show(cardIndex)` in the console. It
+isolates that card's meshes and snaps the camera to them. Every muscle card was
+rendered this way and checked by eye: each highlight is exactly the muscle (or set
+of muscles) it names. Multi-mesh cards combine only the anatomical heads or parts
+of one muscle (pec major = clavicular + sternocostal + abdominal part).
 
 ### Rebuilding the 3D model (only needed to change it)
 

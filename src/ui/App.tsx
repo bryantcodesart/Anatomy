@@ -1,9 +1,10 @@
 import { type Component, Show, createSignal, onCleanup, onMount } from 'solid-js';
-import { type Arena, Cmd, Phase, pushCmd } from '../arena';
+import { type Arena, Cmd, Mode, Phase, pushCmd } from '../arena';
 import { boot } from '../boot';
 import { ui } from './bridge';
 import { CardPanel } from './CardPanel';
 import { Dashboard } from './Dashboard';
+import { LookupPanel } from './LookupPanel';
 
 export const App: Component = () => {
   let canvas!: HTMLCanvasElement;
@@ -39,6 +40,12 @@ export const App: Component = () => {
 
   const onKey = (e: KeyboardEvent) => {
     if (dash() || e.target instanceof HTMLInputElement) return;
+    if (ui.mode === Mode.Lookup) {
+      if (e.key === '/') { e.preventDefault(); document.querySelector<HTMLInputElement>('.lookup input')?.focus(); }
+      else if (e.key === 'Escape') cmd(Cmd.LookupClear);
+      else if (e.key === 'r') cmd(Cmd.Recenter);
+      return;
+    }
     if (e.key === ' ' || e.key === 'Enter') {
       if (ui.phase === Phase.Asking) { e.preventDefault(); cmd(Cmd.Reveal); }
       else if (ui.phase === Phase.Revealed && e.key === ' ') { e.preventDefault(); cmd(Cmd.Grade, 3); }
@@ -58,6 +65,12 @@ export const App: Component = () => {
       <header class="topbar">
         <div class="brand">Anatomy<span>flash</span></div>
         <Show when={ui.ready}>
+          <div class="seg modes" role="tablist" aria-label="Mode">
+            <button role="tab" aria-selected={ui.mode === Mode.Study} classList={{ on: ui.mode === Mode.Study }} onClick={() => cmd(Cmd.SetMode, Mode.Study)}>Study</button>
+            <button role="tab" aria-selected={ui.mode === Mode.Lookup} classList={{ on: ui.mode === Mode.Lookup }} onClick={() => cmd(Cmd.SetMode, Mode.Lookup)}>Lookup</button>
+          </div>
+        </Show>
+        <Show when={ui.ready && ui.mode === Mode.Study}>
           <div class="counts" title="New · Learning · Reviews due">
             <span class="c-new" title="New cards left today">{ui.newLeft}</span>
             <span class="c-learn" title="Learning (short-term re-tests) due">{ui.dueLearn}</span>
@@ -83,8 +96,11 @@ export const App: Component = () => {
         </div>
       </Show>
 
-      <Show when={ui.ready}>
+      <Show when={ui.ready && ui.mode === Mode.Study}>
         <CardPanel ref={bindPanel} cmd={cmd} onDashboard={() => openDash(true)} />
+      </Show>
+      <Show when={ui.ready && ui.mode === Mode.Lookup && arena()}>
+        <LookupPanel ref={bindPanel} cards={arena()!.db.cards} cmd={cmd} />
       </Show>
 
       <Show when={dash() && arena()}>

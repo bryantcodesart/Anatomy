@@ -192,3 +192,49 @@ button.danger:disabled { opacity: .35; cursor: not-allowed; }
   background: var(--surface-2); border: 1px solid var(--line); color: var(--text); padding: 6px 10px; border-radius: 8px;
   font-size: 12.5px; white-space: nowrap; box-shadow: 0 6px 18px rgba(0,0,0,.4);
 }
+
+/* ---------- mode switch + segmented controls ---------- */
+.seg { display: inline-flex; padding: 3px; gap: 2px; border-radius: 12px; background: rgba(22,27,34,.85); border: 1px solid var(--line); }
+.seg button { border: 0; background: none; padding: 6px 12px; border-radius: 9px; cursor: pointer; color: var(--text-2); font-weight: 600; font-size: 14px; min-height: 32px; }
+.seg button.on { background: var(--surface-2); color: var(--text); box-shadow: inset 0 0 0 1px var(--line); }
+.seg button small { color: var(--muted); font-weight: 500; margin-left: 4px; }
+.modes button.on { color: var(--accent); }
+@media (max-width: 480px) {
+  .brand { display: none; }
+  .topbar { gap: 8px; padding-left: 12px; padding-right: 12px; }
+  .seg button { padding: 6px 10px; }
+  .counts { gap: 6px; font-size: 13px; }
+}
+
+/* ---------- lookup panel ---------- */
+.panel.lookup { padding-top: 10px; }
+@media (min-width: 900px) { .panel.lookup { overflow-y: auto; display: block; } }
+.lookup .search { position: sticky; top: -10px; margin: -10px -16px 8px; padding: 10px 16px 8px; background: rgba(22,27,34,.98); z-index: 1; }
+@media (min-width: 900px) { .lookup .search { margin: -10px -16px 8px; } }
+.lookup input[type='search'] {
+  width: 100%; min-height: 44px; border-radius: 12px; border: 1px solid var(--line); background: var(--bg);
+  color: var(--text); padding: 0 14px; font: inherit; font-size: 16px; /* 16px stops iOS zoom-on-focus */
+}
+.lookup input[type='search']:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+.lookup .tabs { display: flex; width: 100%; }
+.lookup .tabs button { flex: 1; }
+.lookup .hint { color: var(--muted); font-size: 12.5px; margin: 8px 2px; }
+.lookup .group h4 { margin: 14px 2px 4px; font-size: 11px; text-transform: uppercase; letter-spacing: .1em; color: var(--accent); }
+.lookup .group h4 small { color: var(--muted); font-weight: 500; letter-spacing: 0; margin-left: 4px; }
+.lookup ul { list-style: none; margin: 0; padding: 0; }
+.lookup li button {
+  width: 100%; text-align: left; background: none; border: 0; border-radius: 10px; padding: 9px 10px; cursor: pointer;
+  font-size: 15px; display: flex; align-items: center; gap: 8px; min-height: 40px;
+}
+.lookup li button:hover { background: var(--surface-2); }
+.lookup .results li button span { flex: 1; }
+.lookup .results .rg { color: var(--muted); font-size: 12px; min-width: 64px; text-align: right; }
+.lookup .results .kind { font-size: 10px; padding: 2px 6px; }
+.detail-bar { display: flex; align-items: center; gap: 10px; }
+.detail-bar .back { min-height: 36px; padding: 6px 10px; margin-left: -8px; }
+.seg.sides { margin-top: 10px; }
+.related { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 10px 0 4px; font-size: 12px; color: var(--muted); }
+.related span { text-transform: uppercase; letter-spacing: .08em; margin-right: 2px; }
+.related span + .chip ~ span { margin-left: 8px; }
+.chip { border: 1px solid var(--line); background: var(--surface-2); border-radius: 999px; padding: 5px 10px; cursor: pointer; font-size: 13px; color: var(--text); }
+.chip:hover { border-color: var(--accent); }

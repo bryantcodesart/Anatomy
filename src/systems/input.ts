@@ -16,12 +16,15 @@ export function attachInput(a: Arena, el: HTMLElement) {
     inp.id[s] = e.pointerId; inp.down[s] = 1; inp.x[s] = e.clientX; inp.y[s] = e.clientY;
     panButton = e.button === 2 || e.shiftKey;
     if (fingers() === 2) inp.pinchDist = pinch();
+    if (fingers() === 1) { inp.downX = e.clientX; inp.downY = e.clientY; inp.downT = performance.now(); inp.moved = 0; }
+    else inp.moved = 1e9; // multi-touch is never a tap
   });
   el.addEventListener('pointermove', (e) => {
     const s = slot(e.pointerId);
     if (s < 0 || !inp.down[s]) return;
     const dx = e.clientX - inp.x[s], dy = e.clientY - inp.y[s];
     inp.x[s] = e.clientX; inp.y[s] = e.clientY;
+    inp.moved = Math.max(inp.moved, Math.hypot(e.clientX - inp.downX, e.clientY - inp.downY));
     if (fingers() === 2) {
       const d = pinch();
       if (inp.pinchDist > 0) inp.zoom += Math.log(inp.pinchDist / d);
@@ -36,6 +39,10 @@ export function attachInput(a: Arena, el: HTMLElement) {
   const up = (e: PointerEvent) => {
     const s = slot(e.pointerId);
     if (s < 0) return;
+    if (e.type === 'pointerup' && fingers() === 1 && inp.moved < 8 && performance.now() - inp.downT < 400) {
+      const r = el.getBoundingClientRect();
+      inp.tap = 1; inp.tapX = e.clientX - r.left; inp.tapY = e.clientY - r.top;
+    }
     inp.down[s] = 0; inp.id[s] = -1; inp.pinchDist = 0;
   };
   el.addEventListener('pointerup', up);

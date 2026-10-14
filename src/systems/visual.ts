@@ -20,7 +20,7 @@ export function focusSystem(a: Arena) {
     P.hiGoal.fill(0);
     return;
   }
-  const revealed = a.session.phase === Phase.Revealed;
+  const revealed = a.session.phase === Phase.Revealed || a.session.phase === Phase.Lookup;
   const near = Math.max(0.015, f.radius * 0.35);
   const cx = a.cam.pos[0], cy = a.cam.pos[1], cz = a.cam.pos[2];
   // rays from camera to the target center and to 4 points on its bounds

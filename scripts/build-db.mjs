@@ -6,6 +6,16 @@ const model = JSON.parse(fs.readFileSync('data/model-parts.json', 'utf8'));
 const files = fs.readdirSync('data/cards').filter((f) => f.endsWith('.json')).sort();
 const cards = files.flatMap((f) => JSON.parse(fs.readFileSync(`data/cards/${f}`, 'utf8')).map((c) => ({ ...c, _file: f })));
 
+// Corrections to mislabelled meshes in the Z-Anatomy source, found by the visual
+// audit (?audit). Keyed by source base name -> anatomically correct base name.
+const SOURCE_FIXES = {
+  // The source swaps these: its "ascending part" sits at the neck (y 1.42–1.58)
+  // and its "descending part" at the mid-back (y 1.12–1.41).
+  'Ascending part of trapezius muscle': 'Descending part of trapezius muscle',
+  'Descending part of trapezius muscle': 'Ascending part of trapezius muscle',
+};
+for (const p of model.parts) if (SOURCE_FIXES[p.base]) p.base = SOURCE_FIXES[p.base];
+
 // A few meshes have no .l/.r suffix but only exist on one side
 // (e.g. Z-Anatomy ships iliocostalis colli for the left only): infer from position.
 for (const p of model.parts) {
