@@ -37,6 +37,10 @@ for o,base,side,kind in parts:
     me=ev.to_mesh()
     bm=bmesh.new();bm.from_mesh(me);ev.to_mesh_clear()
     bm.transform(o.matrix_world)
+    # Z-Anatomy builds the left side by mirroring (negative scale); applying a
+    # mirrored transform turns faces inside-out, so restore outward winding.
+    if o.matrix_world.determinant() < 0:
+        bmesh.ops.reverse_faces(bm, faces=bm.faces[:])
     bmesh.ops.triangulate(bm,faces=bm.faces[:])
     tris=len(bm.faces)
     bmesh.ops.remove_doubles(bm,verts=bm.verts[:],dist=1e-6)

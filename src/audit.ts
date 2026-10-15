@@ -9,6 +9,8 @@ export function installAudit(a: Arena) {
   (window as unknown as { __audit: unknown }).__audit = {
     count: a.nCards,
     card: (i: number) => a.db.cards[i],
+    /** false = normal ghosting around the target (what study mode shows) */
+    setIsolate(v: boolean) { a.focus.isolate = v; },
     show(i: number, inst = 0) {
       const card = a.db.cards[i];
       const k = Math.min(inst, card.inst.length - 1);

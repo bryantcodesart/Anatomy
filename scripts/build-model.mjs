@@ -24,12 +24,13 @@ for (let k = 0; k < 40; k++) { const m = (lo + hi) / 2; if (total(m) > BUDGET) h
 const ratio = lo;
 console.log('ratio', ratio.toFixed(4), 'expected tris', Math.round(total(ratio)));
 
+let flipped = 0;
 const out = [];
 let gmin = [Infinity, Infinity, Infinity], gmax = [-Infinity, -Infinity, -Infinity];
 for (const p of raw.parts) {
-  const [v0, vc] = p.v, [i0, ic] = p.i;
-  const pos = P.subarray(v0 * 3, (v0 + vc) * 3);
-  const nor = N.subarray(v0 * 3, (v0 + vc) * 3);
+  const [v0, vc0] = p.v, [i0, ic] = p.i;
+  const pos = P.subarray(v0 * 3, (v0 + vc0) * 3);
+  const nor = N.subarray(v0 * 3, (v0 + vc0) * 3);
   const idx = I.subarray(i0, i0 + ic);
   const t = ic / 3;
   const targetTris = Math.min(t, Math.max(Math.min(t, MIN_TRIS), Math.floor(t * ratio)));
@@ -40,11 +41,31 @@ for (const p of raw.parts) {
       if (simp.length <= targetTris * 3 * 1.15) break;
     }
   }
+  // Safety net for inside-out meshes (e.g. mirrored left-side parts exported
+  // without reversing faces): negative signed volume -> flip winding + normals.
+  // (relative to the centroid so open sheets, not just closed shells, measure sensibly)
+  let cx = 0, cy = 0, cz = 0;
+  for (let k = 0; k < vc0; k++) { cx += pos[k * 3]; cy += pos[k * 3 + 1]; cz += pos[k * 3 + 2]; }
+  cx /= vc0; cy /= vc0; cz /= vc0;
+  let vol = 0;
+  for (let t = 0; t < simp.length; t += 3) {
+    const a = simp[t] * 3, b = simp[t + 1] * 3, c = simp[t + 2] * 3;
+    const ax = pos[a] - cx, ay = pos[a + 1] - cy, az = pos[a + 2] - cz;
+    const bx = pos[b] - cx, by = pos[b + 1] - cy, bz = pos[b + 2] - cz;
+    const qx = pos[c] - cx, qy = pos[c + 1] - cy, qz = pos[c + 2] - cz;
+    vol += ax * (by * qz - bz * qy) - ay * (bx * qz - bz * qx) + az * (bx * qy - by * qx);
+  }
+  const flip = vol < 0;
+  if (flip) {
+    flipped++;
+    for (let t = 0; t < simp.length; t += 3) { const x = simp[t + 1]; simp[t + 1] = simp[t + 2]; simp[t + 2] = x; }
+  }
   const [remap, count] = MeshoptSimplifier.compactMesh(simp);
   const np = new Float32Array(count * 3), nn = new Float32Array(count * 3);
   for (let o = 0; o < remap.length; o++) {
     const n = remap[o]; if (n === 0xffffffff) continue;
-    np.set(pos.subarray(o * 3, o * 3 + 3), n * 3); nn.set(nor.subarray(o * 3, o * 3 + 3), n * 3);
+    np.set(pos.subarray(o * 3, o * 3 + 3), n * 3);
+    for (let k = 0; k < 3; k++) nn[n * 3 + k] = flip ? -nor[o * 3 + k] : nor[o * 3 + k];
   }
   if (count > 65535) throw new Error(`part ${p.name} too many verts ${count}`);
   const mn = [Infinity, Infinity, Infinity], mx = [-Infinity, -Infinity, -Infinity];
@@ -90,4 +111,4 @@ fs.writeFileSync('data/model-parts.json', JSON.stringify({
   bytes: { pos: posB.length, nor: norB.length, idx: idxB.length },
   parts,
 }));
-console.log({ parts: parts.length, verts: vtot, tris: itot / 3, rawBytes: bin.length, gz: fs.statSync('public/model/body.bin.gz').size });
+console.log({ flipped, parts: parts.length, verts: vtot, tris: itot / 3, rawBytes: bin.length, gz: fs.statSync('public/model/body.bin.gz').size });
