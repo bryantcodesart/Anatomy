@@ -1,5 +1,6 @@
 // Merge data/cards/*.json with data/model-parts.json into public/db.json.
 // Validates every card's `parts` against the meshes actually present in the model.
+import crypto from 'node:crypto';
 import fs from 'node:fs';
 
 const model = JSON.parse(fs.readFileSync('data/model-parts.json', 'utf8'));
@@ -66,7 +67,9 @@ if (errors.length) { console.error(errors.join('\n')); process.exit(1); }
 out.sort((a, b) => a.tier - b.tier || a.kind.localeCompare(b.kind) || a.name.localeCompare(b.name));
 const db = {
   model: {
-    url: 'model/body.bin.gz', min: model.min, scale: model.scale,
+    // content hash in the URL so a new model is never served from a stale cache
+    url: `model/body.bin.gz?v=${crypto.createHash('sha1').update(fs.readFileSync('public/model/body.bin.gz')).digest('hex').slice(0, 10)}`,
+    min: model.min, scale: model.scale,
     vertexCount: model.vertexCount, indexCount: model.indexCount, bytes: model.bytes,
   },
   parts: model.parts.map((p) => ({ n: p.base, k: p.kind === 'bone' ? 0 : 1, s: p.side, v: p.v, i: p.i, b: [...p.min, ...p.max] })),

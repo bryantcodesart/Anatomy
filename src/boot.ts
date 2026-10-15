@@ -26,7 +26,8 @@ async function fetchWithProgress(url: string, onBytes: (n: number) => void) {
 
 export async function boot(canvas: HTMLCanvasElement, progress: (f: number) => void): Promise<Arena> {
   const base = import.meta.env.BASE_URL;
-  const db: Db = await (await fetch(`${base}db.json`)).json();
+  // revalidate db.json every load; it names the content-hashed model URL
+  const db: Db = await (await fetch(`${base}db.json`, { cache: 'no-cache' })).json();
   const expected = 2_800_000; // approx gz size, only used for the progress bar
   const gz = await fetchWithProgress(`${base}${db.model.url}`, (n) => progress(Math.min(0.98, n / expected)));
   // some hosts transparently decompress .gz; detect the gzip magic number
